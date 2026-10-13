@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>motion_control_pkg</name>
+  <version>0.1.0</version>
+  <description>Motion test and PID tuning for ROSMASTER X3 PLUS</description>
+  <maintainer email="your@email.com">cuiyang</maintainer>
+  <license>MIT</license>
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>tf_transformations</depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

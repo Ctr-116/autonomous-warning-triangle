@@ -1,0 +1,9 @@
+motion_test_node:
+  ros__parameters:
+    wheel_base: 0.25
+    test_speed: 0.2
+    turn_speed: 0.15
+    kp_pos: 1.0
+    ki_pos: 0.0
+    kd_pos: 0.1
+    data_dir: "/home/jetson/motion_test_data"
