@@ -1,0 +1,13 @@
+---set_car_motion error!---
+{
+  "fixture": "real SDK 3.3.9 / pyserial / Linux PTY, no physical robot",
+  "results": {
+    "startup_zero_temporary_report_no_arm_no_flash": "PASS",
+    "sdk_pyserial_pty_motion_and_imu_roundtrip": "PASS",
+    "sender_stall_watchdog_with_live_feedback": "PASS",
+    "corruption_rejected_without_fake_motion_freshness": "PASS",
+    "stale_feedback_gates_nonzero": "PASS",
+    "bounded_shutdown_zero_and_workers_stopped": "PASS",
+    "physical_serial_disconnect_error_latched": "PASS"
+  }
+}

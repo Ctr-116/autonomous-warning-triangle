@@ -1,0 +1,3316 @@
+{
+  "release": "x3plus_ros2_humble_mainline_20261116",
+  "hash": "sha256",
+  "scope": "Every shipped file except this manifest itself",
+  "excluded_legacy_asset": [
+    "src/yahboomcar_slam/param/ORBvoc.txt"
+  ],
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 54,
+      "sha256": "7c39c231e139651baef8a984a53c65e4eeaf31b99013b793918d5e52e6fd8060"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 182,
+      "sha256": "d5cd58115417f28b491a456239dda23086a9837b98fb2a24772c8a4428b16f6e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 127,
+      "sha256": "8a939b5c6ff2e0e65dc0f83a243bcffd509fc5d95d4fe37d65bd457980df9f1f"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 325,
+      "sha256": "8ebfec023240b8709ad3d423fbc7260bb7b7dc5d67d2630ef5fafc62aa7a8367"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6871,
+      "sha256": "0573001765ea56663c119b510244ffd7c92cbe1df971cd67d300399af44e83c3"
+    },
+    {
+      "path": "README_开始使用.md",
+      "bytes": 977,
+      "sha256": "dfc05cd626e0ef5c089d1de5a148740fac420dc636625f77a6e57bfc099c5ed3"
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "bytes": 9153,
+      "sha256": "4fd20070195fbe2f7ce64ffca1180fd6be0c0086542df6c93e1b52f5efbd7fa1"
+    },
+    {
+      "path": "docs/validation/base_unit.log",
+      "bytes": 535,
+      "sha256": "134b97b32304b6af1c580a1cfad7f7ba1fc75b636325de13c23f909212d45768"
+    },
+    {
+      "path": "docs/validation/colcon_build.log",
+      "bytes": 1749,
+      "sha256": "2266f4bd259e0a9f55f3643d82e0afcf2490eb69ef45d4e0e4ac2d038c83e763"
+    },
+    {
+      "path": "docs/validation/exit_status.txt",
+      "bytes": 130,
+      "sha256": "3d78614593045f47459ade4605032112979c525e7d67ad4c9f2dd67ba95b4d95"
+    },
+    {
+      "path": "docs/validation/hardware_transport_smoke.log",
+      "bytes": 519,
+      "sha256": "1b760bdde7d8620706506a73635283833c5246d6c5960605bdcbef32b9de0601"
+    },
+    {
+      "path": "docs/validation/mainline/README.md",
+      "bytes": 1032,
+      "sha256": "fae235e85a159e1acb976d0c1efd3ca47464a4dea7b252d6b86bb7d61fa017fe"
+    },
+    {
+      "path": "docs/validation/mainline/clean_build_43.txt",
+      "bytes": 183307,
+      "sha256": "54135044afbcba82681c0e6b082cd998317c65463da5ec4c75437df572ca6a51"
+    },
+    {
+      "path": "docs/validation/mainline/dependencies_check_50.txt",
+      "bytes": 37,
+      "sha256": "af1ddfc6cecf30153ae6561df660848ccdb6613803ebf71fe412ec214911d3a2"
+    },
+    {
+      "path": "docs/validation/mainline/dlib_source_provenance.json",
+      "bytes": 710,
+      "sha256": "353809f79a6390e1be1cce4800d79a760c21960ee985b31faf766c7746c988ce"
+    },
+    {
+      "path": "docs/validation/mainline/portable_assets_check_46.txt",
+      "bytes": 401,
+      "sha256": "d0ed7ed8e3997895f399f2dfc2521a31e520065a730edf6ddd96a9583d8ae63e"
+    },
+    {
+      "path": "docs/validation/mainline/portable_assets_prepare_46.txt",
+      "bytes": 401,
+      "sha256": "d0ed7ed8e3997895f399f2dfc2521a31e520065a730edf6ddd96a9583d8ae63e"
+    },
+    {
+      "path": "docs/validation/mainline/portable_core_45.txt",
+      "bytes": 35800,
+      "sha256": "536ef503165fe2b8a835106a20c477b71ffcd81b25ebf186942ad377d03ced35"
+    },
+    {
+      "path": "docs/validation/mainline/portable_face_47.txt",
+      "bytes": 809,
+      "sha256": "66649c0439f61c3f4643cbf6912bb1ca1f21914a988426f2450ef96135fb5e96"
+    },
+    {
+      "path": "docs/validation/mainline/portable_mediapipe_47.txt",
+      "bytes": 2094,
+      "sha256": "201180ed6488f95b5b7ed24e0e1b632c6fda7b6db0852225769904b66ef3e55c"
+    },
+    {
+      "path": "docs/validation/mainline/portable_slam_51.txt",
+      "bytes": 453,
+      "sha256": "cb083e2814593f9ffd085048cd239ce11ce43079626128f307ee4221beb5c8e3"
+    },
+    {
+      "path": "docs/validation/mainline/portable_test_entry_43.txt",
+      "bytes": 8074,
+      "sha256": "dcb8c311fa9c8593f7c753a9e71f10c80893c57d3806b763e7567b66364620e1"
+    },
+    {
+      "path": "docs/validation/mainline/portable_yolo_47.txt",
+      "bytes": 4127,
+      "sha256": "118a6f5e14068e5025617630e951376d9c379f3405fc276e82c41da1e2488942"
+    },
+    {
+      "path": "docs/validation/mainline/slam_toolbox_checks_50.txt",
+      "bytes": 187,
+      "sha256": "045398965ce9fbf97f8d5bb901105311b70bcc9d65248d7d63cbcd275f6e2bd8"
+    },
+    {
+      "path": "docs/validation/motion_unit.log",
+      "bytes": 1561,
+      "sha256": "c872b69f26c700ae8140bbfc41fe0236a497f00a3163c69fe9ed6340be440330"
+    },
+    {
+      "path": "docs/validation/phase1_SOURCE_MANIFEST.json",
+      "bytes": 922,
+      "sha256": "5e6829513c47dd02e5b8447b6918d63e9fe7cf3b28c7818b76b73df8eb7fe67b"
+    },
+    {
+      "path": "docs/validation/phase1_验证结果_20261110.md",
+      "bytes": 4959,
+      "sha256": "e2e6b7e904602b5e4bcac11911c2548d2f2460914427a27903c6cbaef3c53248"
+    },
+    {
+      "path": "docs/validation/ros_driver.log",
+      "bytes": 479,
+      "sha256": "6a7198a71a36286172ad3448468902e57e2ac30ea953674a9596bd8babe92a36"
+    },
+    {
+      "path": "docs/validation/ros_driver_checks.json",
+      "bytes": 426,
+      "sha256": "1331f3b1ecbfd9afdf70318a13c926c3f2ba1bcfe6a04e67280fcc1165cf9b44"
+    },
+    {
+      "path": "docs/validation/ros_driver_checks.log",
+      "bytes": 427,
+      "sha256": "9f8a40d13e7b5a62e830d73b7c701af61b45274f4b61136e20c3ac598b9d0ee4"
+    },
+    {
+      "path": "docs/validation/ros_hardware_checks.json",
+      "bytes": 990,
+      "sha256": "2eb5754a023a3a1aad89714d3d67e63cad5dc8d6af8101bca63db8c524580b85"
+    },
+    {
+      "path": "docs/validation/ros_hardware_checks.log",
+      "bytes": 991,
+      "sha256": "f4acddedba0fde5626e82c82d5709a4fe08da7254699f94b73dd40ad23ac7ab4"
+    },
+    {
+      "path": "docs/validation/ros_hardware_node.log",
+      "bytes": 529,
+      "sha256": "5e1169b01f4315272af97bd6bd1c40265d84bf5bb8fddd83dddbe973105ff666"
+    },
+    {
+      "path": "docs/validation/ros_integration.json",
+      "bytes": 690,
+      "sha256": "f6f4223358184ff0142df498f701750db185f9c4b402966b104d6dc766a66065"
+    },
+    {
+      "path": "docs/validation/ros_integration.log",
+      "bytes": 691,
+      "sha256": "b81fc19d989669bf55ede39c374c5e3ce639f87bad18325d59f8b6404ec94409"
+    },
+    {
+      "path": "docs/validation/ros_launch.log",
+      "bytes": 2420,
+      "sha256": "44e4635050bd8100bfd84a23c4447009d1a7b47b6b16fdf00680fb9158f47bac"
+    },
+    {
+      "path": "docs/validation/runtime_environment.log",
+      "bytes": 632,
+      "sha256": "732fd706d3b7fb37000f387bdbb7c62d1029d58c0a1a2056c2eda86621c91cad"
+    },
+    {
+      "path": "docs/validation/source_integrity.json",
+      "bytes": 1397,
+      "sha256": "810c7c8288dd09291f1dee701ce69abc2b8d9a8d335908fe4c9fbf3dd9b4ea73"
+    },
+    {
+      "path": "docs/validation/transport_unit.log",
+      "bytes": 1293,
+      "sha256": "4a925336712a1d1c24170cbf40a451029bd0b2d81a94d19e0f4b5a98892a6d90"
+    },
+    {
+      "path": "docs/validation/user_scripts.log",
+      "bytes": 5235,
+      "sha256": "a85b5ed96e21f91c6e77eff681a2b991983db4a33528e6f7f1c5e017bf0330d1"
+    },
+    {
+      "path": "docs/可选视觉依赖.md",
+      "bytes": 11875,
+      "sha256": "874f48695f5eee4324665979d178368209a3ea37c06d0a533c3da38d2fa33db7"
+    },
+    {
+      "path": "docs/实车验收.md",
+      "bytes": 2164,
+      "sha256": "c50fabf79b11adc6c3c9ef338d8667519b75d3abe371cb55fd19a0fe744cbb71"
+    },
+    {
+      "path": "docs/开始使用.md",
+      "bytes": 5606,
+      "sha256": "750c99dd99295ad51ace87a5668181729a932da8c73c077c7a0fd6baa3651410"
+    },
+    {
+      "path": "docs/接口与迁移说明.md",
+      "bytes": 16316,
+      "sha256": "fa2b55fd356a1dd0759ff7026a6e3564baf64482ea117308c7f59582694b3dc6"
+    },
+    {
+      "path": "docs/迁移范围与未移植项.md",
+      "bytes": 7222,
+      "sha256": "08a1071bf83b2142431c8edb5a84338afc60a1f407d42f5f91dc4058b3af10b6"
+    },
+    {
+      "path": "docs/验证结果.md",
+      "bytes": 6187,
+      "sha256": "38441d1e119d2def0e56134aaac38f28fc64e1fa9523c9cfb7f5004b02d82084"
+    },
+    {
+      "path": "scripts/build.sh",
+      "bytes": 1558,
+      "sha256": "7e6508fd541274b4d93cd699be0d9254c6153acb514aa389576dd61ef510d219"
+    },
+    {
+      "path": "scripts/collect_jetson_info.sh",
+      "bytes": 765,
+      "sha256": "1266e5b1576b5c6e227905bbb10e0d55e91f68f3225f3e1ba9cf7a903b68c7ea"
+    },
+    {
+      "path": "scripts/environment.sh",
+      "bytes": 1002,
+      "sha256": "2ab95cd606e5c4b67ea6d1424e6bd4192114420cd42c5191202eded3043a6418"
+    },
+    {
+      "path": "scripts/install_dependencies.sh",
+      "bytes": 5085,
+      "sha256": "0322322bb7a2446b5a58d05ebb6ad84eb49ccfdef2aa814be5df0ac828efd253"
+    },
+    {
+      "path": "scripts/optional_vision_assets.json",
+      "bytes": 1943,
+      "sha256": "bedc58db2fabee2a214ac06cd4c2e29aea2436e62d4ecc7d7452e1a07fcdd7fb"
+    },
+    {
+      "path": "scripts/prepare_mediapipe_assets.py",
+      "bytes": 4066,
+      "sha256": "e11fe59f42b6ff50055088e09308abd527ee2c4e0fb2b7d3ebe1f375b7f2a69b"
+    },
+    {
+      "path": "scripts/test.sh",
+      "bytes": 2867,
+      "sha256": "178ce68bb2c25542da7c1a53b80414614095341a9d07283921fb73c28923c47a"
+    },
+    {
+      "path": "src/arm_autopilot/MIGRATION.md",
+      "bytes": 714,
+      "sha256": "96b43b23473644c5c84d2b803c45c2e490d283c0da4c060468f446442ca7be6e"
+    },
+    {
+      "path": "src/arm_autopilot/README.md",
+      "bytes": 3463,
+      "sha256": "1560e4ad83141168ae1d6a398417418c5b75703361bc0cc11634767d5f8ca93f"
+    },
+    {
+      "path": "src/arm_autopilot/arm_autopilot/__init__.py",
+      "bytes": 45,
+      "sha256": "0df584aa21c0817b5cf1f62ea021e5bbddb84a64f95861ec2ba407d25f3fc997"
+    },
+    {
+      "path": "src/arm_autopilot/arm_autopilot/autopilot_common.py",
+      "bytes": 11324,
+      "sha256": "33ee2ea02bb7e5ab5087d9b27ca2892a6e80d0fefbd1f729e6e3563e5609c487"
+    },
+    {
+      "path": "src/arm_autopilot/arm_autopilot/autopilot_main.py",
+      "bytes": 37322,
+      "sha256": "76f629521217c3cac3ae11e16322734c77938e332621585cb3728fdd5ebae3a9"
+    },
+    {
+      "path": "src/arm_autopilot/config/defaults.yaml",
+      "bytes": 1110,
+      "sha256": "b90abb4c5c8f1a29d069e62fc2e3d14cf5f3c6f7f0827f2be528d08aa897debb"
+    },
+    {
+      "path": "src/arm_autopilot/launch/arm_autopilot.launch.py",
+      "bytes": 1884,
+      "sha256": "ec8483e321aa3400b8be3f8e9930b007a92150c31a3d96cd1d3c66a68e0f7908"
+    },
+    {
+      "path": "src/arm_autopilot/package.xml",
+      "bytes": 1208,
+      "sha256": "aa5c3ce83cc33a119ce4a974415c790c657c8c44a9c782deb6d92cc63b8dd669"
+    },
+    {
+      "path": "src/arm_autopilot/resource/arm_autopilot",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/arm_autopilot/setup.cfg",
+      "bytes": 96,
+      "sha256": "359e58565d789b7b49929047df104363e2d6b1f054a9af744b12e6006551575e"
+    },
+    {
+      "path": "src/arm_autopilot/setup.py",
+      "bytes": 929,
+      "sha256": "405727fb95d91431b8392f93352546bb126987f2b78405edd369cf54c6ef6da8"
+    },
+    {
+      "path": "src/arm_autopilot/test/test_algorithms.py",
+      "bytes": 3421,
+      "sha256": "b91a512813097c7deab0ef99cbf0d45c90ec12a2049062958d031ae220d51b19"
+    },
+    {
+      "path": "src/arm_color_transport/MIGRATION.md",
+      "bytes": 720,
+      "sha256": "988eb365db1d5f2f16df039dbabbb5dfda95551aabfb3e67ae7279c751a8ea93"
+    },
+    {
+      "path": "src/arm_color_transport/README.md",
+      "bytes": 4575,
+      "sha256": "cc088b99bcde707c3ab03231c56a49bf1e574723296a0bc31b8bfecafc0dfa5e"
+    },
+    {
+      "path": "src/arm_color_transport/arm_color_transport/__init__.py",
+      "bytes": 126,
+      "sha256": "435f3b8afeab586589da8a6d8ce81aa37fcd79c9b06a1c2451c23c51491d223c"
+    },
+    {
+      "path": "src/arm_color_transport/arm_color_transport/draw_marker.py",
+      "bytes": 5245,
+      "sha256": "1c9dce994646d5a4d05bb087251a2c9500c835d0a3af86c639c10769c8185963"
+    },
+    {
+      "path": "src/arm_color_transport/arm_color_transport/transport_common.py",
+      "bytes": 12695,
+      "sha256": "28224cac22cb90d7cdb0aea33a22f3473fe66a0ae52d5dbc23290fb932f84946"
+    },
+    {
+      "path": "src/arm_color_transport/arm_color_transport/transport_main.py",
+      "bytes": 21266,
+      "sha256": "08be2ed53f3e1e8b28b23043ada6a2a9f69edfba31ce332d14822c2cda0e79dd"
+    },
+    {
+      "path": "src/arm_color_transport/config/defaults.yaml",
+      "bytes": 1338,
+      "sha256": "3a4eabdee2cd022936e738e817f6dd4867a139ed7fc04f3613fb61cb4bc010c4"
+    },
+    {
+      "path": "src/arm_color_transport/launch/transport_base.launch.py",
+      "bytes": 3620,
+      "sha256": "bfd7c901738d0e23bc6bdaae344aeb12e0ce543e75c5cf6f9234574de89e26d7"
+    },
+    {
+      "path": "src/arm_color_transport/launch/transport_rviz.launch.py",
+      "bytes": 919,
+      "sha256": "7792a54d0e04415cc11e1b20eaae1232e2715c2e7ab4c91e3943dfc81f9ba366"
+    },
+    {
+      "path": "src/arm_color_transport/package.xml",
+      "bytes": 1391,
+      "sha256": "e3b4c7199ca48069bdb40ee8374b9e48a2015c965b1203f0d2506a55c4fa020d"
+    },
+    {
+      "path": "src/arm_color_transport/resource/arm_color_transport",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/arm_color_transport/setup.cfg",
+      "bytes": 108,
+      "sha256": "c847b616ebf2611eccd71aa80c448c0aaf8e9f6fd3443deba456f38ad32a3112"
+    },
+    {
+      "path": "src/arm_color_transport/setup.py",
+      "bytes": 1057,
+      "sha256": "c1982078bc2c81de4f5698f0fec20ce8b119d298a4f0f010bb9e31a0613e1e43"
+    },
+    {
+      "path": "src/arm_color_transport/test/test_algorithms.py",
+      "bytes": 1761,
+      "sha256": "7bc4061165d8b5e1dc11af8621ef67cd98a2c9688598d6347b2215a31f9c717f"
+    },
+    {
+      "path": "src/arm_mediapipe/MIGRATION.md",
+      "bytes": 714,
+      "sha256": "802219c4722d950ba7fec38c99fbe1ac54b3969966d47d6cab9577b474d069ed"
+    },
+    {
+      "path": "src/arm_mediapipe/README.md",
+      "bytes": 1698,
+      "sha256": "80f04c065a1195a9d1a54b7fa4d18423584706beade89a75ca13d95b04d52d19"
+    },
+    {
+      "path": "src/arm_mediapipe/arm_mediapipe/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/arm_mediapipe/arm_mediapipe/arm_ctrl.py",
+      "bytes": 1729,
+      "sha256": "1565782facda42cf32c3261c27bed4515951211e6fba721f7f68666b67e98e5f"
+    },
+    {
+      "path": "src/arm_mediapipe/arm_mediapipe/finger_ctrl.py",
+      "bytes": 5201,
+      "sha256": "ccd40cdf33e54ed7f649d3c90875b9fe7c1d590d94933553854bb0f8881f6386"
+    },
+    {
+      "path": "src/arm_mediapipe/arm_mediapipe/hand_ctrl.py",
+      "bytes": 2260,
+      "sha256": "b37518c13d648b92cd36f14c6d3020901814b793dc3939fdc4da40f43a44cb11"
+    },
+    {
+      "path": "src/arm_mediapipe/arm_mediapipe/media_library.py",
+      "bytes": 11180,
+      "sha256": "acfe9d0c72373cfca89d4cba0d109bb2c300cf0890011cba89ac30d27625884e"
+    },
+    {
+      "path": "src/arm_mediapipe/arm_mediapipe/msg_to_img.py",
+      "bytes": 3306,
+      "sha256": "27fdc5dbb9ceb6b6a30f0faed1ae7f37e750701a7bf80c019f140641319860aa"
+    },
+    {
+      "path": "src/arm_mediapipe/arm_mediapipe/pose_arm.py",
+      "bytes": 3173,
+      "sha256": "ee634cdb3b8f458bd555f8077a6218a1024b631a9446ac14117725b35456d34b"
+    },
+    {
+      "path": "src/arm_mediapipe/arm_mediapipe/robot_ctrl.py",
+      "bytes": 12213,
+      "sha256": "b09364b4a4171f0093eb6ad872b1fab71b9977c68b09bca81adb3d9368c0edb6"
+    },
+    {
+      "path": "src/arm_mediapipe/config/defaults.yaml",
+      "bytes": 2889,
+      "sha256": "41ad67930d1853cd27325219715972cd15efab95f6973a7924fc8b5e072ed4e3"
+    },
+    {
+      "path": "src/arm_mediapipe/launch/01_HandCtrlArm.launch.py",
+      "bytes": 553,
+      "sha256": "755f84151e7ee036b39c8ab1f7f8ae930bf9bfe23b00c75efd7fb24f464b90e8"
+    },
+    {
+      "path": "src/arm_mediapipe/launch/02_PoseCtrlArm.launch.py",
+      "bytes": 551,
+      "sha256": "49ce5e9df47fbf3fdd20fcc16c8aca1c5712205056646033d97926095774cfae"
+    },
+    {
+      "path": "src/arm_mediapipe/launch/mediaArm.launch.py",
+      "bytes": 555,
+      "sha256": "52e70d5d016142a0c2013919396ffaf1f91d66e989499011442203fbe8a35016"
+    },
+    {
+      "path": "src/arm_mediapipe/package.xml",
+      "bytes": 1073,
+      "sha256": "e38304ee826d3dd44a35eccb34f53fe21515adedb143fd22bfd85614c9368123"
+    },
+    {
+      "path": "src/arm_mediapipe/resource/arm_mediapipe",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/arm_mediapipe/setup.cfg",
+      "bytes": 95,
+      "sha256": "0058aef99e133bd06e2f02c02a2d220147d8ec89329a2b4b7baa2115731d0f02"
+    },
+    {
+      "path": "src/arm_mediapipe/setup.py",
+      "bytes": 1655,
+      "sha256": "988d73f68a7a30daec570c8485af322864b025ead1ae053f5b6f5eb5adb0ceb0"
+    },
+    {
+      "path": "src/arm_mediapipe/test/test_algorithms.py",
+      "bytes": 2105,
+      "sha256": "f0ef8161dcd579e4a9156b7cb17f28be2ffb9a20b736393839b0f833537ea503"
+    },
+    {
+      "path": "src/arm_moveit_demo/CMakeLists.txt",
+      "bytes": 2902,
+      "sha256": "2309cd6794083023fd62d50aac7c372ad931f7ce96f3f6179da9010a9cce7d09"
+    },
+    {
+      "path": "src/arm_moveit_demo/MIGRATION.md",
+      "bytes": 716,
+      "sha256": "a828bed3c1473e6231d1d66099936db2e6b9ea5d37fcaca527b3b5e2ae2b84aa"
+    },
+    {
+      "path": "src/arm_moveit_demo/README.md",
+      "bytes": 4847,
+      "sha256": "f596e876235a7af5b42b476519b5841ca9f3dd36bddbfab372214a2aea2e677e"
+    },
+    {
+      "path": "src/arm_moveit_demo/arm_moveit_demo/__init__.py",
+      "bytes": 206,
+      "sha256": "cae904e1886db86ca70644c543770643408b697ae850933090044664a1420d59"
+    },
+    {
+      "path": "src/arm_moveit_demo/arm_moveit_demo/demo.py",
+      "bytes": 24565,
+      "sha256": "983ba80e2363298604d82c1c7634a0b450c0e71b8c332a4f4bf01d805ef0e7db"
+    },
+    {
+      "path": "src/arm_moveit_demo/arm_moveit_demo/kinematics_service.py",
+      "bytes": 10394,
+      "sha256": "8f823f8d14d244440105fc0b9dbc656ac3ce440bab6ddff869ac84a19d463bda"
+    },
+    {
+      "path": "src/arm_moveit_demo/arm_moveit_demo/simulation_to_machine.py",
+      "bytes": 6802,
+      "sha256": "dd4e9a34b1c07d19764de87db3cb99421eb15d2dd404df44662e229c3f51568b"
+    },
+    {
+      "path": "src/arm_moveit_demo/launch/x3plus_moveit_demo.launch.py",
+      "bytes": 3304,
+      "sha256": "f7c842c19233b1aaf9ce4aff50af9c2c36e09433b19a0b9a06e9d5b206a7d909"
+    },
+    {
+      "path": "src/arm_moveit_demo/package.xml",
+      "bytes": 1255,
+      "sha256": "6676baecc6aa13e1a7acb5225aa8407e31d5b074b7a7dae9be91e917278e3a61"
+    },
+    {
+      "path": "src/arm_moveit_demo/src/demo.cpp",
+      "bytes": 15543,
+      "sha256": "e7f49f4c19cb8037880a4e0ce229a61ed593d9dbee13eb3e21e42223076a796c"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/MIGRATION.md",
+      "bytes": 725,
+      "sha256": "e5d62ba9d62e0cf1ca60dd3570e1220b893a131af02aab31890baaa8c203a26c"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/README.md",
+      "bytes": 3839,
+      "sha256": "4342950036eb55c3ac7d446e21e360718c5f64a146a2710db85caf89e139307d"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/config/defaults.yaml",
+      "bytes": 564,
+      "sha256": "a573db9290ef867723f057a471ef913e4b26f200b9c9abc85fdabc91d58afb27"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/garbage_identify_yolov11/__init__.py",
+      "bytes": 195,
+      "sha256": "963d6d6cd5108367fdcce6a70b0d789a627f14bef23f0cc964255d93b21744b2"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/garbage_identify_yolov11/detector.py",
+      "bytes": 26773,
+      "sha256": "ec83a307b4c61f57b450b41fe22162f203a9b078ac9e0d0e27815e053212b594"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/garbage_identify_yolov11/garbage_identify_yolov11.py",
+      "bytes": 11961,
+      "sha256": "70b8d8e664b91a15f802956317e9e859c7ccd2d235055442df071c93e1211669"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/garbage_identify_yolov11/garbage_library.py",
+      "bytes": 9613,
+      "sha256": "be63941fb4daf8423a25a45f9a263dfa6c6c1c781638c38eb898d5d440434312"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/garbage_identify_yolov11/transport_common.py",
+      "bytes": 6932,
+      "sha256": "31c18353587babc65ae7c8d212e4a2735ae06a18cd2e54eb8bb31f6096436258"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/garbage_identify_yolov11/voice_ctrl_take_garbage.py",
+      "bytes": 6992,
+      "sha256": "6759ee9a79ad23de246c2c72f42d067db784154445c13108e762586f4c1370a0"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/launch/detector.launch.py",
+      "bytes": 566,
+      "sha256": "fd03f28df0f03e673f781549b3f03f6909ab2a8e3b5b32c5832546df89c18d71"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/launch/garbage_identify.launch.py",
+      "bytes": 672,
+      "sha256": "57f49bbc600d334a39e81b4553acc1a1231e8b9e17a82dc74a8d8e29c1d611b4"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/models/README.md",
+      "bytes": 2239,
+      "sha256": "e8992c22092c6309dd3d257b9ed8f816237b78d5467f768b705a4a6102af2fca"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/models/SOURCE_MODELS.json",
+      "bytes": 844,
+      "sha256": "1eff9de3edae10acb1a0c2b5263a71ab31f373696e48be04ca3d9606e4605ef2"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/models/best1.onnx",
+      "bytes": 10595485,
+      "sha256": "e654e51f8cf75a75ca3ba67b5604b5287d4fa762ce7c43a107164755609299f2"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/models/best1.pt",
+      "bytes": 5497171,
+      "sha256": "12861b0b10062aeec24302ba699ff7721286a927cdf39a116ea10cfc8516f117"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/models/garbage_data.yaml",
+      "bytes": 596,
+      "sha256": "541e4acb389cbd4d32b0f1d1bed6ae0ecd3f78db3f45358a18d610bb0ccfb3fb"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/models/samples/302_jpg.rf.6aaf584ff6254ac32eeff41950e2dd83.jpg",
+      "bytes": 43345,
+      "sha256": "e5612e09d1c1cb3b26ee91fd998d5a8e77c14d28fe2287ba31ff4444c7adefe5"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/models/samples/303_jpg.rf.b8235f335babbeb86e815f87deaf00ff.jpg",
+      "bytes": 43236,
+      "sha256": "b6c09a0b931f6cdd82df8aba3e0e2e0a9ffcd91ac7f8bdc25c70cd8b0cf04de7"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/models/samples/304_jpg.rf.e3f6a62aec7c4bf2d18ee94a0b58d822.jpg",
+      "bytes": 43832,
+      "sha256": "093040e8563e07b69d197e30ca00b9354edd5087b52cab5bb45b6dbca5581503"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/models/samples/305_jpg.rf.75b55301ffc7959ddc73505b2b29b0da.jpg",
+      "bytes": 44613,
+      "sha256": "c091523378f06b8d7a39e478a6959000ec6f2df242ff4863967aacdf865faabd"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/models/samples/306_jpg.rf.a9af60befbca5f1cd62f14298271baaa.jpg",
+      "bytes": 45302,
+      "sha256": "fb4a5bf41f37c7fce90fbafd147384598d929beedd5066eab5fc5757a2574450"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/models/samples/307_jpg.rf.fcdc57af0fffafd3acf024e85ea6be97.jpg",
+      "bytes": 45699,
+      "sha256": "7f77202c3016c185b218abfd1ee401f6e3c0078902545ed4130458c050a485c3"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/models/samples/SOURCE_SAMPLES.json",
+      "bytes": 1829,
+      "sha256": "49a5d567e314aeab170e2b95d6340f326c8c46d4b55e219230d4961c66d7a6da"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/package.xml",
+      "bytes": 1331,
+      "sha256": "5e402060e8d3ae31989fdde21c6c77fcd04d6276d90eafd73301f4ccdde60c98"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/requirements-onnx.txt",
+      "bytes": 311,
+      "sha256": "3863866f8339c1b11899014df789cb8a24102c382ded1f4908457f0479278069"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/resource/garbage_identify_yolov11",
+      "bytes": 25,
+      "sha256": "e930738f056041192c16b7aa5c6212e780aa20ec8684dd4022fc4d1e85d07ad1"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/scripts/perception_yolo_check.py",
+      "bytes": 17730,
+      "sha256": "d4e1fb8829801c87e293d2647174e567e7e2d700e3667f90014ec8db52396f26"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/setup.cfg",
+      "bytes": 117,
+      "sha256": "0388d0f603815d8479573cd330bcc86c558facf354060ea0be27cb21251db83d"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/setup.py",
+      "bytes": 1367,
+      "sha256": "fee3290123ac860dd1c737d183391d19400d7b7411a7bc6a83f1afafba58f508"
+    },
+    {
+      "path": "src/garbage_identify_yolov11/test/test_algorithms.py",
+      "bytes": 3470,
+      "sha256": "a3c0f54901294c2ed7eb8d426a3912c603fa8a87cf48fb98681920c77b19b7e7"
+    },
+    {
+      "path": "src/joy/LICENSE",
+      "bytes": 2246,
+      "sha256": "089d863b6fcec6418637f3ffb128a90b79cfdcde36dfd49e3b315bd7ea1dcc75"
+    },
+    {
+      "path": "src/joy/MIGRATION.md",
+      "bytes": 704,
+      "sha256": "0818cc7a5500ccdbc81918363be35970b4e00b3660a0e3e636c9d217fd18c306"
+    },
+    {
+      "path": "src/joy/README.md",
+      "bytes": 2494,
+      "sha256": "de9beab1b2e0b077ef3b0705fdbeff777d268cfce87c449213901b2ed1638f0c"
+    },
+    {
+      "path": "src/joy/config/ps4joy.yaml",
+      "bytes": 1671,
+      "sha256": "2b28c2047ecf4427e51c9d80c461e15d200427515ec8fef2a5f359d22a006568"
+    },
+    {
+      "path": "src/joy/joy/__init__.py",
+      "bytes": 270,
+      "sha256": "a58e0e5c61e7f11a72fbfeb43c13c6daba59d1f27c499ea0ef84fa50adb79829"
+    },
+    {
+      "path": "src/joy/joy/joy_remap.py",
+      "bytes": 4183,
+      "sha256": "78e75f85982285309356696488665fec37a700d7c3f7e184a52141a6039b03cf"
+    },
+    {
+      "path": "src/joy/joy/remap_core.py",
+      "bytes": 4183,
+      "sha256": "a7dd7ad7b8d1af1416626684479a04d83da5e26faaa6084e489840084148cead"
+    },
+    {
+      "path": "src/joy/joy/restricted_evaluator.py",
+      "bytes": 10340,
+      "sha256": "34590ae2d47fcad40de1dad169f14c18195c6a836c1f1b8b323ff3121fc3e8a2"
+    },
+    {
+      "path": "src/joy/launch/ps4joy.launch.py",
+      "bytes": 2826,
+      "sha256": "c867cd0c710ecd6f910017183fd6170b9acb8dc5f7101b4d32ceed3806559ea8"
+    },
+    {
+      "path": "src/joy/package.xml",
+      "bytes": 1508,
+      "sha256": "53de8976c60c7b6b6fe3ad3b5c21196f420fbf67ce3bcabfcffc588ce645cb89"
+    },
+    {
+      "path": "src/joy/resource/joy",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "src/joy/setup.cfg",
+      "bytes": 75,
+      "sha256": "6e85b2f82ce0b37a0978ae97375f80ec20684ff5e53030571d2ba153853bc9e3"
+    },
+    {
+      "path": "src/joy/setup.py",
+      "bytes": 1200,
+      "sha256": "2307eef076dc78ed19ed245a7df2fb198d5e7d5c5bec0209fd871cc65c5fbc43"
+    },
+    {
+      "path": "src/joy/test/test_remap_core.py",
+      "bytes": 2523,
+      "sha256": "69903a4d6d03a17f21cdab93b534ed176866666fed78e38dec21b1e8515a73c6"
+    },
+    {
+      "path": "src/joy/test/test_restricted_evaluator.py",
+      "bytes": 4548,
+      "sha256": "8662b82e9d7f4dd244db3b39ea43ba3f6c1c67d138e9c9494e4b146c61b5f554"
+    },
+    {
+      "path": "src/motion_control_pkg/MIGRATION.md",
+      "bytes": 719,
+      "sha256": "b44875a601cef1d57c0598d877dd9e068e254e29e7832c9530b9b078128b2c28"
+    },
+    {
+      "path": "src/motion_control_pkg/README.md",
+      "bytes": 3351,
+      "sha256": "f29d11a97dd38456a74136e6ceaa26c421c3fd10d0e8198886762726c28ea700"
+    },
+    {
+      "path": "src/motion_control_pkg/config/motion_params.yaml",
+      "bytes": 603,
+      "sha256": "bd3cb446f2df4184410b2d4dfb83fee96f38c25edbdcae75dd31d074ae10efb2"
+    },
+    {
+      "path": "src/motion_control_pkg/launch/motion_test.launch.py",
+      "bytes": 589,
+      "sha256": "e1965d2002ed08071a54f847c1023a728bc5d007259b192063cacb60cd895563"
+    },
+    {
+      "path": "src/motion_control_pkg/motion_control_pkg/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/motion_control_pkg/motion_control_pkg/motion_logic.py",
+      "bytes": 7926,
+      "sha256": "62c6e3301f814937ab175dcba6a258384a0bb95d69f02821cd3a3c29b28e6857"
+    },
+    {
+      "path": "src/motion_control_pkg/motion_control_pkg/motion_test_node.py",
+      "bytes": 7332,
+      "sha256": "8b0f2810c0de7700bf605b2127daccc963ea8061a6955da72a00b21924bbcf67"
+    },
+    {
+      "path": "src/motion_control_pkg/motion_control_pkg/pid_controller.py",
+      "bytes": 1630,
+      "sha256": "238d4ce63d74a88146f61e58cc52d1f5b58d75cf47afda9bae476065f813fc19"
+    },
+    {
+      "path": "src/motion_control_pkg/motion_control_pkg/test_cli.py",
+      "bytes": 2239,
+      "sha256": "ecfff261b0ffdc7172a91448065bedccde97274bbb7040ac7c5507c419a6ae8e"
+    },
+    {
+      "path": "src/motion_control_pkg/package.xml",
+      "bytes": 640,
+      "sha256": "21fe3fb146bedaa168fff81998600bbcdd28503fdd67b570cc2be49870bd32cb"
+    },
+    {
+      "path": "src/motion_control_pkg/resource/motion_control_pkg",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/motion_control_pkg/setup.cfg",
+      "bytes": 105,
+      "sha256": "3b117186c25124bed6b5fd356f9ac4d77d307e9544538a11810d9c93fac684d9"
+    },
+    {
+      "path": "src/motion_control_pkg/setup.py",
+      "bytes": 998,
+      "sha256": "5381945a241c168125b6129a4749e1c1a6f41c956467996567359ef1877f728e"
+    },
+    {
+      "path": "src/motion_control_pkg/test/test_motion_logic.py",
+      "bytes": 7680,
+      "sha256": "a8d58315055215ecc817200c84d564886de1051763b73194b61b1ee2d3e7e2c7"
+    },
+    {
+      "path": "src/x3plus_base/ACCESSORIES.md",
+      "bytes": 5669,
+      "sha256": "97313d0d797e0743030ae9c31c37dee758435b92ef5ab00b1905178eb723ab64"
+    },
+    {
+      "path": "src/x3plus_base/MIGRATION.md",
+      "bytes": 712,
+      "sha256": "6d63f2a5f049a7b58b7f5f101612cedbdb3dae717d161eb9d82b582fde27c12a"
+    },
+    {
+      "path": "src/x3plus_base/config/accessories.yaml",
+      "bytes": 763,
+      "sha256": "8f8fb3d1d0de8cbf6bd5a835ca5819c4f0c894a8a6554f7cc331d0f655e93ade"
+    },
+    {
+      "path": "src/x3plus_base/config/base.yaml",
+      "bytes": 495,
+      "sha256": "8c0373f29fa54dfc8acec1fc5acf44224be2a638d9b0e9638e26d64ede6f6286"
+    },
+    {
+      "path": "src/x3plus_base/launch/bringup.launch.py",
+      "bytes": 1795,
+      "sha256": "274b4e735261ba392904357319ea9b4bbbe77ed1afb998e6e41cefaa82dc2c57"
+    },
+    {
+      "path": "src/x3plus_base/package.xml",
+      "bytes": 1093,
+      "sha256": "4a9fc3f98bfd815b298c91e3f2ea3b95d21817e37fb85c3dc7562fa3224cc64d"
+    },
+    {
+      "path": "src/x3plus_base/resource/x3plus_base",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/x3plus_base/setup.cfg",
+      "bytes": 91,
+      "sha256": "f4e0f2256469fed51d4217de1abea37f2131b88f72ab0aa84dcd593653608a4c"
+    },
+    {
+      "path": "src/x3plus_base/setup.py",
+      "bytes": 705,
+      "sha256": "32f1dc2771428eefc1dae6700a788a10d744b9759221a0ee857caf2753537462"
+    },
+    {
+      "path": "src/x3plus_base/test/test_control.py",
+      "bytes": 2041,
+      "sha256": "d34cbefb2ff0bb721a2b551b0c84eac13cdc3ade27e9e4935fb34234730735f8"
+    },
+    {
+      "path": "src/x3plus_base/x3plus_base/__init__.py",
+      "bytes": 66,
+      "sha256": "96c82baf771e3a3f9010cad4bd70a77fd5ed50fa406ee36c32963678262bb81b"
+    },
+    {
+      "path": "src/x3plus_base/x3plus_base/base_node.py",
+      "bytes": 24881,
+      "sha256": "2ea5ae4b6719a3e26ea31e5496d6abe9ef5222d9e50dde4733337a01c4085ee2"
+    },
+    {
+      "path": "src/x3plus_base/x3plus_base/control.py",
+      "bytes": 3864,
+      "sha256": "94374a9484cafa1b47b9bd6e4299d84637bfc773b000a25bf79a052d7c03802a"
+    },
+    {
+      "path": "src/x3plus_base/x3plus_base/mock_transport.py",
+      "bytes": 7165,
+      "sha256": "6d72379c2e77ab8ebb7f8d4fe0f4d00dc0d973eeace8849186144eb8d3429094"
+    },
+    {
+      "path": "src/x3plus_base/x3plus_base/transport.py",
+      "bytes": 35960,
+      "sha256": "0b0e3816f37de31967736c8574444bdafa530b5963eb740a99981172e6b748be"
+    },
+    {
+      "path": "src/x3plus_moveit_config/CMakeLists.txt",
+      "bytes": 283,
+      "sha256": "900a4b704c5cfc919cf8bc6b2cc8c343ee90d2636ce420529d1df1018f373b3e"
+    },
+    {
+      "path": "src/x3plus_moveit_config/MIGRATION.md",
+      "bytes": 771,
+      "sha256": "45e4d6e48702bf7c9cd2c896598be6593f96637e3e65a06d37ceed1cdd583c2f"
+    },
+    {
+      "path": "src/x3plus_moveit_config/config/cartesian_limits.yaml",
+      "bytes": 186,
+      "sha256": "0a6b70d487982eb14936d89ba8a0daacc2ac56b431c694166f12d924ff17c313"
+    },
+    {
+      "path": "src/x3plus_moveit_config/config/chomp_planning.yaml",
+      "bytes": 660,
+      "sha256": "41a97ec4477414f7a08811898a98a87a6b1365cc61cc044cf3e7f0a6ff17c5d3"
+    },
+    {
+      "path": "src/x3plus_moveit_config/config/fake_controllers.yaml",
+      "bytes": 713,
+      "sha256": "5e528ab35c885d07fa2ba6f64032ea23cf3686413d850f872feb73bea1725833"
+    },
+    {
+      "path": "src/x3plus_moveit_config/config/gazebo_controllers.yaml",
+      "bytes": 356,
+      "sha256": "c052c9b653730f172a47ce363947453db2b98d8d8b618270ec5873d773158d8e"
+    },
+    {
+      "path": "src/x3plus_moveit_config/config/initial_positions.yaml",
+      "bytes": 214,
+      "sha256": "8aae9aed66962f96341ffd141263c4cc513438225f4e074feeddc95e06192812"
+    },
+    {
+      "path": "src/x3plus_moveit_config/config/joint_limits.yaml",
+      "bytes": 1740,
+      "sha256": "89f5f1e7dbd6e4d9ebda73286e4b522e4ba79d885069110c0ae3cc95edf844a1"
+    },
+    {
+      "path": "src/x3plus_moveit_config/config/kinematics.yaml",
+      "bytes": 253,
+      "sha256": "2164cb0607ba1160922e1c2c8f44ffcc3b0bcc18c7c249f52f7a9834a36427f6"
+    },
+    {
+      "path": "src/x3plus_moveit_config/config/moveit_controllers.yaml",
+      "bytes": 617,
+      "sha256": "42ec5d6618c49e91409dcefb1002a19d1326cd4c97aa9a80bf2b59251aff3f5a"
+    },
+    {
+      "path": "src/x3plus_moveit_config/config/ompl_planning.yaml",
+      "bytes": 13401,
+      "sha256": "909cb7b73911cfd45b76818e0789e36a8d6b520b297bd93b7e9130184e6f51e4"
+    },
+    {
+      "path": "src/x3plus_moveit_config/config/ros2_controllers.yaml",
+      "bytes": 997,
+      "sha256": "e49d26ee8223f000e32269f229704ae956251849f62e0a42e29d4799a38be7d8"
+    },
+    {
+      "path": "src/x3plus_moveit_config/config/ros_controllers.yaml",
+      "bytes": 800,
+      "sha256": "e3ca7ac317d042aabb60bb6fb34404fe0e96210e22958a90b90d963e11ad2bdd"
+    },
+    {
+      "path": "src/x3plus_moveit_config/config/sensors_3d.yaml",
+      "bytes": 13,
+      "sha256": "077f554d4716a67119cff3d7e260a27144fbb0983fca1a4d5b559164d8202442"
+    },
+    {
+      "path": "src/x3plus_moveit_config/config/simple_moveit_controllers.yaml",
+      "bytes": 481,
+      "sha256": "b4631fb5488422a3b07ee2c723edc3390dddec1849dfebaa20970001b7400afb"
+    },
+    {
+      "path": "src/x3plus_moveit_config/config/stomp_planning.yaml",
+      "bytes": 2519,
+      "sha256": "fb13e11b551746030fa4be982672a97ef5d66646a27725d190b14af10e144c3f"
+    },
+    {
+      "path": "src/x3plus_moveit_config/config/yahboomcar_X3plus.srdf",
+      "bytes": 9076,
+      "sha256": "a119959fc392f4ce7479292a72c202189e71f17e9bc3aa28986944fef8ae029a"
+    },
+    {
+      "path": "src/x3plus_moveit_config/launch/demo.launch.py",
+      "bytes": 6288,
+      "sha256": "d87ee64fb776ac0cb676e99a0f8b54de06479716432bb0aae2254906331fb0f6"
+    },
+    {
+      "path": "src/x3plus_moveit_config/launch/move_group.launch.py",
+      "bytes": 2026,
+      "sha256": "10a261de5b871e54f59d37cf6e5e5872a0dcda3a62484cdc25e3c705892332b8"
+    },
+    {
+      "path": "src/x3plus_moveit_config/launch/moveit_config_helper.py",
+      "bytes": 10527,
+      "sha256": "3cc27a1e8d9b31782769b208b865d9fa5325c194af7b84a5aebb364ddba8ef83"
+    },
+    {
+      "path": "src/x3plus_moveit_config/launch/moveit_rviz.launch.py",
+      "bytes": 2395,
+      "sha256": "c51ce024dd4161f810f9ec4733e01e97e342b506b9a6b8f7a45af496a9b2c873"
+    },
+    {
+      "path": "src/x3plus_moveit_config/launch/ros_controllers.launch.py",
+      "bytes": 3899,
+      "sha256": "2ff9a0aa9df463448a1f269c0b5e84923c45e6efbccebeba4480829eed611a30"
+    },
+    {
+      "path": "src/x3plus_moveit_config/launch/setup_assistant.launch.py",
+      "bytes": 740,
+      "sha256": "294d38937e3745670ee1ce58383306e5f92c694f20dd6b73dc6c06f595904861"
+    },
+    {
+      "path": "src/x3plus_moveit_config/package.xml",
+      "bytes": 1789,
+      "sha256": "7f21a969c2f397d819fa6578ac106fcc6dda4e494042d5dba00320610ee408e7"
+    },
+    {
+      "path": "src/x3plus_moveit_config/rviz/moveit.rviz",
+      "bytes": 3393,
+      "sha256": "16f98d7d8ae2bf1cf3d634ffd9595e06172c86b16a95b9ce796f1bb13ddde6eb"
+    },
+    {
+      "path": "src/x3plus_moveit_config/urdf/yahboomcar_X3plus.ros2_control.xacro",
+      "bytes": 3659,
+      "sha256": "a61f11dcb6a63e18be5902a143393ff08792e81aace1f62e5ff88d2960babd58"
+    },
+    {
+      "path": "src/x3plus_moveit_config/urdf/yahboomcar_X3plus.urdf.xacro",
+      "bytes": 888,
+      "sha256": "8f2a358b288df7a70cbc852ac9e10ba94d86933ec46bb9e4e84d92acd767f453"
+    },
+    {
+      "path": "src/yahboomcar_astra/CMakeLists.txt",
+      "bytes": 2280,
+      "sha256": "2fa0e2e1f7bcfe64ea74afe73245956fb3399a85228987e3eed1e78d16aff1d9"
+    },
+    {
+      "path": "src/yahboomcar_astra/MIGRATION.md",
+      "bytes": 717,
+      "sha256": "c539aa4d11576f4ffb2d70c08ae2d4ba2125d0936e93a5cff7bd9396a077abfb"
+    },
+    {
+      "path": "src/yahboomcar_astra/README.md",
+      "bytes": 1452,
+      "sha256": "04585eb6860efd6a00b326b5173f05244476997d33fb9b2b51338a9280d2d759"
+    },
+    {
+      "path": "src/yahboomcar_astra/config/defaults.yaml",
+      "bytes": 1082,
+      "sha256": "f85613abc80c4280daa36814cbe46b0805c27792882f50c77bdcd9f10b6f651d"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/1_1.py",
+      "bytes": 224,
+      "sha256": "297a067e677cb399f841988b72bd6af00bcd79dffc01750864a3274f71af71a9"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/1_2.py",
+      "bytes": 419,
+      "sha256": "1e8abe4ff7db0e8311b75b8a5889223d48339f1f3ca98c3788e9488f575cc6c6"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/1_3.py",
+      "bytes": 270,
+      "sha256": "07724e37190d65fed547983f7bdff032f63aa263e19ef27a49fcb3786b2712e4"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/1_4.py",
+      "bytes": 358,
+      "sha256": "ec5ee68041828763bd7cc255df73be9a7b2a6b221bfdd70e1b18eed7f9abfa73"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/2_1.py",
+      "bytes": 354,
+      "sha256": "402f40f28521ddc5e32f4fbc104bd8352a10cff2ca6c0ea4276036635c84e941"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/2_2.py",
+      "bytes": 272,
+      "sha256": "d5533c69ba3ff3507dc84071446ffc3ec90b26f92f6888be674177aacfce9a10"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/2_3.py",
+      "bytes": 429,
+      "sha256": "49e43c1ec77f040bbcef2d70eeedef58f3b411b245e9b92c2a569af31f9d876a"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/2_4.py",
+      "bytes": 538,
+      "sha256": "e6bb136d4bb19300ee83549450eda9d0b6f06f9f1a23cda3979d8289ba1a36e9"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/3_1.py",
+      "bytes": 312,
+      "sha256": "afca636ae5f738c802fc0011f692e3a866bfbe03489f3323b4af3da3e68a268f"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/3_2.py",
+      "bytes": 407,
+      "sha256": "7e5e7a5522ad990f10530d2247f62ea4ab0169ec1152dbdf97c3cda19001d736"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/3_3.py",
+      "bytes": 406,
+      "sha256": "aa82a6604f0d14ad481bee23dec3e6c77ee783676b8bd72bb13f865c5b8f5e4b"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/3_4.py",
+      "bytes": 298,
+      "sha256": "980d95d9a9f44a8bfe1e10c970fa4444031d1d92e4d6039c0896ef45b770fc49"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/3_5.py",
+      "bytes": 304,
+      "sha256": "5c1a6d15662c6bedb3e98dc43cc90d83cda409880a26a08f7f9dc8a3c2079574"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/3_6.py",
+      "bytes": 300,
+      "sha256": "5ee92776251d9c4821ccadaee9de2228d96d441ededb704ecef3a7996b00426f"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/3_7.py",
+      "bytes": 316,
+      "sha256": "bba15b521fff93671e45a5155f2eda59efdd23a164c649eb6399be09b97cbd6f"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/3_8.py",
+      "bytes": 393,
+      "sha256": "d6a9975f209ae247fa7d11bd1993e91292b824e44b2499f0dbce3cce80091282"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/3_9.py",
+      "bytes": 322,
+      "sha256": "c0dc5155c64a477d68a4a3aa7b22a073dcd3bb7d115b0fec9d78a17838eb03b1"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/4_1_1.py",
+      "bytes": 521,
+      "sha256": "18d756a811374f53fea13a7a2e5428f59c85e7e64cf4c0934541242fa7af3717"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/4_1_2.py",
+      "bytes": 660,
+      "sha256": "391601adffccd0280be6f8ba49a363384d4448b5089a61bdb3d4900e1100246a"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/4_2.py",
+      "bytes": 596,
+      "sha256": "b9dee5f90349b0cf695402a026ef16d40cb52cb767681758cf71362cfdc58d65"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/4_3.py",
+      "bytes": 576,
+      "sha256": "9fa2eccbd3aff9771931348c78893021c3c8d806c9382a24eaf2bf3c21c4ca21"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/README.md",
+      "bytes": 818,
+      "sha256": "eab9b56d3a9e85653e18a3c82ad4c2b3116fc13f10926c8e9e6e903bc5239608"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/damaged.jpg",
+      "bytes": 10284,
+      "sha256": "566d576449afeef18e826f6604602aae059232856e9b836988d395de00a20e12"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/provenance.json",
+      "bytes": 9500,
+      "sha256": "c1d637d4dfb9b1352309cbbe9407a3b28d238f29b8b9a239a36c9d16b7e982e8"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/yahboom.jpg",
+      "bytes": 11030,
+      "sha256": "1f9d81aee1ee1664f6bc7dac4a32ee914a90af71a27ef15163aac5bdfe6ee180"
+    },
+    {
+      "path": "src/yahboomcar_astra/examples/opencv/yahboom_new.jpg",
+      "bytes": 9870,
+      "sha256": "9a68b1c20c399d4dead2920d16ea6e24ab2407ddd9672409e69e95f0a5adfcaf"
+    },
+    {
+      "path": "src/yahboomcar_astra/include/yahboomcar_astra/KCF_Tracker.h",
+      "bytes": 2952,
+      "sha256": "8b97ea7b452a6f8e127bc67670f9ecc99b5ef2c0c00dc21ac8f8032e5ff2646d"
+    },
+    {
+      "path": "src/yahboomcar_astra/include/yahboomcar_astra/PID.cpp",
+      "bytes": 874,
+      "sha256": "7f79760afae4f4ad3fd56c4591ccb3f40e5f3ce9d2bde30d5bd983ab85935ab8"
+    },
+    {
+      "path": "src/yahboomcar_astra/include/yahboomcar_astra/PID.h",
+      "bytes": 649,
+      "sha256": "b0a94c74ee950062cbf7c385cd431731d3cc660332ea5e592822850d34a7ad54"
+    },
+    {
+      "path": "src/yahboomcar_astra/include/yahboomcar_astra/ffttools.h",
+      "bytes": 6988,
+      "sha256": "6a4a834c34a9d2c63ab9b8d7f8ce65812313c18fbe52faa45ea9c26dd79a4876"
+    },
+    {
+      "path": "src/yahboomcar_astra/include/yahboomcar_astra/fhog.cpp",
+      "bytes": 17629,
+      "sha256": "1d4febb7d245550bdfa9bd66e77ec8a5dd117f82435977e7dfc1e5f5777a136b"
+    },
+    {
+      "path": "src/yahboomcar_astra/include/yahboomcar_astra/fhog.h",
+      "bytes": 5783,
+      "sha256": "b7cec57a2c2dd89969b0bc0fd2c8667690b88878056c865450a9a8f179f52e52"
+    },
+    {
+      "path": "src/yahboomcar_astra/include/yahboomcar_astra/kcftracker.cpp",
+      "bytes": 19755,
+      "sha256": "5051fcc68e15da6020581d0539b92f4320ab0817e29d95620db682471782c6db"
+    },
+    {
+      "path": "src/yahboomcar_astra/include/yahboomcar_astra/kcftracker.h",
+      "bytes": 6337,
+      "sha256": "1a911d4b558ae2d8b0bde0b565c971a284812116cdd50f6f004673371689057a"
+    },
+    {
+      "path": "src/yahboomcar_astra/include/yahboomcar_astra/labdata.h",
+      "bytes": 633,
+      "sha256": "335f5b743a1fbaea0550974167a138bd426f06c8cd48f57adb03fb4041313b84"
+    },
+    {
+      "path": "src/yahboomcar_astra/include/yahboomcar_astra/recttools.h",
+      "bytes": 4540,
+      "sha256": "8357990a6167be8ab730643dbcf00eead2318cb63dc8dccb0fe6eb6c8e5737c3"
+    },
+    {
+      "path": "src/yahboomcar_astra/include/yahboomcar_astra/tracker.h",
+      "bytes": 1366,
+      "sha256": "4535fa6f287434d0a687d118286891777f08a39e3a1d448be00d01f6cc1c6062"
+    },
+    {
+      "path": "src/yahboomcar_astra/launch/KCFTracker.launch.py",
+      "bytes": 1991,
+      "sha256": "8c39cbf36bcf2fff86d139615cba7bb1357919fa0e5e437e82ca59829037c6df"
+    },
+    {
+      "path": "src/yahboomcar_astra/launch/colorHSV.launch.py",
+      "bytes": 851,
+      "sha256": "6687ba3a0e126d1e25b6b57e961957644598330dcef2f9ef0b6a730afdebbd92"
+    },
+    {
+      "path": "src/yahboomcar_astra/launch/colorTracker.launch.py",
+      "bytes": 1449,
+      "sha256": "826e34b0df5de6ee711e60ebd0af9da5897bdd002f79558b7c869ea08d64692f"
+    },
+    {
+      "path": "src/yahboomcar_astra/package.xml",
+      "bytes": 904,
+      "sha256": "fb43958f206b41855b4fc3c00bcd3b750c35e1811812c9d1f4d7d5f850da3edc"
+    },
+    {
+      "path": "src/yahboomcar_astra/scripts/colorHSV.py",
+      "bytes": 122,
+      "sha256": "9a790cb276b829e2ddb6cc1f04bada0392ca437d4c714d05c3213074758d3dce"
+    },
+    {
+      "path": "src/yahboomcar_astra/scripts/colorTracker.py",
+      "bytes": 126,
+      "sha256": "dbb180aa9c79299669f617a9d9902f363a8a30452643b843727715a49fd03b59"
+    },
+    {
+      "path": "src/yahboomcar_astra/src/KCF_Tracker.cpp",
+      "bytes": 14733,
+      "sha256": "35439d2e48cd3e0c198e466c0dd56636d7b87a3454f38acb69df380efa1be33f"
+    },
+    {
+      "path": "src/yahboomcar_astra/src/KCF_Tracker_main.cpp",
+      "bytes": 436,
+      "sha256": "236ecf232c1e5378978b9212767eada3d6762a3c9960249cb3b2c46bc47cbe83"
+    },
+    {
+      "path": "src/yahboomcar_astra/test/test_algorithms.py",
+      "bytes": 2339,
+      "sha256": "b3f069107a27d03a675bad689aeee948897631257058569669abb024ef91c9f4"
+    },
+    {
+      "path": "src/yahboomcar_astra/yahboomcar_astra/__init__.py",
+      "bytes": 106,
+      "sha256": "31dfd01959473d905b1d3f5ee7fb30b02bf505e0297c47029da6592f255015a5"
+    },
+    {
+      "path": "src/yahboomcar_astra/yahboomcar_astra/astra_common.py",
+      "bytes": 7186,
+      "sha256": "d25a92532fe7b16cf9eb212317d2272513838c9ad682e636952d8032245c27e1"
+    },
+    {
+      "path": "src/yahboomcar_astra/yahboomcar_astra/color_hsv.py",
+      "bytes": 8265,
+      "sha256": "ecb4456335085ea5b13280b6625d5678fe29a24e21436e31fc11809e32ef8873"
+    },
+    {
+      "path": "src/yahboomcar_astra/yahboomcar_astra/color_tracker.py",
+      "bytes": 9161,
+      "sha256": "efd052ead415b636379e461b6e4bf44cc368b53569586b8946c67c93522bb5d8"
+    },
+    {
+      "path": "src/yahboomcar_bringup/MIGRATION.md",
+      "bytes": 740,
+      "sha256": "ba45fb5b5f7c9962c96f8f345dafce4e8c4142315b32f8c9d3287f296a2e5063"
+    },
+    {
+      "path": "src/yahboomcar_bringup/README.md",
+      "bytes": 4745,
+      "sha256": "5a98e27757aea017d5b4ed0c037e3e879722dec8797284d38b328d2ead92fcc4"
+    },
+    {
+      "path": "src/yahboomcar_bringup/config/ekf.yaml",
+      "bytes": 1937,
+      "sha256": "95a16c328501f6ef5de6b0e2fb30155b723227191b4a2c79b03cdc50dd465d28"
+    },
+    {
+      "path": "src/yahboomcar_bringup/config/mux.yaml",
+      "bytes": 798,
+      "sha256": "5528b279a435091f764327855290b465322fc4def8e163c80e45352725784540"
+    },
+    {
+      "path": "src/yahboomcar_bringup/launch/bringup.launch.py",
+      "bytes": 7026,
+      "sha256": "cf55925f6d6b78d54fbc1aef909920311c4270f849b4e41acb1a0d2bf758b608"
+    },
+    {
+      "path": "src/yahboomcar_bringup/launch/calibrate_angular.launch.py",
+      "bytes": 2291,
+      "sha256": "c395f91c9eaa1a29d4cdd461eeb2d9203a7887c9e719dd5dc4f9011cc681a7ce"
+    },
+    {
+      "path": "src/yahboomcar_bringup/launch/calibrate_linear.launch.py",
+      "bytes": 2439,
+      "sha256": "1de23366f671c87ec32a1cf08ea26fd008b124ed3122b657fbb7c19f7ac49725"
+    },
+    {
+      "path": "src/yahboomcar_bringup/launch/patrol.launch.py",
+      "bytes": 2398,
+      "sha256": "afb0488237594a39f0a3ad3ceeb9a658a10af11ad477371cfd3003f8e3040cee"
+    },
+    {
+      "path": "src/yahboomcar_bringup/launch/view_odom.launch.py",
+      "bytes": 1827,
+      "sha256": "be63c9d6bfb0eeb5c4d22b8bc0347569f31717f621b5a504bcdc3424d236a8c6"
+    },
+    {
+      "path": "src/yahboomcar_bringup/launch/yahboomcar.launch.py",
+      "bytes": 2045,
+      "sha256": "63cd383f3794dca2b84332e0ca58d1fd9e940d3d1d47e9abb10cc1e5c33fe303"
+    },
+    {
+      "path": "src/yahboomcar_bringup/launch/yahboomcar_model.launch.py",
+      "bytes": 1940,
+      "sha256": "62c3b545b78228fa6ea617570b63b49a90911c861fa415fe57ae63408abb8596"
+    },
+    {
+      "path": "src/yahboomcar_bringup/package.xml",
+      "bytes": 1258,
+      "sha256": "a073978ba32dad9e25f73b753cc1c049c33c621cab1ca6b5e7aa096e364a3db2"
+    },
+    {
+      "path": "src/yahboomcar_bringup/resource/yahboomcar_bringup",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/yahboomcar_bringup/setup.cfg",
+      "bytes": 121,
+      "sha256": "924f1d8e420251935040a8bc7ebb025a9b7884d8f3c6a1b948bb2d288af6406a"
+    },
+    {
+      "path": "src/yahboomcar_bringup/setup.py",
+      "bytes": 1099,
+      "sha256": "f71135d6b117883feb847fbaaa0cbd44692108f4f4818ba908357a47f23b6ef6"
+    },
+    {
+      "path": "src/yahboomcar_bringup/test/test_mux.py",
+      "bytes": 3089,
+      "sha256": "5b1bea6cbebae215542a5151c2d5b3dd24068bc3f96167dc6c47fa33381624fc"
+    },
+    {
+      "path": "src/yahboomcar_bringup/yahboomcar_bringup/__init__.py",
+      "bytes": 109,
+      "sha256": "764883eb036c40d852edf4189b65abf62e7adb4611653e3dcf18871cf0088679"
+    },
+    {
+      "path": "src/yahboomcar_bringup/yahboomcar_bringup/calibration.py",
+      "bytes": 13428,
+      "sha256": "d52a89e8de997063e7069ce321ad9fe4d9b1553c6a628e8f2eeec7ee27406a30"
+    },
+    {
+      "path": "src/yahboomcar_bringup/yahboomcar_bringup/patrol.py",
+      "bytes": 15349,
+      "sha256": "395c3b8bb3f819e15bd8f1e63ee3fa14da8c3781b3bd01539f5aad065f531f52"
+    },
+    {
+      "path": "src/yahboomcar_bringup/yahboomcar_bringup/velocity_mux.py",
+      "bytes": 9133,
+      "sha256": "88adb98cb86420df1d9ff36bb171226e999394764db786365bc80a1016efcf16"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/MIGRATION.md",
+      "bytes": 716,
+      "sha256": "963bf533f704249c9dc213ae0ba63934b16973c9fbc8a07fc6ebe288ccc88ba6"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/README.md",
+      "bytes": 4232,
+      "sha256": "b16c8b6086373212e3fa47fe2e14e2e6816f8bd1666605728ca9ceb5c20ec195"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/launch/turtlebot_joy.launch.py",
+      "bytes": 1962,
+      "sha256": "ff7fdbadb90c4f6799c148205261b22c0728c15bb332896a31926be1a8585017"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/launch/twist_joy.launch.py",
+      "bytes": 2132,
+      "sha256": "b083988f969f2b8cf813a6b859cbcc79ff56e3038b5c014ecbb679746d69fdca"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/launch/yahboom_joy.launch.py",
+      "bytes": 2663,
+      "sha256": "4d8964fd35b3349dc9ee80a9c91dae0c2cf3b94a989ac0f8a93fe3cd06972085"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/launch/yahboom_keyboard.launch.py",
+      "bytes": 992,
+      "sha256": "f9beac69cd7d1aeb968e3810531c0f68de9ba802b2c59a80bc9a546750b58965"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/package.xml",
+      "bytes": 1170,
+      "sha256": "baef0ed6ca741942c5e20db6d88de4987b7f106169ac5d1e5d6fda00ac811c46"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/resource/yahboomcar_ctrl",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/setup.cfg",
+      "bytes": 99,
+      "sha256": "534711cfd2540b139b2306a8cf61e6c536ce536793df7230aed2614822961bfe"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/setup.py",
+      "bytes": 1137,
+      "sha256": "64d2a78449bbe79ad6ea283a47fb8d1d7dffbafe0066868397da451605c0699e"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/yahboomcar_ctrl/__init__.py",
+      "bytes": 530,
+      "sha256": "6fe46633115f58eb2b436f379c136f7ccd74fb5659de72a253900841f0ac1812"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/yahboomcar_ctrl/arm_core.py",
+      "bytes": 8176,
+      "sha256": "752e31a667ee2c93f09706b4479cdd049c9c8c856236c7114fb0dfa5f2319809"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/yahboomcar_ctrl/joy_core.py",
+      "bytes": 19604,
+      "sha256": "7b4e2016e20fdf7eea2fe1a31340eb1bac2b53ce87beb5c261280d2b401b53a2"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/yahboomcar_ctrl/keyboard_core.py",
+      "bytes": 7078,
+      "sha256": "3473ccfaea4f8ca0dc5cfc516fdecb3c5d62ce55091cf35d5c448f447a0ad72c"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/yahboomcar_ctrl/turtlebot_joy.py",
+      "bytes": 5277,
+      "sha256": "93d7ee0aa7c89888f41a434a7f16ca63ed824544bbe3d8b367755fbb299ea1d9"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/yahboomcar_ctrl/twist_joy.py",
+      "bytes": 5041,
+      "sha256": "87a0688c41a7218773facd90b76a8b83242b69d0383d34c660ab75e1ef47a044"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/yahboomcar_ctrl/yahboom_joy.py",
+      "bytes": 22300,
+      "sha256": "e20777273805bdc253cef7587e7c13d404445eb197be218ece8b9da111711854"
+    },
+    {
+      "path": "src/yahboomcar_ctrl/yahboomcar_ctrl/yahboom_keyboard.py",
+      "bytes": 6012,
+      "sha256": "920efa7d66e50665dfbc2dedb67897557e689c56392f9a127c816eca6a3db368"
+    },
+    {
+      "path": "src/yahboomcar_description/CMakeLists.txt",
+      "bytes": 746,
+      "sha256": "e9b813506140adcb7a1459134c7c7c095d029f030590c220caf42e3e4739c17a"
+    },
+    {
+      "path": "src/yahboomcar_description/MIGRATION.md",
+      "bytes": 723,
+      "sha256": "5b909ae6f619e300334262220017395b175878e9ad299d4e7f3670fdb5af7a5f"
+    },
+    {
+      "path": "src/yahboomcar_description/SOURCE_ASSETS.md",
+      "bytes": 2158,
+      "sha256": "0227752bed57df354ca3688a25d77b8bf03820cec42473049e5b5f465451947a"
+    },
+    {
+      "path": "src/yahboomcar_description/launch/display.launch.py",
+      "bytes": 6070,
+      "sha256": "b5d0935d9402b0c46be5be6ca0f0af6baae660fa51691329c3a87b3295dd833c"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3/back_left_wheel.STL",
+      "bytes": 2206784,
+      "sha256": "a4c4ea965d4f622ef976f0d4890d974a937ba8d6815e7c158128b6bd6d7d12fb"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3/back_right_wheel.STL",
+      "bytes": 2201084,
+      "sha256": "1921036a7def60f55d27ff5f3468be61dd4eaa85c37d3b7d8dfb42f2de1932e7"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3/base_link.STL",
+      "bytes": 3459684,
+      "sha256": "706c81eea4219cdab8f31d0a6276029a068262f958771b6ae0e52b9a5d6799be"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3/front_left_wheel.STL",
+      "bytes": 2201084,
+      "sha256": "da97ca3b8c5078a0d6c92ad9c170cc1b728c34e4837dd80c30dd58d97238d0de"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3/front_right_wheel.STL",
+      "bytes": 2206784,
+      "sha256": "fcd39d785a5dec89b06ccb45237590188fec2e390bba40aee8c62412536c7aa1"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3/mecanum/back_left_wheel.STL",
+      "bytes": 2206784,
+      "sha256": "a4c4ea965d4f622ef976f0d4890d974a937ba8d6815e7c158128b6bd6d7d12fb"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3/mecanum/back_right_wheel.STL",
+      "bytes": 2201084,
+      "sha256": "1921036a7def60f55d27ff5f3468be61dd4eaa85c37d3b7d8dfb42f2de1932e7"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3/mecanum/base_link.STL",
+      "bytes": 3459684,
+      "sha256": "706c81eea4219cdab8f31d0a6276029a068262f958771b6ae0e52b9a5d6799be"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3/mecanum/base_link1.stl",
+      "bytes": 4604784,
+      "sha256": "2f955d496265a023be9833cf74d5a078f19af7c786a0dcdbc9723ffaced64da4"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3/mecanum/front_left_wheel.STL",
+      "bytes": 2201084,
+      "sha256": "da97ca3b8c5078a0d6c92ad9c170cc1b728c34e4837dd80c30dd58d97238d0de"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3/mecanum/front_right_wheel.STL",
+      "bytes": 2206784,
+      "sha256": "fcd39d785a5dec89b06ccb45237590188fec2e390bba40aee8c62412536c7aa1"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3/mecanum/hokuyo.dae",
+      "bytes": 88107,
+      "sha256": "ffd6adbb279922bf80173f1ee1627b1ccd7beca914e4caf0404326cfa7c9b210"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3/mecanum/kinect.dae",
+      "bytes": 900436,
+      "sha256": "51b699eff0b9546bfb0ef4b33249fb9b9a6a0c535f93829d1318dff8f8587fbd"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3/mecanum/mecanum_left_hands.stl",
+      "bytes": 12847584,
+      "sha256": "582883b57d2c7f552ae05a62c0d252813e1927ecd074933a9dadcf18b3b83d5e"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3/mecanum/mecanum_right_hands.stl",
+      "bytes": 13062784,
+      "sha256": "14082fa0a3594bd0a4499fb0da72e1b3e98fa5f5e28c33df5a44edbad64a3afc"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/collision/arm_link1.STL",
+      "bytes": 17784,
+      "sha256": "aeec7aea65a94276bea40fee1daf3485b43fee0f8b801a3978e9abee638a1d52"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/collision/arm_link2.STL",
+      "bytes": 19084,
+      "sha256": "ad4da87e2bac4ec3d672c8ef93d48c416ac6703540f7b000bc37a4a33037bd66"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/collision/arm_link3.STL",
+      "bytes": 19084,
+      "sha256": "c9448684fe08372d7e65ce9a4c44e8971a2fcd271b30264f979ea6937cb9283b"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/collision/arm_link4.STL",
+      "bytes": 3584,
+      "sha256": "b1c5007df0af00bd9d689c47d07ae09c8d48a041a5480ae8b61545f1f483f0af"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/collision/arm_link5.STL",
+      "bytes": 4804884,
+      "sha256": "937680cb00a88a42b3c870dd61a12dace8a0de0c839c27718558d4a9cc854004"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/collision/base_link.STL",
+      "bytes": 64384,
+      "sha256": "26cce1f1584332fcd69a9e042f14b4d8f284679414677cdd4b7f639bfd908546"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/collision/llink1.STL",
+      "bytes": 35684,
+      "sha256": "6d6899fd573b26522bdf2412392919cde9dc2ffae5bedef94f6d216b98b30698"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/collision/llink2.STL",
+      "bytes": 570984,
+      "sha256": "7e7d22de263c8f6ada259bea772d3deb9f63dd1f8cbaebf14f9d21952ddffc48"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/collision/llink3.STL",
+      "bytes": 1076284,
+      "sha256": "553fd390ae66a4fffc3e4575b417b09f5439c5cfc74a4ca2fd39567397d18ef2"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/collision/rlink1.STL",
+      "bytes": 953484,
+      "sha256": "5472f8d2d70f351a0025022f578195abeffe57da7147de246c0476e0dae6eef1"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/collision/rlink2.STL",
+      "bytes": 570984,
+      "sha256": "759b4f17afb6cb4c3d32e457fdcce9b4eb0283ff811a67c50532d5bb84132e5a"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/collision/rlink3.STL",
+      "bytes": 1076284,
+      "sha256": "6bb55af47bd1d93a33fa67c7928ee7e7bb2c0676307cfdabdb1b464d66e4ca7c"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/visual/arm_link1.STL",
+      "bytes": 7794384,
+      "sha256": "e7c704d8c0c60a969e51b1d7e115afa96b90e4750a29d555e2a990d6e4c586c2"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/visual/arm_link2.STL",
+      "bytes": 10340584,
+      "sha256": "6cf0df0d864429dc27cbd820ee32c46eb28bf0412ed761489c07b37139bb7b71"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/visual/arm_link3.STL",
+      "bytes": 10340584,
+      "sha256": "fb866f74a2cb0d943aec448e7b07e2865e444c59e1a0dcc82e3f330bb7ab42b5"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/visual/arm_link4.STL",
+      "bytes": 12873084,
+      "sha256": "69f3b9f4e734635322677d170a19b128ec338be2d6d5d0a57a3441479e2cf91f"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/visual/arm_link5.STL",
+      "bytes": 4804884,
+      "sha256": "937680cb00a88a42b3c870dd61a12dace8a0de0c839c27718558d4a9cc854004"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/visual/base_link.STL",
+      "bytes": 28378134,
+      "sha256": "516152c19433203b6d7f5aa827d128f0c878a7ef2b607b437c882510286e1b4d"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/visual/llink1.STL",
+      "bytes": 35684,
+      "sha256": "aae446896d63af0155af8dd8e21a5ec141c25cf2059d989ed5ac9517cc37637a"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/visual/llink2.STL",
+      "bytes": 812584,
+      "sha256": "6dec74ab18c69c1d5678b11a9ff2103bfa0a260eaada0a16bf46cf01dfce6d2d"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/visual/llink3.STL",
+      "bytes": 834684,
+      "sha256": "3555f40e4765d91ae401d553019fabba5ade5f63f0ccdb1a24b0a4a389727910"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/visual/rlink1.STL",
+      "bytes": 953484,
+      "sha256": "ccbc52adcd9b782ca7942e0ef6191b561a847d8f2d84f812b4a38ab8ee0dd3c8"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/visual/rlink2.STL",
+      "bytes": 570984,
+      "sha256": "b1d1cfd7748597cb555c2ccdb1809ab4e5f4b015658c64f59b7e1d9f894dd6f5"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/X3plus/visual/rlink3.STL",
+      "bytes": 1076284,
+      "sha256": "69b390aaffb06de820137bfb7ef72c9168e6f6272953e7367ad59b5620997c0c"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/sensor/collision/camera_link.STL",
+      "bytes": 267684,
+      "sha256": "781f6a050babd7e4f1dc0fa4bf6b680f3240932feaaa5beee7e0348d3ad80706"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/sensor/collision/laser_link.STL",
+      "bytes": 18284,
+      "sha256": "fb68b24a564f8544aefeb6af0ba6e5e1231dbe6a9d44765ad888e3e8e1fb2015"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/sensor/collision/mono_link.STL",
+      "bytes": 3675184,
+      "sha256": "9d77c4158c9952640da2ab52ffa599af5b3677e46f73982b3da0177ee47fd1aa"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/sensor/visual/camera_link.STL",
+      "bytes": 267684,
+      "sha256": "781f6a050babd7e4f1dc0fa4bf6b680f3240932feaaa5beee7e0348d3ad80706"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/sensor/visual/laser_link.STL",
+      "bytes": 7727534,
+      "sha256": "b6b95e88b299ff2ba573c7be8def07b64ce91e05b8331df2919bc8077c244405"
+    },
+    {
+      "path": "src/yahboomcar_description/meshes/sensor/visual/mono_link.STL",
+      "bytes": 3675184,
+      "sha256": "9d77c4158c9952640da2ab52ffa599af5b3677e46f73982b3da0177ee47fd1aa"
+    },
+    {
+      "path": "src/yahboomcar_description/package.xml",
+      "bytes": 796,
+      "sha256": "37b08540c2ced39df0859978bc37890cb8a5d2266ea7b8911e9e9f13022ef8fc"
+    },
+    {
+      "path": "src/yahboomcar_description/rviz/yahboomcar.rviz",
+      "bytes": 8470,
+      "sha256": "9694d527ccd8f621eefdc11068efe135abd120783d8416fddfb5ad8e54bb4e68"
+    },
+    {
+      "path": "src/yahboomcar_description/rviz/yahboomcar_ros2.rviz",
+      "bytes": 2404,
+      "sha256": "f04c7fec348d76f24dc871b61d2074a566d4a6872239dd3d3ceb2d5b0f5145b1"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/bak/yahboomcar_X3.gazebo.xacro",
+      "bytes": 2153,
+      "sha256": "6540e822c8910c83b19f1d7d42ae9aa8017e52158cac7c37b930e8c2244c9b50"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/bak/yahboomcar_X3.urdf",
+      "bytes": 9277,
+      "sha256": "9d8b7a7373308f1ca7aadd745c2e4a1d585211e0c650ff151d241d675c96feb6"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/bak/yahboomcar_X3.urdf.xacro",
+      "bytes": 6310,
+      "sha256": "9a71c8107840869cd32404b3d8befc730960a7efcfb4c362a64f6a806b9a288d"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/bak/yahboomcar_X3plus.gazebo.xacro",
+      "bytes": 886,
+      "sha256": "3e56ca8efa0086ecc23547abb43a32f9b038eaa525bb9ed3e752545d3861733f"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/bak/yahboomcar_X3plus.urdf",
+      "bytes": 19910,
+      "sha256": "17c7c8fac92774f0d0cd093fb7500704d3b5149998cb8b60c958f5352646919c"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/bak/yahboomcar_X3plus.urdf.bak",
+      "bytes": 19867,
+      "sha256": "a70bf7173d384363abe6283780f7b050e674c342736309c5059ea466a025b69e"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/bak/yahboomcar_X3plus.urdf.xacro.1",
+      "bytes": 12128,
+      "sha256": "7bb56fb4cb7897c3b2709a28424786c0d7843cc2f1471aeee6b3663aaead68fa"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/bak/yahboomcar_X3plus.urdf.xacro.bak",
+      "bytes": 12128,
+      "sha256": "7bb56fb4cb7897c3b2709a28424786c0d7843cc2f1471aeee6b3663aaead68fa"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/sensors/camera.xacro",
+      "bytes": 2114,
+      "sha256": "9b43ab0426ca6e00eebc329a52ec8a57ea9abdfaf89b09126c9e8893c6fd8b46"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/sensors/imu.xacro",
+      "bytes": 1098,
+      "sha256": "4fb4d287071badaecf4ab20ec1d53ccf6525bed997257596262186b5ce522c75"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/sensors/lidar.xacro",
+      "bytes": 1369,
+      "sha256": "15d296602e7a4e8a72035cfb21d0dc69d8ad00132bd1cb954eed344f0efe0f10"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/sensors copy/camera.xacro",
+      "bytes": 1640,
+      "sha256": "0c74870acfac3c9389110a16279495de0a609cd013b22134e04cf9351d45ad17"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/sensors copy/imu.xacro",
+      "bytes": 1098,
+      "sha256": "4fb4d287071badaecf4ab20ec1d53ccf6525bed997257596262186b5ce522c75"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/sensors copy/lidar.xacro",
+      "bytes": 1369,
+      "sha256": "15d296602e7a4e8a72035cfb21d0dc69d8ad00132bd1cb954eed344f0efe0f10"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/yahboomcar_X3.gazebo.urdf.xacro",
+      "bytes": 9421,
+      "sha256": "59b2bda6eb24e93588e20d9f6055515e089fca16dacf3ffcc7891140dc0da10c"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/yahboomcar_X3.gazebo.xacro",
+      "bytes": 6602,
+      "sha256": "9b80c804cc043b10cba794f306744eb3d1eae64403981f0b4a7c60e56ab79633"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/yahboomcar_X3.urdf",
+      "bytes": 9288,
+      "sha256": "5bb8a6e1c3a3c0ab182c8e720c47c077df5c7aaf6d5db807e31edd0a464699e1"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/yahboomcar_X3.urdf.xacro",
+      "bytes": 9421,
+      "sha256": "59b2bda6eb24e93588e20d9f6055515e089fca16dacf3ffcc7891140dc0da10c"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/yahboomcar_X3plus.gazebo.urdf.xacro",
+      "bytes": 20044,
+      "sha256": "4ef787b66cc0378055d610963c685fc76fc88a461a692e3dc7348365c26968fe"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/yahboomcar_X3plus.gazebo.xacro",
+      "bytes": 7399,
+      "sha256": "d5a15402901b49bea2027cb29ccbd1fea954589aa86c5649630c8ac09ef57477"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/yahboomcar_X3plus.urdf",
+      "bytes": 19910,
+      "sha256": "17c7c8fac92774f0d0cd093fb7500704d3b5149998cb8b60c958f5352646919c"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/yahboomcar_X3plus.urdf.xacro",
+      "bytes": 12134,
+      "sha256": "f9340c461cd5d28d033c65566223ee46282e81364048edc4772a5bb52616a231"
+    },
+    {
+      "path": "src/yahboomcar_description/urdf/yahboomcar_X3plus.urdf.xacro_bk",
+      "bytes": 20513,
+      "sha256": "92dd74824f4b18c20307f4450bcac15e1a0706ada07e00bbdaae2485174beb36"
+    },
+    {
+      "path": "src/yahboomcar_laser/MIGRATION.md",
+      "bytes": 717,
+      "sha256": "f89136fb1e4a3b7aca21a31028a2bce84d4b15870ca4c90fc5e4209287fc6271"
+    },
+    {
+      "path": "src/yahboomcar_laser/config/laser_avoidance.yaml",
+      "bytes": 509,
+      "sha256": "b946c41f8d0266082704c9d1f11a2d91b2621829c3bca32582e46911183eb79b"
+    },
+    {
+      "path": "src/yahboomcar_laser/config/laser_tracker.yaml",
+      "bytes": 464,
+      "sha256": "13aa8cd8eee5089000d6564a41039ac5b39063c4acc1f96b99fa8c21e579390d"
+    },
+    {
+      "path": "src/yahboomcar_laser/config/laser_warning.yaml",
+      "bytes": 368,
+      "sha256": "83b0b11505f2f97ea5d3dffb7026a90ee37ab23ed1ad01ac1219537d29a75caf"
+    },
+    {
+      "path": "src/yahboomcar_laser/launch/laser_avoidance.launch.py",
+      "bytes": 5210,
+      "sha256": "0d4ed7af8f91b22ebea086106e742f36ac506c5a80a5f0a6a4d605ad72ceeaff"
+    },
+    {
+      "path": "src/yahboomcar_laser/launch/laser_tracker.launch.py",
+      "bytes": 5587,
+      "sha256": "cdbacbbe92c5897d8147ae63677a69cbb07e8177ed1379398aa078fd5aa29a2e"
+    },
+    {
+      "path": "src/yahboomcar_laser/launch/laser_warning.launch.py",
+      "bytes": 5585,
+      "sha256": "127eddf0670d57f9980ea6348e254c451957d559aa577978c4add768cfc97e08"
+    },
+    {
+      "path": "src/yahboomcar_laser/launch/lidar.launch.py",
+      "bytes": 6567,
+      "sha256": "c25da71295872a86636fcfe31728ce4e2b192c4d7206f16a02dedc57505296b0"
+    },
+    {
+      "path": "src/yahboomcar_laser/package.xml",
+      "bytes": 851,
+      "sha256": "941f6195f77481476906a07f6cfbe4e5a6a56cd27bc84da587da1820d1ef5b16"
+    },
+    {
+      "path": "src/yahboomcar_laser/resource/yahboomcar_laser",
+      "bytes": 17,
+      "sha256": "a66b8d5db348f891dda59455bc879cc0431cc874ac7b1412886c19c262904ea6"
+    },
+    {
+      "path": "src/yahboomcar_laser/setup.cfg",
+      "bytes": 101,
+      "sha256": "1cdb3b6bd1039924b6e46d81b058483c471910fdf5b59475c7a95a7af38748d1"
+    },
+    {
+      "path": "src/yahboomcar_laser/setup.py",
+      "bytes": 1232,
+      "sha256": "f135432592c5c0fc4bb581018c5619f8999a6f6c07f1e19e110ee1315045c708"
+    },
+    {
+      "path": "src/yahboomcar_laser/test/test_core_algorithms.py",
+      "bytes": 10458,
+      "sha256": "694055203dac1110fd99412aa82091fde8883a82a99a6b0ef0d653d799cfcb5e"
+    },
+    {
+      "path": "src/yahboomcar_laser/test/test_scan_core.py",
+      "bytes": 4026,
+      "sha256": "84949734f266e65316845bbe06c2eb90275197ca65f03b5e39e54688a4e42e1d"
+    },
+    {
+      "path": "src/yahboomcar_laser/yahboomcar_laser/__init__.py",
+      "bytes": 99,
+      "sha256": "b87b22d4f4e3e507a5f15cec0dc757d717631ffa45bcbbf3e79f222c3a49d192"
+    },
+    {
+      "path": "src/yahboomcar_laser/yahboomcar_laser/core.py",
+      "bytes": 18531,
+      "sha256": "1a271886bf03477688e9954852563e9c5c193b73309453e86174ab2b5a53116a"
+    },
+    {
+      "path": "src/yahboomcar_laser/yahboomcar_laser/laser_avoidance.py",
+      "bytes": 8187,
+      "sha256": "cb42b8057aa8ad19929d0fb6f3fe68fb8fd3db35d2f7a700dd36e625300cb751"
+    },
+    {
+      "path": "src/yahboomcar_laser/yahboomcar_laser/laser_tracker.py",
+      "bytes": 9000,
+      "sha256": "ee50cbc44fdbece337da1741a0f45399402f1384519518db6d1df82a386eed62"
+    },
+    {
+      "path": "src/yahboomcar_laser/yahboomcar_laser/laser_warning.py",
+      "bytes": 6010,
+      "sha256": "611d240d26fde8c8cdbdf09ac08758ec0dcc0912fbf3bae02f5b9296ac3f532c"
+    },
+    {
+      "path": "src/yahboomcar_laser/yahboomcar_laser/ros_common.py",
+      "bytes": 15330,
+      "sha256": "4f7a475e8541017e55ae42db917eff95b1178cf7c6d865f87daba699517fab86"
+    },
+    {
+      "path": "src/yahboomcar_linefollw/MIGRATION.md",
+      "bytes": 721,
+      "sha256": "16ca19f8f51cb01474f96133b71051be939eab47ae12fa87a38046036702f21f"
+    },
+    {
+      "path": "src/yahboomcar_linefollw/README.md",
+      "bytes": 3132,
+      "sha256": "322111edac281627309ad661b757e117bd3a3a0e9c3e5cb98085c84d1ab5b98e"
+    },
+    {
+      "path": "src/yahboomcar_linefollw/config/defaults.yaml",
+      "bytes": 1014,
+      "sha256": "6c4d255d335419a2bf272f97b5a1f8919bf050e5ddef7e42d10c2a5d724da985"
+    },
+    {
+      "path": "src/yahboomcar_linefollw/launch/follow_line.launch.py",
+      "bytes": 2770,
+      "sha256": "d62988abf6d0e15fd5a1ccdfcaec17e35a005864da40ee20b9397af7e6997ff4"
+    },
+    {
+      "path": "src/yahboomcar_linefollw/launch/line.launch.py",
+      "bytes": 1517,
+      "sha256": "07ad1207ed3d392d52b499e19cd33a0b7c0f4aeb444c103f76de3bff1a0cb12b"
+    },
+    {
+      "path": "src/yahboomcar_linefollw/package.xml",
+      "bytes": 1210,
+      "sha256": "ff7ace33a3c28cc52e56485aa47270a6a94b256e0e805b94356b638ab2f729fb"
+    },
+    {
+      "path": "src/yahboomcar_linefollw/resource/yahboomcar_linefollw",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/yahboomcar_linefollw/setup.cfg",
+      "bytes": 109,
+      "sha256": "505d6d9956ada8fc9021817c8a9c42888fb11201d324f65bd447a69f69b0eb0e"
+    },
+    {
+      "path": "src/yahboomcar_linefollw/setup.py",
+      "bytes": 893,
+      "sha256": "2a2f93b881a4321738bff808e676775e071a002fd8116dcf8325c174f8642594"
+    },
+    {
+      "path": "src/yahboomcar_linefollw/test/test_algorithms.py",
+      "bytes": 3558,
+      "sha256": "2c0b7ed980aefbab6c06c6cbc942e7d6127c2336fd5c025a161d21c61ccb4403"
+    },
+    {
+      "path": "src/yahboomcar_linefollw/yahboomcar_linefollw/__init__.py",
+      "bytes": 54,
+      "sha256": "8beed70a40a9b872d402f16f7ee7d96f6adffd97edcf8040e3f9ba6c7c879388"
+    },
+    {
+      "path": "src/yahboomcar_linefollw/yahboomcar_linefollw/follow_common.py",
+      "bytes": 13807,
+      "sha256": "69dc36a59bc93435a7dea32aabe86a3c3790da6deb190c84d4682d451aa67de2"
+    },
+    {
+      "path": "src/yahboomcar_linefollw/yahboomcar_linefollw/follow_line.py",
+      "bytes": 22472,
+      "sha256": "c7fb38f9075b27c90762ac38bd440f05bb3f135993c93efb7c211a0669fc488f"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/MIGRATION.md",
+      "bytes": 721,
+      "sha256": "943b39639cb523e6857c4d954f6469e62c33c300358ae5709c73bdbb6fa66d10"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/README.md",
+      "bytes": 2850,
+      "sha256": "b31c11576cfef2d3d79eb028330c4ec38d9e12d976fc329e1d4737ea4f734718"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/config/defaults.yaml",
+      "bytes": 2618,
+      "sha256": "7cfbdf7bc3d1870002df4000da2cf70a7170841bb80b2ea9d66abf2ecf212642"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/file/haarcascade_eye.xml",
+      "bytes": 353619,
+      "sha256": "111549988ac12e0156ec4ae315d3a8cb18e37c182c3174d845bcfe4e6c88a0b3"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/file/haarcascade_frontalface_default.xml",
+      "bytes": 963441,
+      "sha256": "a71c83e9d0ffd53a00fdb3f1fd91905149d8d001e1076eabc32f2edb945f8ef3"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/file/shape_predictor_68_face_landmarks.dat",
+      "bytes": 99693937,
+      "sha256": "fbdc2cb80eb9aa7a758672cbfdda32ba6300efe9b6e6c7a299ff7e736b11b92f"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/launch/01_HandDetector.launch.py",
+      "bytes": 600,
+      "sha256": "e94e241fa22e440be4842d3d1b7dbe37ee7fd553737ba38222a1d871f4edc56d"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/launch/02_PoseDetector.launch.py",
+      "bytes": 502,
+      "sha256": "ef5e05dc4bbdae4e2d94eb4d89a09fe9874c3d561984084a56df85a6693adb9c"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/launch/03_Holistic.launch.py",
+      "bytes": 494,
+      "sha256": "530eed951cd1f82544f6006ae273fb31b50a5a7055025b9c86054361dcab2d49"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/launch/04_FaceMesh.launch.py",
+      "bytes": 494,
+      "sha256": "9b5c8202a26d6587cad184ebf348ef4ceccc07918267df9f1b451c52915c6615"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/launch/05_FaceEyeDetection.launch.py",
+      "bytes": 520,
+      "sha256": "b202928c924139205e9c3e7eee6bac6812d3fd50984569dab4ea044e979bb95b"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/launch/cloud_Viewer.launch.py",
+      "bytes": 550,
+      "sha256": "ae167db5257df47bc15060c6e951ee09c1d52d906607b9f6e1c81b3ecaeb9137"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/package.xml",
+      "bytes": 1305,
+      "sha256": "bd1455592b0534086120d4522ff178ac081da13a1240c0333fc110e8085b60e0"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/requirements-dlib.txt",
+      "bytes": 164,
+      "sha256": "4a020aac9053e51fe29a37ff38f7989aee854d6d9ddab327303688d17866c4d7"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/requirements-legacy.txt",
+      "bytes": 603,
+      "sha256": "d9ccdab2158810a3c587213194b81c8f994bc80b38307412efef72c875371261"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/resource/yahboomcar_mediapipe",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/scripts/mediapipe_offline_check.py",
+      "bytes": 17657,
+      "sha256": "0d1085a24c4e3ceb80cc308485bac37890a1d55d99a4f3e0d628fb58814cf5b5"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/setup.cfg",
+      "bytes": 110,
+      "sha256": "bbfbe105d408a35cbe8ac5d14431b9da4d71786888cbc8a1f1d7e7ec611b0cf5"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/setup.py",
+      "bytes": 1856,
+      "sha256": "c1fae64c14c3f9546b55f8a66fd7a3a423b0bb0906bbd279b1ad9982be13bae1"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/test/face_runtime.py",
+      "bytes": 7008,
+      "sha256": "5900aeb4573a900a0a71a0405ebf41ea7bf8e8508681379c8dd38cb8b9e8361f"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/test/test_algorithms.py",
+      "bytes": 2287,
+      "sha256": "3d386372ccacd1beecb8f3d0ffb9718561127dec046f1f127a4ca2aeb0e78e18"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/yahboomcar_mediapipe/__init__.py",
+      "bytes": 71,
+      "sha256": "de6ca667a1b8b6e98b69e8d1404db0ba1ddb7dcdd542aa045ef3cb7006364359"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/yahboomcar_mediapipe/detectors.py",
+      "bytes": 50474,
+      "sha256": "68fcf3470c24ccb27a132201964f950e110df449bf1af18f177f7045329defc7"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/yahboomcar_mediapipe/gesture.py",
+      "bytes": 3729,
+      "sha256": "273b583eba78723490561891c2d9961432cab43663c142aa48aec6309f0a9b69"
+    },
+    {
+      "path": "src/yahboomcar_mediapipe/yahboomcar_mediapipe/mediapipe_point.py",
+      "bytes": 5680,
+      "sha256": "27e7532b94071ad2726995a2b29a81ed31e67b73ffd1fb0bbf6798952ced457b"
+    },
+    {
+      "path": "src/yahboomcar_msgs/CMakeLists.txt",
+      "bytes": 634,
+      "sha256": "8980658dc78a383eaeabc7576c4b91e55f9b755f8382ec15a1b5979e5a75d96e"
+    },
+    {
+      "path": "src/yahboomcar_msgs/INTERFACE_MIGRATION.md",
+      "bytes": 4431,
+      "sha256": "e21e8a750583afde636f69c2e3a2633aae237d7120ecfed703c451d6343eb2d5"
+    },
+    {
+      "path": "src/yahboomcar_msgs/MIGRATION.md",
+      "bytes": 716,
+      "sha256": "3af4803978b69c3d3fd6e1866097be869de44e33afd5bfb0eaa1769a71a44940"
+    },
+    {
+      "path": "src/yahboomcar_msgs/msg/ArmJoint.msg",
+      "bytes": 55,
+      "sha256": "e02c1767ffac68353b82c21b686b164042818e6135b2ef52809b7aed1fa24b5d"
+    },
+    {
+      "path": "src/yahboomcar_msgs/msg/ImageMsg.msg",
+      "bytes": 53,
+      "sha256": "425afa33472f4ad3c0a5c70118674a55ac81bbb5218bd6fef487b27e9d4dd8c5"
+    },
+    {
+      "path": "src/yahboomcar_msgs/msg/PointArray.msg",
+      "bytes": 51,
+      "sha256": "2da1fe957d60a6ace781bcb3ee76644bca0a606ab12926e0d2e8e624469f548a"
+    },
+    {
+      "path": "src/yahboomcar_msgs/msg/Position.msg",
+      "bytes": 49,
+      "sha256": "efb7be732555e791a4506665776d39b4216c4d99d6869f7001c0cc1e7cec7e3d"
+    },
+    {
+      "path": "src/yahboomcar_msgs/msg/Target.msg",
+      "bytes": 145,
+      "sha256": "899c12d9790a008fe780895cfecc735d873a795832d20f85553e8b05b3b13fb1"
+    },
+    {
+      "path": "src/yahboomcar_msgs/msg/TargetArray.msg",
+      "bytes": 30,
+      "sha256": "114dd93bc0d557fad2aa8aeca4ab7eb807ac53d2ff6ef4db449420d01a1298f1"
+    },
+    {
+      "path": "src/yahboomcar_msgs/package.xml",
+      "bytes": 639,
+      "sha256": "26d1486c9ca9a8b9a5a39a1d87ec651b7dab947c82d47e02d016a348d61aa087"
+    },
+    {
+      "path": "src/yahboomcar_msgs/srv/Kinematics.srv",
+      "bytes": 126,
+      "sha256": "d577b0c570d503f4f33f559b99e464c7e0b41658daaf94b34ef086c430dec848"
+    },
+    {
+      "path": "src/yahboomcar_msgs/srv/RobotArmArray.srv",
+      "bytes": 53,
+      "sha256": "731e3d182ad32c43c6b1024137b6cc96b015d5f9ff5ba5e94aa279bf9c6b9707"
+    },
+    {
+      "path": "src/yahboomcar_multi/MIGRATION.md",
+      "bytes": 764,
+      "sha256": "942a5e8083c39561816408f816735e6714e1f731af05982ddf07170859efffa9"
+    },
+    {
+      "path": "src/yahboomcar_multi/README.md",
+      "bytes": 1697,
+      "sha256": "5f1f0ec270226dae0cd219eb5915f6f4582accde0fbf6129afd5198a927d89f2"
+    },
+    {
+      "path": "src/yahboomcar_multi/config/defaults.yaml",
+      "bytes": 1044,
+      "sha256": "33fb971aaff40f0ece4188141627cb02434b2c302d46fe7e1269ddcab0409fc0"
+    },
+    {
+      "path": "src/yahboomcar_multi/launch/joy_multi.launch.py",
+      "bytes": 1222,
+      "sha256": "7787db15a4a6265bbea158d9b3de634229dfff7e34abf07e150e2ea7a01c6b99"
+    },
+    {
+      "path": "src/yahboomcar_multi/launch/laser_bringup_multi.launch.py",
+      "bytes": 2563,
+      "sha256": "b6c983426b4e5571c86b11dec7910676a63656eab4025d525663b9cf56998122"
+    },
+    {
+      "path": "src/yahboomcar_multi/launch/tf_queuebroad.launch.py",
+      "bytes": 2271,
+      "sha256": "5e3e269ae9e5677494b3bd862154c357f5e101f712568888f31564e578643d7b"
+    },
+    {
+      "path": "src/yahboomcar_multi/launch/tf_roundbroad.launch.py",
+      "bytes": 1517,
+      "sha256": "dd705f458167d4f20026e55f192af6a8923478a376d909a864108297f69737d1"
+    },
+    {
+      "path": "src/yahboomcar_multi/launch/yahboomcar_nav_multi.launch.py",
+      "bytes": 3396,
+      "sha256": "b5e293925f3f3425531234312083d603c12f1614800998ac646fb8300782e818"
+    },
+    {
+      "path": "src/yahboomcar_multi/package.xml",
+      "bytes": 1981,
+      "sha256": "bae0cc297df451f70c384d5383a73979a088c842e0f5a665ffe19ef80af37ffe"
+    },
+    {
+      "path": "src/yahboomcar_multi/resource/yahboomcar_multi",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/yahboomcar_multi/setup.cfg",
+      "bytes": 102,
+      "sha256": "d8019238833cfcd117db87170fdef20b0ec65b173778d3fc8f333e14657f8c84"
+    },
+    {
+      "path": "src/yahboomcar_multi/setup.py",
+      "bytes": 1024,
+      "sha256": "8182054dd78e2e2755631ba5b171aee673ef3446e50abf07c14054d1e0c3f056"
+    },
+    {
+      "path": "src/yahboomcar_multi/test/test_algorithms.py",
+      "bytes": 3617,
+      "sha256": "034c3374678d27ec57143686544dd59d0b17517d47d2f440516f4396ff6c63eb"
+    },
+    {
+      "path": "src/yahboomcar_multi/yahboomcar_multi/__init__.py",
+      "bytes": 227,
+      "sha256": "eea1acd2223d6bee06cd3225da558bb9b0da0ba832ffa1bb09759455c462063f"
+    },
+    {
+      "path": "src/yahboomcar_multi/yahboomcar_multi/broad_queue.py",
+      "bytes": 4665,
+      "sha256": "8943fb369ed260348418c437d4de199f0a2f7297d15a2fe62be284658a6a3ba4"
+    },
+    {
+      "path": "src/yahboomcar_multi/yahboomcar_multi/broad_round.py",
+      "bytes": 3253,
+      "sha256": "99cc31fccccf0d801fc8ffdb36658ca558468e6b680535394ce3e4c1db7bb0b5"
+    },
+    {
+      "path": "src/yahboomcar_multi/yahboomcar_multi/listener.py",
+      "bytes": 12056,
+      "sha256": "9e2301855f06204726af84c177689881ff8f30f7b92210122089943ec0f8e82f"
+    },
+    {
+      "path": "src/yahboomcar_multi/yahboomcar_multi/single_pid.py",
+      "bytes": 982,
+      "sha256": "594084612079797b7775ed92ef3694709ba485536f9fca40687f598dd7e180fa"
+    },
+    {
+      "path": "src/yahboomcar_nav/CMakeLists.txt",
+      "bytes": 1547,
+      "sha256": "60a1c70117f90d7d1748a03d9cb8bd850d5e826dbab16c49368c8af72075faed"
+    },
+    {
+      "path": "src/yahboomcar_nav/MIGRATION.md",
+      "bytes": 767,
+      "sha256": "4412f13a2e14b95e1ec53481e82ee3806a5d7c31b122346221d51ec2b280de75"
+    },
+    {
+      "path": "src/yahboomcar_nav/README.md",
+      "bytes": 2695,
+      "sha256": "ae6bf777614f302c6a02a69bf89de63b075c39c8c01f12364ca6cc954a969bce"
+    },
+    {
+      "path": "src/yahboomcar_nav/SOURCE_COPY_LIST.txt",
+      "bytes": 1087,
+      "sha256": "53792b4292a6c61db47171238ee6d7ddf723ea8038c03734c3687a304ad5b20c"
+    },
+    {
+      "path": "src/yahboomcar_nav/config/nav2.yaml",
+      "bytes": 10156,
+      "sha256": "aa60367f0b6e74834aee2021c98bb28595b4fd2be34e73536b70a2cc53e5ff39"
+    },
+    {
+      "path": "src/yahboomcar_nav/config/slam_toolbox.yaml",
+      "bytes": 2275,
+      "sha256": "192f95be6e8fabc0cde098ea55efe6965455b029386b24c6af7ccf26f8dac95a"
+    },
+    {
+      "path": "src/yahboomcar_nav/launch/map_saver.launch.py",
+      "bytes": 3084,
+      "sha256": "742f77ca6b01d57451d619008bd45aec21f6fd08ed914edfc3d3170474083818"
+    },
+    {
+      "path": "src/yahboomcar_nav/launch/yahboomcar_map.launch.py",
+      "bytes": 2149,
+      "sha256": "aacf1919c38d1ab41edca7220ec526d32b24b3e136047ad6059a1504d6263db7"
+    },
+    {
+      "path": "src/yahboomcar_nav/launch/yahboomcar_navigation.launch.py",
+      "bytes": 8843,
+      "sha256": "f094db1d29f96705b91db5d58c7151b48bc62532164a05bced9687fe118d665f"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/11hous22.pgm",
+      "bytes": 640052,
+      "sha256": "f0755784f79c94f4329479fdbe446d1c5849c5d25bc17d5265eb4be50201d8d0"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/11hous22.yaml",
+      "bytes": 187,
+      "sha256": "554ad9af555151653af50671c3190e64eb2088f47e91515b3137286fab2cdb46"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/11house.pgm",
+      "bytes": 640052,
+      "sha256": "3608eeaf4f6f8ccf82b1ea5b3bf78e932913f54f2da02c4e760cb5278f119871"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/11house.yaml",
+      "bytes": 179,
+      "sha256": "d68dbaba90978b3ab458d8e07d83476094c96810b26249cb928e4a51c77778b3"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/123456.pgm",
+      "bytes": 640052,
+      "sha256": "05c5d44a044d645484450f268d93ec3136aa3f6e42fb8c22d9727708a4db4d68"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/123456.yaml",
+      "bytes": 185,
+      "sha256": "ba0a52ad89c8ab2cb86c36f35c8c7645aa198bd25e2a1cc3daf3502da034aacf"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/Aaa.pgm",
+      "bytes": 640052,
+      "sha256": "83207d35555da1bb51bbdddb38933c877568e405f39d2c49040f32259eda4811"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/Aaa.yaml",
+      "bytes": 182,
+      "sha256": "48e182279fa8cc7ebf1f77d62ab23cf44c051d9b7e1a52fe4072f64bd7e0791d"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/Ana.pgm",
+      "bytes": 640052,
+      "sha256": "c1811bcc4773384dfce09485a2b0ef675c0fa9ee60825b167ebd14e901442605"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/Ana.yaml",
+      "bytes": 182,
+      "sha256": "9221054ae469beb6c9057c8259acee5fad17e3b22adbeff4a61d3897ba788d7d"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/Anacccc.pgm",
+      "bytes": 640052,
+      "sha256": "a5681a823365b83bcb7b5a7cf69798136e27a1fa9081d2d52e95e3e76f4d8e0b"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/Anacccc.yaml",
+      "bytes": 186,
+      "sha256": "efe7ace4298ba474f8ea5e4758e007b6109e5d7a113b65c02738a37272800e5e"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/Ss.pgm",
+      "bytes": 640052,
+      "sha256": "34377d507e380120bcf2e8184efa6dd6cca8722e44414293cb9d5e39e01bbe70"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/Ss.yaml",
+      "bytes": 181,
+      "sha256": "f2fc2a21b0c36d16890d864dc28da2cf197352849a37776e65515198c75ce32f"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/ansndhb.pgm",
+      "bytes": 640052,
+      "sha256": "a5681a823365b83bcb7b5a7cf69798136e27a1fa9081d2d52e95e3e76f4d8e0b"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/ansndhb.yaml",
+      "bytes": 186,
+      "sha256": "538e92d5336ea7a36f0aba03a57a1370d48be8aa0e5196278b25e3e258eeccfd"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/ansndhbzssqw.pgm",
+      "bytes": 640052,
+      "sha256": "a5681a823365b83bcb7b5a7cf69798136e27a1fa9081d2d52e95e3e76f4d8e0b"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/ansndhbzssqw.yaml",
+      "bytes": 191,
+      "sha256": "d524200bb87dd1e1a1088ad23b7e71c4d38c3b95354e28917b053c12362d5bfe"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/ansndhbzssqwsd.pgm",
+      "bytes": 640052,
+      "sha256": "a5681a823365b83bcb7b5a7cf69798136e27a1fa9081d2d52e95e3e76f4d8e0b"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/ansndhbzssqwsd.yaml",
+      "bytes": 193,
+      "sha256": "f7484bc922a66a97aa29801d469ab58f403b096dbeda5927b8a2e9847ae3b978"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/carto_map.pbstream",
+      "bytes": 15415,
+      "sha256": "2745be5c0d1e327673d6054315c8b9d81a6456271cf45198d94610e3ec8a1eda"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/carto_map.pgm",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/carto_map.sh",
+      "bytes": 566,
+      "sha256": "9e33c6a723d7a10695410b6733a1dba93e6b17a739dc4f8fab5561220e5ba7e5"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/carto_map.yaml",
+      "bytes": 174,
+      "sha256": "dfcd89375c5ef866702d1edf98623af5287e7c40a084e2f4acd7eb1733cefe44"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/house.pgm",
+      "bytes": 640052,
+      "sha256": "f0755784f79c94f4329479fdbe446d1c5849c5d25bc17d5265eb4be50201d8d0"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/house.yaml",
+      "bytes": 177,
+      "sha256": "b3bc9db2d0a3b3f50fdb6efa9f218641a429f422017da3916e031a7c470dcb0b"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/map.pgm",
+      "bytes": 23699,
+      "sha256": "c3858a2c257cf34b4356fff6244d82a1a5a7f9dacd4bbfc7673f5515db07c855"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/map.sh",
+      "bytes": 74,
+      "sha256": "3eddc18083192674b0defa13419bc0e5107d508d275944e6adb39619f025d253"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/map.yaml",
+      "bytes": 179,
+      "sha256": "086323d68da69bdf7a307b9b725144e7fb070d2dfff55931bd2c66470433405f"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/map925.pgm",
+      "bytes": 640052,
+      "sha256": "f0755784f79c94f4329479fdbe446d1c5849c5d25bc17d5265eb4be50201d8d0"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/map925.yaml",
+      "bytes": 185,
+      "sha256": "0b60cd5972e2f16d691e9ca96d688523d6c498fb6f3eef2354f6a9d16bf5991a"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/mjpg.pgm",
+      "bytes": 640052,
+      "sha256": "d29f6855213996c0dda32bfb0cc3f062e63641f79a93fd485715aa3ba103112d"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/mjpg.yaml",
+      "bytes": 183,
+      "sha256": "dc32f7165983b89b96e647b15a4dc8d87db0495a842a278d51c7d9b4fb610648"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/mjpgdeee.pgm",
+      "bytes": 640052,
+      "sha256": "4931c60ce307b7f8fe14b56d01285debbb040764bbf4d7739d656ccc7f331a73"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/mjpgdeee.yaml",
+      "bytes": 187,
+      "sha256": "f0483f38d8b19ef8fad730c99355056080726a2225fe319b9e63f0b9fd799fb6"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/mmy.pgm",
+      "bytes": 640052,
+      "sha256": "49214a0138698b288a72fc58c71c77fb82a7911d80e4c69deb0eba6e48bb9405"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/mmy.yaml",
+      "bytes": 182,
+      "sha256": "baa83084c33f01ff10df6b524ab945085adadcd8ef2695f650c624a0403fd08a"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/my12.pgm",
+      "bytes": 640052,
+      "sha256": "33229501fb21c8dee1f91a13717b40aa4098a55ccc8714c23a18b8c1734f7315"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/my12.yaml",
+      "bytes": 183,
+      "sha256": "279a64460bc2c7619d71df2384c31d7bdbdf71c1d814e81e8b3a8f1f8dd95989"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/my_map.pgm",
+      "bytes": 640052,
+      "sha256": "1ebf08b3334db0433852b20dfbf88e6b619e2de3ed80fe9f49273fda1a15a5a0"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/my_map.yaml",
+      "bytes": 178,
+      "sha256": "3c06d816d6cbb83f62403a45cbca033734816165e219d84b91e48fc9410804cb"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/rrt_map.pgm",
+      "bytes": 640052,
+      "sha256": "4df498fba40d74edc8ccc1958a2e7a8fedd338860878932803a747be27b3997a"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/rrt_map.yaml",
+      "bytes": 186,
+      "sha256": "b31e7bdcfc8d68f4aa951a87bbf617dfc7a60ef9f6befa1a16cd0b3917b0b8a5"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/sdddd.pgm",
+      "bytes": 640052,
+      "sha256": "a5681a823365b83bcb7b5a7cf69798136e27a1fa9081d2d52e95e3e76f4d8e0b"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/sdddd.yaml",
+      "bytes": 184,
+      "sha256": "5271e0f199140073630bedfc84e4cdf015b84ebcb14fe45b622114f7e0e23396"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/testa.pgm",
+      "bytes": 640052,
+      "sha256": "2661ab2511e8b8cc6841f394e42772cb0f6eebeb1660ba5f2c5fa9d5f70d74f2"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/testa.yaml",
+      "bytes": 184,
+      "sha256": "cc6bcf7736afb7f2222e3e5375b8e32106ad3a2418b634fc80068708ab241354"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/white.pgm",
+      "bytes": 1601,
+      "sha256": "ce43991cc3ff22ea9f4d4bd158ae57b75a0e6913ca052d6359cb64ad1242726b"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/wweerff.pgm",
+      "bytes": 640052,
+      "sha256": "a5681a823365b83bcb7b5a7cf69798136e27a1fa9081d2d52e95e3e76f4d8e0b"
+    },
+    {
+      "path": "src/yahboomcar_nav/maps/wweerff.yaml",
+      "bytes": 186,
+      "sha256": "67981700b5ecfc4ce5f1cce6cc819fd05e75e5b7cf7da184ec911745f9fe4da2"
+    },
+    {
+      "path": "src/yahboomcar_nav/package.xml",
+      "bytes": 1840,
+      "sha256": "a9fa7bc76f8743234cbf3e546830514daf695138d293d84aba3e64d62c02ae2d"
+    },
+    {
+      "path": "src/yahboomcar_nav/rviz/navigation.rviz",
+      "bytes": 2241,
+      "sha256": "1cb63cb2c7412e3494a8b5d32becb99f05ad72ad928b79930a009c69cd34e41d"
+    },
+    {
+      "path": "src/yahboomcar_nav/scripts/map_paths.py",
+      "bytes": 2154,
+      "sha256": "930357d7425e339c0e6834121ed8ba62a3d4d55478a42c561aaf4738c75ebad6"
+    },
+    {
+      "path": "src/yahboomcar_nav/scripts/nav2_map_save_check.py",
+      "bytes": 13146,
+      "sha256": "c7fa937893224a522dd432a64c534b227d2be82e8e473c34559115468d55fca8"
+    },
+    {
+      "path": "src/yahboomcar_nav/scripts/nav2_offline_check.py",
+      "bytes": 28135,
+      "sha256": "a71183917790bb56c4c60942c913432515b13a9d614c4f0c934bbf84a8078a8d"
+    },
+    {
+      "path": "src/yahboomcar_nav/scripts/rrt_save_map.py",
+      "bytes": 11635,
+      "sha256": "df7a2498f36e66100e03b78ffaafe9b22655075d8d8b03d1d1d8135efe2a8224"
+    },
+    {
+      "path": "src/yahboomcar_nav/scripts/save_map_once.py",
+      "bytes": 5698,
+      "sha256": "69f03092f418f05124c9657ff6f99a459e9e9580977c45544326dc478962dcb0"
+    },
+    {
+      "path": "src/yahboomcar_nav/scripts/scan_dilute.py",
+      "bytes": 2687,
+      "sha256": "e95c487d25f9e30b9fe001ef8af8dfddfee1a57ee5266e5e0abb18ff62d74c44"
+    },
+    {
+      "path": "src/yahboomcar_nav/scripts/scan_dilute_lib.py",
+      "bytes": 3288,
+      "sha256": "9696204f754cb892bae096d418928f45fe20ebf4203d2cb6d933da0e8a801607"
+    },
+    {
+      "path": "src/yahboomcar_nav/scripts/send_mark.py",
+      "bytes": 9999,
+      "sha256": "73b20f2184e87f00862e7bdc98b831417787a09ec778e70878c4da6da70100ab"
+    },
+    {
+      "path": "src/yahboomcar_nav/scripts/slam_toolbox_offline_check.py",
+      "bytes": 9987,
+      "sha256": "621a7f9b8ecac95de08cdf58e7dbcb8071d677e4f8a54fce63ea0920df2a8a7f"
+    },
+    {
+      "path": "src/yahboomcar_nav/scripts/velocity_output.py",
+      "bytes": 3451,
+      "sha256": "3b86260b55f865f07a3571101be29c3daa00ad13242e562b0da9fc240d7adf62"
+    },
+    {
+      "path": "src/yahboomcar_nav/test/test_map_paths.py",
+      "bytes": 2890,
+      "sha256": "1ffd9022343975c17f38754392cc62fef7a910986cca2264e9cf2d3eb11d1188"
+    },
+    {
+      "path": "src/yahboomcar_nav/test/test_scan_dilute.py",
+      "bytes": 5213,
+      "sha256": "e1d00c11527a9966153c15942fe539fea2d010458607042c550477eb0bcf2aca"
+    },
+    {
+      "path": "src/yahboomcar_slam/CMakeLists.txt",
+      "bytes": 5101,
+      "sha256": "14e459902e09221de1899c2df5345623bf8dfc4779cc79d2c50706f273842412"
+    },
+    {
+      "path": "src/yahboomcar_slam/MIGRATION.md",
+      "bytes": 850,
+      "sha256": "35ce5b22a908446d89a565d84e98540ab4404f7dab5419a2cde34509c83543f1"
+    },
+    {
+      "path": "src/yahboomcar_slam/README.md",
+      "bytes": 2436,
+      "sha256": "5b7595af293251fd9dee5c009061bf344973d41d6786c94caa4784275cc80e2a"
+    },
+    {
+      "path": "src/yahboomcar_slam/config/mapping.yaml",
+      "bytes": 763,
+      "sha256": "ccd8de38173f9f9d47b803c3dcf8cbd5696ca067357bc4ced277684b3c5c29f8"
+    },
+    {
+      "path": "src/yahboomcar_slam/include/yahboomcar_slam/PCLMapper.h",
+      "bytes": 5054,
+      "sha256": "eb478a0bfe9de553e06255d90fde770e4d4efc9577a4e50c5168d5e84d1cbbb6"
+    },
+    {
+      "path": "src/yahboomcar_slam/launch/camera_driver.launch.py",
+      "bytes": 1038,
+      "sha256": "5515fc7cf986dba58d4ae64e9a76a0010c4fa2323d241fecf7fa04b5e396cdd7"
+    },
+    {
+      "path": "src/yahboomcar_slam/launch/camera_orb_slam.launch.py",
+      "bytes": 2480,
+      "sha256": "15b9233cfa7cb771ae43adf140fb4752838b9453351bc04e29248d866dfd1d98"
+    },
+    {
+      "path": "src/yahboomcar_slam/launch/robot_orb_octomap.launch.py",
+      "bytes": 2047,
+      "sha256": "5fc7f8c4e9984b4b5b839f1c3c203820d2f170f40d000de3734d0a9fcb69bb07"
+    },
+    {
+      "path": "src/yahboomcar_slam/launch/robot_orb_slam.launch.py",
+      "bytes": 2520,
+      "sha256": "3e5a8bab4cd0fe1e4e4e948bfe8e40cfa0df6687da182f710645be6d048620da"
+    },
+    {
+      "path": "src/yahboomcar_slam/launch/test_orb_slam.launch.py",
+      "bytes": 1451,
+      "sha256": "a5470607987c5d0f4fbb41792d28abf619a4bde8095dc40f1e3ed1d332832b0b"
+    },
+    {
+      "path": "src/yahboomcar_slam/launch/test_pcl_mapping.launch.py",
+      "bytes": 1382,
+      "sha256": "22cac1ac84e8c1d46d7e15eb6c413eb4e050855a22cd4257f442446b18cce028"
+    },
+    {
+      "path": "src/yahboomcar_slam/launch/view_orb_octomap.launch.py",
+      "bytes": 603,
+      "sha256": "9800a92c036d0a2b40ff9995ebf1ecfe0a2126744cca89905efc650e6e466f92"
+    },
+    {
+      "path": "src/yahboomcar_slam/package.xml",
+      "bytes": 1210,
+      "sha256": "a5b44009af07f1cfeafe0b7ca1f14390894cb38c2640ca154d80c323aa7f404d"
+    },
+    {
+      "path": "src/yahboomcar_slam/param/astra.yaml",
+      "bytes": 2192,
+      "sha256": "c1ab760a33ebf721fac21fdbbc77acbc9c887e57eca8db689b2e56891fed6654"
+    },
+    {
+      "path": "src/yahboomcar_slam/param/astra1.0.yaml",
+      "bytes": 2189,
+      "sha256": "d8d55ea5bac17a93e65813c87dfcd7f6636fa3e5ff4e0fc92c1a11443e082b61"
+    },
+    {
+      "path": "src/yahboomcar_slam/rviz/orb_octomap.rviz",
+      "bytes": 11068,
+      "sha256": "a64b716e0f48abd9fa260996685129549542de55ea8b170f96ecf0f6c5136348"
+    },
+    {
+      "path": "src/yahboomcar_slam/scripts/associate.py",
+      "bytes": 2342,
+      "sha256": "28967812128daa09b3afb518f02bd5202ad9e1fb7096e7a4996de262772a64c2"
+    },
+    {
+      "path": "src/yahboomcar_slam/scripts/perception_mapper_check.py",
+      "bytes": 25384,
+      "sha256": "67b6556610728a04194fed22810e9cb485f4447d6a8e5b03df04af4d702d9a52"
+    },
+    {
+      "path": "src/yahboomcar_slam/src/PCLMapper.cpp",
+      "bytes": 13615,
+      "sha256": "0b7b8e0757d66382eb66dfbee0674b624c4346fac762965294593bd543c43aec"
+    },
+    {
+      "path": "src/yahboomcar_slam/src/orb_slam2_ros2.cpp",
+      "bytes": 8581,
+      "sha256": "dc52d7a59466067de1223f4e11c67fe1dec3fb883cbf762b3f492e14f937c2c1"
+    },
+    {
+      "path": "src/yahboomcar_slam/src/pointcloud_mapping.cpp",
+      "bytes": 2711,
+      "sha256": "680f602ef27150fb4e4ffd23ce23afc2c4a83365c83fc3bcbea907982ca28a5f"
+    },
+    {
+      "path": "src/yahboomcar_visual/AR/astra.yaml",
+      "bytes": 724,
+      "sha256": "da830a7e87f0bd76c3a8e4a14db9d30fad71340acf5b3ad2c2f1cd8745f9dce9"
+    },
+    {
+      "path": "src/yahboomcar_visual/CMakeLists.txt",
+      "bytes": 3935,
+      "sha256": "9e5db3cbd3bf3d6375d8a9177186e8a3aa8c9dcf9a1337ba4837c5631415689c"
+    },
+    {
+      "path": "src/yahboomcar_visual/MIGRATION.md",
+      "bytes": 739,
+      "sha256": "e293610720814e2aa911751d72b1b38f39c07eb36ae76823a9c74dfbb62ff01b"
+    },
+    {
+      "path": "src/yahboomcar_visual/README.md",
+      "bytes": 1441,
+      "sha256": "92db7f414cb7dd40b7ead456acb34271d04b32364b709f204298f8882b8ce2ef"
+    },
+    {
+      "path": "src/yahboomcar_visual/config/defaults.yaml",
+      "bytes": 1238,
+      "sha256": "16a73bde38dad4023711cdc3a53347f1c23ad55cab2b6631e82f4ea5d9a8bdfb"
+    },
+    {
+      "path": "src/yahboomcar_visual/detection/Detection.jpg",
+      "bytes": 149480,
+      "sha256": "784b37992d7dd126722ac715130c6aa852e63f919c7c27eeb8b579f03e0e19a1"
+    },
+    {
+      "path": "src/yahboomcar_visual/detection/OpenPose.pdf",
+      "bytes": 1413120,
+      "sha256": "0bbd70c229aa2ec41a2fdd03f4667bb244cc2505bf1e6d38204946057bcdea3b"
+    },
+    {
+      "path": "src/yahboomcar_visual/detection/frozen_inference_graph.pb",
+      "bytes": 69688296,
+      "sha256": "2a8d8a89d695842e60d8c6d144181100555563e21acf2fa1e8f561fec5c3c6ad"
+    },
+    {
+      "path": "src/yahboomcar_visual/detection/graph_opt.pb",
+      "bytes": 7804434,
+      "sha256": "51f84ea82b3d0143dd4cf362e018c125e832c64771908ee8766fbd8b0328008d"
+    },
+    {
+      "path": "src/yahboomcar_visual/detection/object_detection_coco.txt",
+      "bytes": 782,
+      "sha256": "81a6bc9188b372453b59003d96d4031590e376403ec704848003d8bd09dfd189"
+    },
+    {
+      "path": "src/yahboomcar_visual/detection/person.jpg",
+      "bytes": 24563,
+      "sha256": "ab8390501f754c83eaac1cde7d92c18e595be406ecef12755985e6038e0d9385"
+    },
+    {
+      "path": "src/yahboomcar_visual/detection/result.jpg",
+      "bytes": 57741,
+      "sha256": "f787d140b74db80634fb2f02232a8ee1553d9e2cf36375170ba01427c44b614e"
+    },
+    {
+      "path": "src/yahboomcar_visual/detection/ssd_mobilenet_v2_coco.txt",
+      "bytes": 114417,
+      "sha256": "3f00a1bd34e412f303fb25818870fbfe0bf15d5605e0ebc401424ad76f6b081d"
+    },
+    {
+      "path": "src/yahboomcar_visual/launch/ar_track.launch.py",
+      "bytes": 2268,
+      "sha256": "eac6d37cdee19133f38bba657062c7e7cdce1c362d302ce0b6cb27418f119159"
+    },
+    {
+      "path": "src/yahboomcar_visual/launch/astra_calibration.launch.py",
+      "bytes": 1409,
+      "sha256": "2f0fe988cbeda9cf464d84dd3495b0e8a0acaeaf9367d0cf1dd944335b8f9c0c"
+    },
+    {
+      "path": "src/yahboomcar_visual/launch/astra_get_depth.launch.py",
+      "bytes": 1695,
+      "sha256": "ce91e072906c182cb330a4fc48bf8e76d6cf7cd88b82322b6d32a7a45733f19c"
+    },
+    {
+      "path": "src/yahboomcar_visual/launch/astra_get_rgb.launch.py",
+      "bytes": 1600,
+      "sha256": "a81aef0b69ca2a613faaa36c00c4f9805806176d67395374a2ef009e4a7e80ef"
+    },
+    {
+      "path": "src/yahboomcar_visual/launch/astra_image_flip.launch.py",
+      "bytes": 1201,
+      "sha256": "8d099d461a995e48408069f587e2bd85a053dae89fe2751397ba32883c7510d7"
+    },
+    {
+      "path": "src/yahboomcar_visual/launch/laser_to_image.launch.py",
+      "bytes": 1332,
+      "sha256": "62d4e07a702766ca040078d26af33d279693cea3399cbe280da10c53d29d18c4"
+    },
+    {
+      "path": "src/yahboomcar_visual/launch/opencv_apps.launch.py",
+      "bytes": 1384,
+      "sha256": "851f80dc0141d3e23bf2e59a034e83f0cf57dcaa0e8372efd851c1452f6dc24d"
+    },
+    {
+      "path": "src/yahboomcar_visual/launch/pointCloud_pub.launch.py",
+      "bytes": 723,
+      "sha256": "8614b033c39f5e518a8b4191673c633f53c3b0b013d0be65861f752ba4597d97"
+    },
+    {
+      "path": "src/yahboomcar_visual/launch/pointCloud_visualize.launch.py",
+      "bytes": 626,
+      "sha256": "da7eaae63a4a67b0ba0b83fa99d4d985817093cff87473f90563977e83233a39"
+    },
+    {
+      "path": "src/yahboomcar_visual/launch/simple_AR.launch.py",
+      "bytes": 1173,
+      "sha256": "2d44109e33ce575847f3de7d826d0ab573325bf9cbb1f95015c1199f26d8adde"
+    },
+    {
+      "path": "src/yahboomcar_visual/package.xml",
+      "bytes": 1420,
+      "sha256": "e63c039361d3209277445d4d24c6be53d09b64d036475d7e0bf0574ab1950b9b"
+    },
+    {
+      "path": "src/yahboomcar_visual/scripts/perception_dnn_check.py",
+      "bytes": 19276,
+      "sha256": "a1c506ea84128743b0820937d4292b00fd6098508bca258041a177d89e967af4"
+    },
+    {
+      "path": "src/yahboomcar_visual/scripts/perception_native_check.py",
+      "bytes": 15734,
+      "sha256": "7917eb2c78114d2589ced165e89913f4bbdb4123026093e67de0d89fe2de5928"
+    },
+    {
+      "path": "src/yahboomcar_visual/scripts/visual_node.py",
+      "bytes": 2092,
+      "sha256": "46665f26e5d2734f48f3f0416deb15fbac622beee60cc527f9826ef3341deb4c"
+    },
+    {
+      "path": "src/yahboomcar_visual/simple_qrcode/myQRcode.jpg",
+      "bytes": 1367,
+      "sha256": "76aa54ec87227d406b0009c40dbc692a7b758d02a3aa421cd93f906a52a7c20f"
+    },
+    {
+      "path": "src/yahboomcar_visual/simple_qrcode/yahboom.jpg",
+      "bytes": 11030,
+      "sha256": "1f9d81aee1ee1664f6bc7dac4a32ee914a90af71a27ef15163aac5bdfe6ee180"
+    },
+    {
+      "path": "src/yahboomcar_visual/src/IR_transform.cpp",
+      "bytes": 2435,
+      "sha256": "e2a822562f0a30c7eb4d3d2f0fb8111280b869fca80b98f6b39cf494afd389f6"
+    },
+    {
+      "path": "src/yahboomcar_visual/src/astra_depth_image.cpp",
+      "bytes": 1746,
+      "sha256": "55ddb746f865731cbbc3d08aaa7d454bb87aff2a18173ba4be246190356012a8"
+    },
+    {
+      "path": "src/yahboomcar_visual/src/astra_rgb_image.cpp",
+      "bytes": 1510,
+      "sha256": "9153a2913a0f7c744ffeb3991be8dd71d2b62fd6a4329e30afd88c6635ea3a6c"
+    },
+    {
+      "path": "src/yahboomcar_visual/src/pointCloud_pub.cpp",
+      "bytes": 4755,
+      "sha256": "b8de9454f6fdb2d7eaf59357f95acb8c1af8d4efc5bfb16088e923f6f45b5d59"
+    },
+    {
+      "path": "src/yahboomcar_visual/src/pointCloud_visualize.cpp",
+      "bytes": 3953,
+      "sha256": "ac9f80358d5e22cbb4f3eb77b4dfb83d9a936ddb5adff9c5fa1d3b20ac81a942"
+    },
+    {
+      "path": "src/yahboomcar_visual/test/test_algorithms.py",
+      "bytes": 2044,
+      "sha256": "b049c63e9ca1744aec95e7c2b6b3a40b442ead16219d03a8fe53dee61fa5cf7c"
+    },
+    {
+      "path": "src/yahboomcar_visual/yahboomcar_visual/__init__.py",
+      "bytes": 83,
+      "sha256": "805eb462aa8c37e084133daa27de1adc6769816b0bc654f7355c54d93270a033"
+    },
+    {
+      "path": "src/yahboomcar_visual/yahboomcar_visual/ar_tools.py",
+      "bytes": 20688,
+      "sha256": "8efc2dd91e7308c3f4987a4be87bb97a2c6c14f058d5a2fbef5c6389f24849c7"
+    },
+    {
+      "path": "src/yahboomcar_visual/yahboomcar_visual/image_nodes.py",
+      "bytes": 11566,
+      "sha256": "6ea081a3cf29107245abb1f9c08a8c30082eb6e8cb28aa7fd32a6acb50cc676f"
+    },
+    {
+      "path": "src/yahboomcar_visual/yahboomcar_visual/laser_to_image.py",
+      "bytes": 4400,
+      "sha256": "6eeb32386e693558463d7b17bd7ab0e2a93b8eadc25209648f9228b039596384"
+    },
+    {
+      "path": "src/yahboomcar_visual/yahboomcar_visual/point_tools.py",
+      "bytes": 1900,
+      "sha256": "7b13eaed2cd6fa596e2c47c41c10b5c16355174bbb8c076a459d2d0e5f11d80d"
+    },
+    {
+      "path": "src/yahboomcar_visual/yahboomcar_visual/qr_tools.py",
+      "bytes": 9728,
+      "sha256": "19e8bbbacc2982fae5cb6208f5ce4bd16133a6e5357c1fff0935d367b825400d"
+    },
+    {
+      "path": "src/yahboomcar_visual/yahboomcar_visual/target_detection.py",
+      "bytes": 15261,
+      "sha256": "791486e6b5b8d982acd3f2aae65c8e6491a64e81786da7acf89ee656c194eeae"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/MIGRATION.md",
+      "bytes": 722,
+      "sha256": "bd3d3168af4567f20ccc9e992c2211481f3f42d18223ccb4dc07a898b5719a7e"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/launch/voice.launch.py",
+      "bytes": 9478,
+      "sha256": "01c55ab15cec598c1d215415d4ce8a6247a0ee2afc2525894c534f922b45cc46"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/launch/voice_ctrl_arm.launch.py",
+      "bytes": 232,
+      "sha256": "e52ccb35df1cffc99f339c25182c524ae3f22bf6c965440109e767cb62882261"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/launch/voice_ctrl_arm_study.launch.py",
+      "bytes": 240,
+      "sha256": "b1d164b97f937d29a51bc870cdae59cf0cd4150de1638dd2e83f5b30b917c534"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/launch/voice_ctrl_colorTracker.launch.py",
+      "bytes": 251,
+      "sha256": "9dd007f04e8d093801afdf1aca032b400e948bb6c2178363cb04cdd10c1aaf63"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/launch/voice_ctrl_followline.launch.py",
+      "bytes": 240,
+      "sha256": "20aafa98694b0d3adcea575898aa4c04302e611f0a3ed5ef943e874ccec8b9a5"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/launch/voice_ctrl_takethings.launch.py",
+      "bytes": 245,
+      "sha256": "5fd9aff370f4115c6ffa822b1e4143a40155dcbc1a09013682e8d34edc66fe1e"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/launch/voice_ctrl_yahboomcar.launch.py",
+      "bytes": 240,
+      "sha256": "8491ddd08754dc28ad8cd232463b62272f8c56f99d676d5618bf88d0c68ebf00"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/launch/voice_transport_base.launch.py",
+      "bytes": 243,
+      "sha256": "7516ece4f9bcb1a2081ff047d42d4389801265898f2ed42f010aa67e9b81033a"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/package.xml",
+      "bytes": 1353,
+      "sha256": "fecaeea58a1461323053315bf82a9649cc745982e99137d63cb2d3ccbf23fe6d"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/resource/yahboomcar_voice_ctrl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/setup.cfg",
+      "bytes": 111,
+      "sha256": "900f4a32e45a739c972e084bf95e0c128af98e508b1007cc03f6fe09c7c1e041"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/setup.py",
+      "bytes": 1351,
+      "sha256": "174907146fabde7c4651e953956289bc811a19f3a66695cfb134966f8bf36c3d"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/test/test_business_logic.py",
+      "bytes": 7541,
+      "sha256": "055035e8f30756b0c0f8eb4fa2479eaff8af44f8c180a7dd2a4d0a6eb1fa96e8"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/test/voicebiz_runtime.py",
+      "bytes": 27326,
+      "sha256": "fcce3e693cc9fba8df0b6ca4e47855d3ac98031b3888a778ae1e16028a9bb00e"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/test/waypoints_runtime.py",
+      "bytes": 13136,
+      "sha256": "77364a5743dfecbfe0a6cf5ce5e0b2f250eb902e20b7309de31550bbdf3beb40"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/__init__.py",
+      "bytes": 52,
+      "sha256": "3bb8f851e09bd978a3d9f61de6af8e0d746f0e0e811c032468dc30e613839705"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/compat_launch.py",
+      "bytes": 5519,
+      "sha256": "a148e217f2da33818663563b8049e4394582d9eb6667ca68ffd42f71f7090719"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/speech_transport.py",
+      "bytes": 15323,
+      "sha256": "1f514d31f774a26f8fba56c2510684aec3f7184739b73838e1239cd0e6bd0553"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_arm.py",
+      "bytes": 32688,
+      "sha256": "f6c0ff77c5e6b5669fe34738e1101f3d07c04aad3942d28fe4fb6b5d20dc479c"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_arm_study.py",
+      "bytes": 34785,
+      "sha256": "28361cc25ce026c4eaf79a019d1758610b423d664af93c5eeb6c22358bc9ffa3"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_base.py",
+      "bytes": 17733,
+      "sha256": "5f36336c03a19134fd11e4e4620d415f37efe0948f349fac72fa0388168363ad"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_business.py",
+      "bytes": 48272,
+      "sha256": "844147e4f8ac89cd7cc34af7852afd0a4a3e98394b9eda74c159400de01b9b03"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_color_identify.py",
+      "bytes": 12564,
+      "sha256": "d47bc83b8cb24d6b22787ef7c81a3c049b7e8c63deb4229202e2546d1df049e8"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_color_tracker.py",
+      "bytes": 16024,
+      "sha256": "6bf3543d661be9a62d6bac4f926228e003a5d065b9da2228114e5a9c1aa08d0a"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_line.py",
+      "bytes": 4985,
+      "sha256": "85b3d384dcd58cf985b304785fb6e45a28df93a5f939321c166505f5a9c9da39"
+    },
+    {
+      "path": "src/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_waypoints.py",
+      "bytes": 21122,
+      "sha256": "c1d57d484d71d055e619fe35a72a5988a4a96f695bcab306c7557bacc5daf441"
+    },
+    {
+      "path": "tests/coverage/README.md",
+      "bytes": 1075,
+      "sha256": "d2a1f53f4821ea2279d870ecdc651ca53951ffcb0fae15b36dd7f7f24f5b4458"
+    },
+    {
+      "path": "tests/coverage/arms_models.json",
+      "bytes": 14370,
+      "sha256": "769864517a9d9b0683d94e16cb22124a223ec880c4360f1764fafc587aa2afb2"
+    },
+    {
+      "path": "tests/coverage/controls.json",
+      "bytes": 17435,
+      "sha256": "f9593c1c0db8e338a14eec120d2faad443bb57ca7730e09425d21f97062dae0a"
+    },
+    {
+      "path": "tests/coverage/navigation.json",
+      "bytes": 10980,
+      "sha256": "ec198c205812714113668560babeebd102c9e9f3290b85404748b0e591cc68b7"
+    },
+    {
+      "path": "tests/coverage/verification.json",
+      "bytes": 1175,
+      "sha256": "d1f2fa75b5f898a20aab76e4a48592b03642b011acd4e454a95c1767a397d46f"
+    },
+    {
+      "path": "tests/coverage/vision_voice.json",
+      "bytes": 38080,
+      "sha256": "5baa36db5fa0ae0db529a57871b1bd60989283e16f22b96690deb5048304643a"
+    },
+    {
+      "path": "tests/hardware_accessory_smoke.py",
+      "bytes": 5712,
+      "sha256": "2bf6784725b387faa16ba9ace7d6405901bc23a431f69bc3ff0fc1808ae5b435"
+    },
+    {
+      "path": "tests/hardware_transport_smoke.py",
+      "bytes": 4498,
+      "sha256": "94815e6f4b11aeebd4c614c04b5ac26e5601b1baaac59c7aa5a9fbdb04b280d0"
+    },
+    {
+      "path": "tests/offline/check_base_accessories.py",
+      "bytes": 4454,
+      "sha256": "6e4b312ecf4fe14a8047279834be752d5283c72da9d0f7c164082c04a2aee8eb"
+    },
+    {
+      "path": "tests/offline/check_bringup.py",
+      "bytes": 5326,
+      "sha256": "c8be3ea2b1f2726d2e219825aa1d35e018bce3df159633426745021459ae75e5"
+    },
+    {
+      "path": "tests/offline/check_interfaces.py",
+      "bytes": 2803,
+      "sha256": "0113f31ef3d6a485bfd6186bcdb2d0feba0a3757c58b92f0ba6cf6d064cf8c05"
+    },
+    {
+      "path": "tests/offline/check_model_laser.py",
+      "bytes": 5182,
+      "sha256": "d115093e20b4da0c127d5db780397ccd6cb05860ec85eff8ade4c458b5123381"
+    },
+    {
+      "path": "tests/offline/check_moveit.py",
+      "bytes": 6290,
+      "sha256": "b1e7866b8fcb68fcc1c96850c6c2cd9e2f0056e207582cfa2f569e148b931d59"
+    },
+    {
+      "path": "tests/offline/check_pose_requests.py",
+      "bytes": 2223,
+      "sha256": "4594ad037fdf92cc7ef7cf31f0cc58901b69b5fc724597d19d77d1a1bd2e2eea"
+    },
+    {
+      "path": "tests/offline/check_voice.py",
+      "bytes": 9171,
+      "sha256": "7a86b1ccdf5997ded33a41d7a306af5d31f6a95be245d38a85b5e3d5c45c0470"
+    },
+    {
+      "path": "tests/offline/check_voice_launch.py",
+      "bytes": 3236,
+      "sha256": "14970afa6fbb6cc502a67bff88652eefda99215bbdfb52773a52f41e29260504"
+    },
+    {
+      "path": "tests/offline/check_voice_vision.py",
+      "bytes": 6837,
+      "sha256": "10288338e5eeaa1c9964fc66ac5368ce67571f59c83317d9dec2c00d650b31d8"
+    },
+    {
+      "path": "tests/offline/support.py",
+      "bytes": 385,
+      "sha256": "351c5cbbf09a0d7fd4e75ffdbf77af60234e45ee8f4fa9096c0c324d89e127d9"
+    },
+    {
+      "path": "tests/offline/voicebiz_launch_check.py",
+      "bytes": 3410,
+      "sha256": "e5abe6f30b69af50988786a4369a6faac9d61fdf9e0a06df276b1223c36c72e3"
+    },
+    {
+      "path": "tests/ros_accessory_checks.py",
+      "bytes": 4932,
+      "sha256": "76e28f9312343780d37088d515e35b7452d9f38dfa9007bd12c29b309f87d3e2"
+    },
+    {
+      "path": "tests/ros_driver_checks.py",
+      "bytes": 4478,
+      "sha256": "d1c29b3f2bf4e7f69b8b7256a4a8a4298323fe1b25bf86bb27ae890c05542d75"
+    },
+    {
+      "path": "tests/ros_hardware_checks.py",
+      "bytes": 10665,
+      "sha256": "3bfa1afb96d497528f3adc48342c2d54eb0908efdbc4f73628a266bd70f1043b"
+    },
+    {
+      "path": "tests/ros_integration.py",
+      "bytes": 6241,
+      "sha256": "f33b012f2c3fc4b5af807dc965099bb649befd097201d777f4c7e199849e3ba3"
+    },
+    {
+      "path": "tests/run_offline.py",
+      "bytes": 7437,
+      "sha256": "67cfbd9a704767b6f774e297881437e98632e2c6cce142ff87239fbbca93260d"
+    },
+    {
+      "path": "tests/run_unit.py",
+      "bytes": 4731,
+      "sha256": "20934b2f1b3ffa345b50d7d4da15fa9f28febe52e0a990763e53f68c9b9a9dd3"
+    },
+    {
+      "path": "tests/serial_accessory_emulator.py",
+      "bytes": 2223,
+      "sha256": "629612760a2eb61db4e876a2556139ef0c2a843676326857dc027d171e9e9964"
+    },
+    {
+      "path": "tests/serial_emulator.py",
+      "bytes": 6113,
+      "sha256": "414d49a9426fc69418b240bfb4308b1449000f7267808fed8c224e2061006364"
+    },
+    {
+      "path": "tests/test_transport.py",
+      "bytes": 10326,
+      "sha256": "1a2881ddb041de094db7f833f9871b3341ad7a05e83e7f0862e6434853845088"
+    },
+    {
+      "path": "tests/verify_delivery.py",
+      "bytes": 1946,
+      "sha256": "3be22050eb7698fa08df9d6f7997c4847dfc14a1061188bece799e622a23085b"
+    },
+    {
+      "path": "vendor/COLCON_IGNORE",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendor/py_install/README.md",
+      "bytes": 123,
+      "sha256": "c30099ded91797790c94a8b53816a7b9f2dfcbdb72fa0f1857a21a178eba1464"
+    },
+    {
+      "path": "vendor/py_install/Rosmaster_Lib/Rosmaster_Lib.py",
+      "bytes": 57997,
+      "sha256": "e9fd0f6bb015cda7dba58f4db6994402d83865cc125ab33035dbb39e978b1a8c"
+    },
+    {
+      "path": "vendor/py_install/Rosmaster_Lib/__init__.py",
+      "bytes": 38,
+      "sha256": "3bd437478a3ff71a0a321e6e5cfe5e1fcd0e6f91f014ae5ff8b5eb6e29f651a6"
+    },
+    {
+      "path": "vendor/py_install/setup.py",
+      "bytes": 207,
+      "sha256": "a154f7824b945412d9fdd437080c6521497af996384df113cf2f0ea95b725c94"
+    }
+  ],
+  "repository_integration": "software/ros2_ws; adds byte-preserving Git attributes and CI manifest verifier"
+}

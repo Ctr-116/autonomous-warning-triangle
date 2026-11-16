@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="yahboomcar_X3plus_ros2_control" params="name use_mock_hardware initial_positions_file">
+    <xacro:property name="initial_positions" value="${xacro.load_yaml(initial_positions_file)['initial_positions']}"/>
+
+    <!-- 真实硬件接口防护：明确拒绝未实现的真实硬件连接，避免静默混淆仿真与实机 -->
+    <xacro:unless value="${use_mock_hardware}">
+      <xacro:error message="Hardware real integration remains separate and explicitly unimplemented; reject an attempt to select real hardware. Please use use_mock_hardware:=true."/>
+    </xacro:unless>
+
+    <ros2_control name="${name}" type="system">
+      <hardware>
+        <xacro:if value="${use_mock_hardware}">
+          <plugin>mock_components/GenericSystem</plugin>
+          <param name="calculate_dynamics">true</param>
+        </xacro:if>
+      </hardware>
+
+      <!-- 机械臂关节 1 (arm_joint1) -->
+      <joint name="arm_joint1">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['arm_joint1']}</param>
+        </state_interface>
+        <state_interface name="velocity">
+          <param name="initial_value">0.0</param>
+        </state_interface>
+      </joint>
+
+      <!-- 机械臂关节 2 (arm_joint2) -->
+      <joint name="arm_joint2">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['arm_joint2']}</param>
+        </state_interface>
+        <state_interface name="velocity">
+          <param name="initial_value">0.0</param>
+        </state_interface>
+      </joint>
+
+      <!-- 机械臂关节 3 (arm_joint3) -->
+      <joint name="arm_joint3">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['arm_joint3']}</param>
+        </state_interface>
+        <state_interface name="velocity">
+          <param name="initial_value">0.0</param>
+        </state_interface>
+      </joint>
+
+      <!-- 机械臂关节 4 (arm_joint4) -->
+      <joint name="arm_joint4">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['arm_joint4']}</param>
+        </state_interface>
+        <state_interface name="velocity">
+          <param name="initial_value">0.0</param>
+        </state_interface>
+      </joint>
+
+      <!-- 机械臂关节 5 (arm_joint5) -->
+      <joint name="arm_joint5">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['arm_joint5']}</param>
+        </state_interface>
+        <state_interface name="velocity">
+          <param name="initial_value">0.0</param>
+        </state_interface>
+      </joint>
+
+      <!-- 夹爪主动关节 (grip_joint) -->
+      <!-- 其余从动关节 (rlink_joint2, rlink_joint3, llink_joint1, llink_joint2, llink_joint3) -->
+      <!-- 在原始 URDF 中配置了 mimic 标签，由 robot_state_publisher 自动依据 grip_joint 计算 TF -->
+      <joint name="grip_joint">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">${initial_positions['grip_joint']}</param>
+        </state_interface>
+        <state_interface name="velocity">
+          <param name="initial_value">0.0</param>
+        </state_interface>
+      </joint>
+
+    </ros2_control>
+  </xacro:macro>
+
+</robot>

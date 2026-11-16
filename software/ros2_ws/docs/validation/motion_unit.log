@@ -1,0 +1,22 @@
+test_active_test_cannot_be_replaced (test_motion_logic.MotionSafetyTests) ... ok
+test_backward_progress_and_terminal_zero (test_motion_logic.MotionSafetyTests) ... ok
+test_clockwise_alias (test_motion_logic.MotionSafetyTests) ... ok
+test_explicit_stop_allows_new_timestamp_baseline (test_motion_logic.MotionSafetyTests) ... ok
+test_fresh_but_frozen_pose_faults (test_motion_logic.MotionSafetyTests) ... ok
+test_invalid_commands_do_not_change_existing_test (test_motion_logic.MotionSafetyTests) ... ok
+test_lateral_displacement_does_not_complete_forward_test (test_motion_logic.MotionSafetyTests) ... ok
+test_no_idle_velocity_stream (test_motion_logic.MotionSafetyTests) ... ok
+test_odom_timeout_stops_and_latches_fault (test_motion_logic.MotionSafetyTests) ... ok
+test_odometry_and_quaternion_validation (test_motion_logic.MotionSafetyTests) ... ok
+test_parameter_validation (test_motion_logic.MotionSafetyTests) ... ok
+test_rejects_start_before_valid_odometry (test_motion_logic.MotionSafetyTests) ... ok
+test_rejects_start_with_stale_odometry (test_motion_logic.MotionSafetyTests) ... ok
+test_replayed_header_does_not_refresh_watchdog (test_motion_logic.MotionSafetyTests) ... ok
+test_rotated_start_frame_projects_distance_correctly (test_motion_logic.MotionSafetyTests) ... ok
+test_total_runtime_deadline_despite_progress (test_motion_logic.MotionSafetyTests) ... ok
+test_unwrapped_360_degree_turn_both_directions (test_motion_logic.MotionSafetyTests) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.004s
+
+OK

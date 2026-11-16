@@ -1,0 +1,5 @@
+Starting offline suite runner. Root: /workspace. Total commands: 1
+[1/1] START (slam): /usr/bin/python3 /workspace/src/yahboomcar_nav/scripts/slam_toolbox_offline_check.py
+PASS groups=2 mapping={'free': 1724, 'occupied': 28, 'known': 1752, 'width': 80, 'height': 80, 'resolution': 0.05000000074505806} tf={'x': -0.0, 'y': -0.0, 'norm': 1.0, 'trans_mag': 0.0}
+[1/1] FINISHED (slam) Returncode: 0
+SUCCESS: All integration checks passed with returncode 0.

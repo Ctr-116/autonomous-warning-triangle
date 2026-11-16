@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package format="3">
+  <name>garbage_identify_yolov11</name>
+  <version>0.1.0</version>
+  <description>Native ROS2 Humble migration of the YOLOv11 garbage identification/transport package (label mapping, arm pick/place, Nav2 transport, optional voice bridge and detector).</description>
+  <license>TODO</license>
+  <maintainer email="chen@todo.todo">chen</maintainer>
+  <url type="website">https://github.com/yahboomcar/garbage_identify_yolov11</url>
+  <buildtool_depend>ament_copyright</buildtool_depend>
+  <buildtool_depend>ament_flake8</buildtool_depend>
+  <buildtool_depend>ament_pep257</buildtool_depend>
+  <buildtool_depend>ament_pytest</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>builtin_interfaces</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>action_msgs</exec_depend>
+  <exec_depend>yahboomcar_msgs</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

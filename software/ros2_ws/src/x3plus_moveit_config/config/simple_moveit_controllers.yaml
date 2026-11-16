@@ -1,0 +1,14 @@
+# [LEGACY REFERENCE ONLY / 原版遗留参考配置]
+# 本文件为 ROS 1 原版 MoveItSimpleControllerManager 格式配置，保留仅作历史比对。
+# ROS 2 Humble active 配置请参见同目录下的 moveit_controllers.yaml。
+controller_list:
+  - name: arm_position_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - arm_joint1
+      - arm_joint2
+      - arm_joint3
+      - arm_joint4
+      - arm_joint5

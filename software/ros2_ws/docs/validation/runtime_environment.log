@@ -1,0 +1,19 @@
+2026-11-10T09:28:53+00:00
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.5 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+x86_64
+Python 3.10.12
+rclpy: /opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py
+pyserial: 3.5
+motion_control_pkg	src/motion_control_pkg	(ros.ament_python)
+x3plus_base	src/x3plus_base	(ros.ament_python)

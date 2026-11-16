@@ -1,0 +1,11 @@
+test_ellipse_limit_and_deadman (test_control.ControlTests) ... ok
+test_feedback_failure_is_latched (test_control.ControlTests) ... ok
+test_holonomic_turn_uses_body_frame (test_control.ControlTests) ... ok
+test_no_first_sample_epoch_jump (test_control.ControlTests) ... ok
+test_nonfinite_command_and_transport_error (test_control.ControlTests) ... ok
+test_stale_gap_and_duplicate_samples_not_integrated (test_control.ControlTests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK

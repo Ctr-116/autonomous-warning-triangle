@@ -1,0 +1,48 @@
+{
+  "source": "Official MediaPipe assets over HTTPS; local SHA256 records the tested bytes",
+  "files": [
+    {
+      "name": "object_detection_ssd_mobilenetv2_oidv4_fp16.tflite",
+      "url": "https://storage.googleapis.com/mediapipe-assets/object_detection_ssd_mobilenetv2_oidv4_fp16.tflite",
+      "bytes": 9987728,
+      "sha256": "d0a5255bf8c4f5a0bc4240741a76c41d5e939f7655078f945f50ab53a9375da6"
+    },
+    {
+      "name": "object_detection_3d_sneakers.tflite",
+      "url": "https://storage.googleapis.com/mediapipe-assets/object_detection_3d_sneakers.tflite",
+      "bytes": 5222064,
+      "sha256": "4eb1633d646a43ae979ba497487e95dbf89f97406ed02200ae39ae46b0a0543d"
+    },
+    {
+      "name": "object_detection_3d_chair.tflite",
+      "url": "https://storage.googleapis.com/mediapipe-assets/object_detection_3d_chair.tflite",
+      "bytes": 5222528,
+      "sha256": "190e4ea49ba891ed242ddc73703e03d70164c27f3da07492d7010379e24f2a6b"
+    },
+    {
+      "name": "object_detection_3d_cup.tflite",
+      "url": "https://storage.googleapis.com/mediapipe-assets/object_detection_3d_cup.tflite",
+      "bytes": 5221872,
+      "sha256": "c4f4ea8def16bd191d11279f754e6f3f2a9d94839a956b975e5697e943157ac7"
+    },
+    {
+      "name": "object_detection_3d_camera.tflite",
+      "url": "https://storage.googleapis.com/mediapipe-assets/object_detection_3d_camera.tflite",
+      "bytes": 5222560,
+      "sha256": "f66e92e81ed3f4698f74d565a7668e016e2288ea92fb42938e33b778bd1e110d"
+    },
+    {
+      "name": "hands.jpg",
+      "url": "https://storage.googleapis.com/mediapipe-assets/right_hands.jpg",
+      "bytes": 54887,
+      "sha256": "4b5134daa4cb60465535239535f9f74c2842aba3aa5fd30bf04ef5678f93d87f"
+    },
+    {
+      "name": "pose.jpg",
+      "url": "https://storage.googleapis.com/mediapipe-assets/pose.jpg",
+      "bytes": 44100,
+      "sha256": "c8a830ed683c0276d713dd5aeda28f415f10cd6291972084a40d0d8b934ed62b"
+    }
+  ],
+  "errors": []
+}

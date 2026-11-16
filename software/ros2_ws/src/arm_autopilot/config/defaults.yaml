@@ -1,0 +1,51 @@
+arm_autopilot:
+  ros__parameters:
+    img_flip: false
+    gui: false
+    src_id: 0
+    video_device: '/dev/camera_usb'
+    frame_width: 640
+    frame_height: 480
+    image_timeout_sec: 1.5
+
+    calibration_mode: false
+    track_state: 'identify'
+    color: 'red'
+    hsv_h_min: 0
+    hsv_s_min: 85
+    hsv_v_min: 126
+    hsv_h_max: 9
+    hsv_s_max: 253
+    hsv_v_max: 255
+
+    scale: 1000.0
+    kp: 30.0
+    ki: 0.0
+    kd: 60.0
+    linear: 0.10
+    laser_angle: 30.0
+    response_dist: 0.55
+
+    target_center_x: 320.0
+    target_center_y: 440.0
+    pick_grasp_tolerance: 10.0
+    pick_approach_min_y: 440.0
+
+    kinematics_service: 'kinematics'
+    current_angle_service: 'current_angle'
+    service_timeout_sec: 2.0
+
+    cmd_vel_topic: 'cmd_vel'
+    image_topic: 'image_raw'
+    arm_topic: 'TargetAngle'
+    scan_topic: 'scan'
+    joy_state_topic: 'JoyState'
+    buzzer_topic: 'Buzzer'
+    rgb_light_topic: 'RGBLight'
+    debug_image_topic: 'linefollw/rgb'
+    start_topic: 'autopilot_start'
+    stop_topic: 'autopilot_stop'
+    start_service: 'autopilot_start'
+
+    hsv_yaml_path: ''
+    roi: [0, 0, 0, 0]

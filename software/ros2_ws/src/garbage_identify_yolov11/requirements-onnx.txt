@@ -1,0 +1,11 @@
+# Optional CPU ONNX inference environment validated with Humble/Python 3.10.
+# Install in a venv with --system-site-packages; do not replace system NumPy.
+onnxruntime==1.17.3
+numpy==1.26.4
+flatbuffers==24.3.25
+coloredlogs==15.0.1
+humanfriendly==10.0
+packaging==24.2
+protobuf==4.25.5
+sympy==1.13.1
+mpmath==1.3.0

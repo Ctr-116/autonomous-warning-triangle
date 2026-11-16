@@ -1,0 +1,608 @@
+Coverage: core suites (bringup, model, voice, moveit, nav2, perception).
+Exclusion: optional SDK checks (mediapipe, face, yolo) and unit tests (tests/run_unit.py).
+Starting offline suite runner. Root: /workspace. Total commands: 20
+[1/20] START (bringup): /usr/bin/python3 /workspace/tests/offline/check_bringup.py
+PASS bringup ekf=False mux=False prefix='': real odom progression, correct parameter, namespace and sole odom TF owner
+PASS bringup ekf=True mux=False prefix='': real odom progression, correct parameter, namespace and sole odom TF owner
+PASS bringup ekf=True mux=True prefix='r1/': real odom progression, correct parameter, namespace and sole odom TF owner
+[1/20] FINISHED (bringup) Returncode: 0
+[2/20] START (model): /usr/bin/python3 /workspace/tests/offline/check_interfaces.py
+PASS serialization roundtrip: 6 messages + 4 service request/response types
+PASS actual DDS RobotArmArray request/response
+[2/20] FINISHED (model) Returncode: 0
+[3/20] START (model): /usr/bin/python3 /workspace/tests/offline/check_base_accessories.py
+[INFO] [1794837786.442607815] [accessory_test.x3plus_base]: X3plus base started: MOCK
+[INFO] [1794837786.443288141] [accessory_test.x3plus_base]: Arm control ENABLED
+[INFO] [1794837786.475111782] [accessory_test.x3plus_base]: Base state: IDLE
+[WARN] [1794837787.869346353] [accessory_test.x3plus_base]: TargetAngle rejected: servo 6 angle must be in [30.0, 180.0]
+[INFO] [1794837788.125527233] [accessory_test.x3plus_base]: Base state: EMERGENCY_STOP
+[INFO] [1794837788.426072771] [accessory_test.x3plus_base]: Base state: IDLE
+PASS namespace isolation + exact RobotArmArray service + measured mock full-array feedback
+PASS RGBLight/Buzzer/TargetAngle full-array command -> explicit mock state
+PASS single-servo command + invalid-angle rejection
+PASS stop latch blocks new arm motion; explicit reset + new command restores
+PASS explicitly simulated firmware-version reply publication
+[3/20] FINISHED (model) Returncode: 0
+[4/20] START (model): /usr/bin/python3 /workspace/tests/offline/check_model_laser.py
+[INFO] [1794837793.188495478] [laser_avoidance]: Command output: vel_raw (Twist); scan input: scan; enabled=True
+[INFO] [1794837793.190238350] [laser_avoidance]: avoidance branch 10: 10, no obstacles; drive forward (right=0 front=0 left=0, threshold=4)
+[WARN] [1794837795.017965474] [laser_avoidance]: invalid scan: scan has no finite samples inside [range_min, range_max]
+[INFO] [1794837795.323021675] [laser_tracker]: Command output: vel_raw (Twist); scan input: scan; enabled=True
+[WARN] [1794837797.144718466] [laser_tracker]: invalid scan: scan has no finite samples inside [range_min, range_max]
+[INFO] [1794837797.447633913] [laser_warning]: Command output: vel_raw (Twist); scan input: scan; enabled=True
+[WARN] [1794837799.270901578] [laser_warning]: invalid scan: scan has no finite samples inside [range_min, range_max]
+PASS URDF tree + all installed mesh references
+PASS headless RSP launch + namespaced description + prefixed static TF + no fake joints
+PASS LaserAvoidanceNode: BEST_EFFORT scan -> control, missing/NaN scan -> zero
+PASS LaserTrackerNode: BEST_EFFORT scan -> control, missing/NaN scan -> zero
+PASS LaserWarningNode: BEST_EFFORT scan -> control, missing/NaN scan -> zero
+[4/20] FINISHED (model) Returncode: 0
+[5/20] START (voice): /usr/bin/python3 /workspace/tests/offline/check_voice.py
+PASS speech parser fragmented/corrupt/multiple/expired/bounded frames + exact wire encoding
+[INFO] [1794837801.010814627] [voice_test.x3plus_base]: X3plus base started: MOCK
+[INFO] [1794837801.013212945] [voice_test.x3plus_base]: Arm control ENABLED
+[INFO] [1794837801.072397149] [voice_test.voice_base]: voice_base initialized (cmd_topic=vel_raw, enabled=False, duration=0.700s)
+[INFO] [1794837801.151504272] [voice_test.voice_arm]: voice_arm ready (enabled=False, reject_when_busy=True, service=CurrentAngle, timeout=0.500s)
+[INFO] [1794837801.210855147] [voice_test.voice_arm_study]: voice_arm_study ready (enabled=False, poses=0, file=/tmp/voice-check-z2iu3le5/recorded.yaml, service=CurrentAngle, topic=TargetAngle)
+[INFO] [1794837801.308811650] [voice_test.speech_transport]: Speech serial opened on /dev/pts/4 at 115200 baud
+[INFO] [1794837801.312646219] [voice_test.x3plus_base]: Base state: IDLE
+[INFO] [1794837801.355985762] [voice_test.x3plus_base]: Base state: ACTIVE
+[INFO] [1794837801.655643109] [voice_test.x3plus_base]: Base state: IDLE
+PASS all voice constructors disabled + sole base arm-service owner + no startup pose writes
+[INFO] [1794837802.272180029] [voice_test.voice_arm]: ignoring voice id 4 (disabled)
+[INFO] [1794837802.305198277] [voice_test.x3plus_base]: Base state: ACTIVE
+PASS actual pyserial PTY -> recognized DDS command, idle filtered, DDS playback -> exact TX bytes
+[INFO] [1794837802.604718998] [voice_test.x3plus_base]: Base state: IDLE
+[INFO] [1794837802.661263610] [voice_test.voice_arm]: ignoring voice id 4 (disabled)
+[INFO] [1794837802.705004916] [voice_test.x3plus_base]: Base state: ACTIVE
+PASS recognized speech -> continuously refreshed bounded base motion -> deadline zero
+[INFO] [1794837803.469139973] [voice_test.voice_arm]: ignoring voice id 11 (disabled)
+[INFO] [1794837803.627813122] [voice_test.voice_arm]: ignoring voice id 15 (disabled)
+[INFO] [1794837803.955248837] [voice_test.x3plus_base]: Base state: IDLE
+PASS static RGBColor and RGBLight effect arrive at the actual base interfaces without Int32 overflow
+[INFO] [1794837804.180929604] [voice_test.voice_arm]: ignoring voice id 4 (disabled)
+[INFO] [1794837804.205039171] [voice_test.x3plus_base]: Base state: ACTIVE
+[WARN] [1794837804.336156322] [voice_test.voice_base]: voice/status triggered latching stop: serial read error: simulated disconnect
+[INFO] [1794837804.547625623] [voice_test.voice_arm]: ignoring voice id 4 (disabled)
+PASS serial-status fault stops and latches voice base disabled
+[INFO] [1794837804.593699834] [voice_test.voice_arm]: voice_arm enable set to True
+[INFO] [1794837804.662365531] [voice_test.voice_arm]: starting sequence init_pose for voice id 49 (1 steps)
+[INFO] [1794837804.730114693] [voice_test.voice_arm]: sequence init_pose finished
+[INFO] [1794837804.855667287] [voice_test.x3plus_base]: Base state: IDLE
+[INFO] [1794837805.591097675] [voice_test.voice_arm]: starting sequence arm_scare for voice id 50 (7 steps)
+[WARN] [1794837805.850315309] [voice_test.voice_arm]: voice_arm sequence cleared: cancel requested
+PASS fresh CurrentAngle client -> one full arm step + multi-step cancellation stays canceled
+[INFO] [1794837806.702513592] [voice_test.voice_arm_study]: voice_arm_study enabled=True
+[INFO] [1794837806.766604528] [voice_test.voice_arm]: ignoring voice id 53 (disabled)
+[INFO] [1794837806.871348934] [voice_test.voice_arm_study]: Entered study mode (ready).
+[INFO] [1794837806.918608883] [voice_test.voice_arm]: ignoring voice id 54 (disabled)
+[INFO] [1794837806.929181170] [voice_test.voice_arm_study]: Record requested; queued fresh sample.
+[INFO] [1794837806.942572637] [voice_test.voice_arm_study]: Recorded pose 1: [138.0, 94.0, 92.0, 88.0, 92.0, 172.0]
+[INFO] [1794837807.234583092] [voice_test.voice_arm_study]: Replay started: 1 step(s) (source=service).
+[INFO] [1794837807.246302999] [voice_test.voice_arm_study]: Replay step 0 reached: [138.0, 94.0, 92.0, 88.0, 92.0, 172.0]
+[INFO] [1794837807.463686309] [voice_test.voice_arm_study]: Work cancelled: cancel service
+PASS asynchronous measured-pose record + explicit persistence + responsive replay cancellation
+[5/20] FINISHED (voice) Returncode: 0
+[6/20] START (voice): /usr/bin/python3 /workspace/tests/offline/check_voice_vision.py
+[INFO] [1794837809.407374795] [vision_check.voice_color_identify]: VoiceColorIdentify node initialized and ready.
+[WARN] [1794837810.218535152] [vision_check.voice_color_identify]: Received identify command 60, but node is currently disabled.
+[INFO] [1794837810.378265369] [vision_check.voice_color_identify]: Enabled state set to True
+[INFO] [1794837810.587243636] [vision_check.voice_color_identify]: Identified color "red", published voice/playback: 61
+[WARN] [1794837811.391754340] [vision_check.voice_color_identify]: Command 60 rejected: stale image frame (age: 0.837s > 0.5s).
+PASS voice image identification: explicit enable + actual RGB image -> red playback; stale/disabled rejected
+[INFO] [1794837811.607322614] [vision_check.LineDetect]: P:[0.06, 0], I:[0.0, 0], D:[0.02, 0]
+[INFO] [1794837811.611563492] [vision_check.LineDetect]: Subscribed to /usb_cam/image_raw (BEST_EFFORT)
+[INFO] [1794837811.616702816] [vision_check.LineDetect]: LineDetect ready (gui=False).
+[INFO] [1794837811.622548662] [vision_check.LineDetect]: VoiceLine node initialized (enabled=False, Track_state='init').
+[INFO] [1794837812.230109261] [vision_check.LineDetect]: VoiceLine service: enabled.
+[INFO] [1794837812.233333729] [vision_check.LineDetect]: Line tracking command 23 activated with HSV: ((0, 84, 131), (180, 253, 255))
+[ERROR] [1794837813.601090219] [vision_check.LineDetect]: Fault detected (disconnect). Latching disabled state and stopping.
+[WARN] [1794837813.761596380] [vision_check.LineDetect]: Command 23 received but VoiceLine is disabled. Ignoring.
+PASS voice line command -> synthetic stripe -> bounded motion; image loss stops; serial fault latches disabled
+[INFO] [1794837814.018362374] [vision_check.colorHSV]: OpenCV Version: 4.5.4
+[INFO] [1794837814.020689319] [vision_check.colorHSV]: VoiceColorHSV initialized in disabled state.
+[INFO] [1794837814.025442672] [vision_check.color_Tracker]: linear_PID: (3.0, 0.0, 1.0)
+[INFO] [1794837814.026980709] [vision_check.color_Tracker]: angular_PID: (0.5, 0.0, 2.0)
+[INFO] [1794837814.029376366] [vision_check.color_Tracker]: colorTracker started (minDist=1500 mm)
+[INFO] [1794837814.031032846] [vision_check.color_Tracker]: VoiceDepthTracker initialized in disabled state.
+[INFO] [1794837814.694264282] [vision_check.color_Tracker]: VoiceDepthTracker enabled set to True
+[INFO] [1794837814.700723463] [vision_check.colorHSV]: VoiceColorHSV enabled: True
+[INFO] [1794837814.964920554] [vision_check.colorHSV]: Voice tracker started command 74: tracker green
+[INFO] [1794837816.682359614] [vision_check.color_Tracker]: VoiceDepthTracker enabled set to False
+[WARN] [1794837816.684857070] [vision_check.colorHSV]: Voice status failure signal 'serial read error'; canceling and latching explicitly disabled.
+[INFO] [1794837816.686936821] [vision_check.colorHSV]: init success
+[INFO] [1794837816.691612401] [vision_check.colorHSV]: Shutting down this node.
+[INFO] [1794837816.694671078] [vision_check.color_Tracker]: VoiceDepthTracker enabled set to False
+PASS voice RGB + depth tracking: one velocity owner, speech gate, real image/Position/depth chain, watchdog and fault stop
+[6/20] FINISHED (voice) Returncode: 0
+[7/20] START (voice): /usr/bin/python3 /workspace/tests/offline/check_voice_launch.py
+PASS installed voice launch base: unique nodes, namespaced interfaces, expected velocity owner, default hardware disabled
+PASS installed voice launch arm: unique nodes, namespaced interfaces, expected velocity owner, default hardware disabled
+PASS installed voice launch study: unique nodes, namespaced interfaces, expected velocity owner, default hardware disabled
+PASS installed voice launch line: unique nodes, namespaced interfaces, expected velocity owner, default hardware disabled
+PASS installed voice launch color_tracker: unique nodes, namespaced interfaces, expected velocity owner, default hardware disabled
+PASS installed voice launch color_identify: unique nodes, namespaced interfaces, expected velocity owner, default hardware disabled
+[7/20] FINISHED (voice) Returncode: 0
+[8/20] START (voice): /usr/bin/python3 /workspace/tests/offline/voicebiz_launch_check.py
+PASS installed original launch replacement: voice_ctrl_arm_study
+PASS installed original launch replacement: voice_ctrl_arm
+PASS installed original launch replacement: voice_ctrl_colorTracker
+PASS installed original launch replacement: voice_ctrl_followline
+PASS installed original launch replacement: voice_ctrl_takethings
+PASS installed original launch replacement: voice_ctrl_yahboomcar
+PASS installed original launch replacement: voice_transport_base
+PASS installed business launch transport: unique namespace, no serial, mock base, no second final command owner
+PASS installed business launch takethings: unique namespace, no serial, mock base, no second final command owner
+[8/20] FINISHED (voice) Returncode: 0
+[9/20] START (voice): /usr/bin/python3 /workspace/src/yahboomcar_voice_ctrl/test/voicebiz_runtime.py
+[INFO] [1794837843.523802933] [voicebiz_test.x3plus_base]: X3plus base started: MOCK
+[INFO] [1794837843.525734039] [voicebiz_test.x3plus_base]: Arm control ENABLED
+[INFO] [1794837843.547039829] [voicebiz_test.x3plus_base]: Base state: IDLE
+[INFO] [1794837843.548814858] [voicebiz_test.voice_color_transport]: voice_color_transport ready (mode=transport, enabled=False)
+PASS Case 1: Disabled startup, no motion, proper service ownership and QoS subscription
+[INFO] [1794837843.870046504] [voicebiz_test.voice_color_transport]: voice business enabled
+[INFO] [1794837843.980794331] [voicebiz_test.voice_color_transport]: command 61 rejected: busy
+[INFO] [1794837844.046890223] [voicebiz_test.voice_color_transport]: playback 69
+[INFO] [1794837845.645992928] [voicebiz_test.voice_color_transport]: playback 65
+PASS Case 2: Full color transport flow, arm presets, nav goals, and latch checks
+PASS Case 3: Stale image rejection and no latent queue execution
+[INFO] [1794837847.244053227] [voicebiz_test.voice_color_transport]: playback 69
+[ERROR] [1794837847.649293052] [voicebiz_test.voice_color_transport]: business fault: invalid measured arm response
+[INFO] [1794837847.653180010] [voicebiz_test.voice_color_transport]: cancel_all reason=fault:invalid measured arm response
+[INFO] [1794837847.664641266] [voicebiz_test.voice_color_transport]: voice business enabled
+[INFO] [1794837847.843945213] [voicebiz_test.voice_color_transport]: playback 69
+[INFO] [1794837848.254603125] [voicebiz_test.voice_color_transport]: cancel_all reason=cancel_service
+PASS Case 4: Fault injection latches disabled and cancel while arm future is pending
+[INFO] [1794837848.942712533] [voicebiz_test.voice_color_transport]: playback 69
+[ERROR] [1794837849.792083659] [voicebiz_test.voice_color_transport]: business fault: arm service timeout
+[INFO] [1794837849.794617836] [voicebiz_test.voice_color_transport]: cancel_all reason=fault:arm service timeout
+PASS service deadline: delayed CurrentAngle faults and its late reply cannot publish an arm command
+[INFO] [1794837850.617929290] [voicebiz_test.voice_take_things]: voice_take_things ready (mode=take_things, enabled=False)
+[INFO] [1794837850.829123198] [voicebiz_test.voice_take_things]: voice business enabled
+[INFO] [1794837851.999013128] [voicebiz_test.voice_take_things]: playback 34
+[INFO] [1794837852.952274438] [voicebiz_test.voice_take_things]: playback 65
+PASS Case 5: VoiceTakeThings speech 53 grip, staged route mapping, and drop sequence
+[INFO] [1794837852.957389349] [voicebiz_test.voice_take_things]: cancel_all reason=cancel_service
+[ERROR] [1794837853.048992239] [voicebiz_test.voice_take_things]: business fault: nav goal rejected
+[INFO] [1794837853.050030763] [voicebiz_test.voice_take_things]: cancel_all reason=fault:nav goal rejected
+[INFO] [1794837853.052205703] [voicebiz_test.voice_take_things]: voice business enabled
+[ERROR] [1794837853.206877362] [voicebiz_test.voice_take_things]: business fault: nav failed status=6
+[INFO] [1794837853.209573461] [voicebiz_test.voice_take_things]: cancel_all reason=fault:nav failed status=6
+PASS Case 6: MockNav reject and abort trigger fault and never reach wait_pick
+[INFO] [1794837853.211736967] [voicebiz_test.voice_take_things]: voice business enabled
+[INFO] [1794837853.297429810] [voicebiz_test.voice_take_things]: cancel_all reason=cancel_service
+PASS Case 7: Late accepted goal cancellation without leaking active handle
+[INFO] [1794837853.728979546] [voicebiz_test.voice_take_things]: cancel_all reason=voice_status:disconnect
+PASS Case 8: Voice status disconnect triggers latched fault, goal cancel, and stops
+[INFO] [1794837853.950197048] [voicebiz_test.voice_take_things]: voice business enabled
+[ERROR] [1794837855.096654891] [voicebiz_test.voice_take_things]: business fault: nav result timeout
+[INFO] [1794837855.098527647] [voicebiz_test.voice_take_things]: cancel_all reason=fault:nav result timeout
+PASS Nav2 result deadline: held mock goal canceled, fault latched, no arm continuation
+[INFO] [1794837855.101670755] [voicebiz_test.voice_take_things]: voice business enabled
+[ERROR] [1794837855.716324550] [voicebiz_test.voice_take_things]: business fault: nav goal send timeout
+[INFO] [1794837855.719709902] [voicebiz_test.voice_take_things]: cancel_all reason=fault:nav goal send timeout
+PASS Nav2 acceptance deadline: late accepted mock handle canceled after fault, no stale work
+[9/20] FINISHED (voice) Returncode: 0
+[10/20] START (voice): /usr/bin/python3 /workspace/src/yahboomcar_voice_ctrl/test/waypoints_runtime.py
+[INFO] [1794837860.653637217] [waypoint_test.voice_waypoints]: voice_waypoints ready (enabled=False, action=navigate_to_pose).
+PASS Case 1: Disabled startup and parameter validation (honest mock Nav2)
+PASS Case 2: All 5 waypoints sequential execution, coordinates and quaternion norm verified (honest mock Nav2)
+[WARN] [1794837861.320281691] [waypoint_test.voice_waypoints]: Ignoring unexpected result response. There may be more than one action server for the action 'navigate_to_pose'
+PASS Case 3: Repeated ID after completion and busy rejection while held (honest mock Nav2)
+PASS Case 4: Unknown command 999 generates no goal (honest mock Nav2)
+[WARN] [1794837861.491109287] [waypoint_test.voice_waypoints]: Fault latched: goal rejected; explicit enable required.
+PASS Case 5: Goal rejection latches fault (honest mock Nav2)
+[WARN] [1794837861.563514479] [waypoint_test.voice_waypoints]: Fault latched: goal 19 aborted status=6; explicit enable required.
+PASS Case 6: Goal abort latches fault (honest mock Nav2)
+[WARN] [1794837862.067899147] [waypoint_test.voice_waypoints]: Fault latched: goal timeout; explicit enable required.
+PASS Case 7: Goal timeout latches fault (honest mock Nav2)
+[WARN] [1794837862.078136217] [waypoint_test.voice_waypoints]: Ignoring unexpected result response. There may be more than one action server for the action 'navigate_to_pose'
+[WARN] [1794837862.312677636] [waypoint_test.voice_waypoints]: Fault latched: send timeout; explicit enable required.
+PASS Case 8: Late accept cancel prevents handle leak (honest mock Nav2)
+PASS Case 9: Command 0 cancels even when disabled (honest mock Nav2)
+
+ALL WAYPOINT RUNTIME TESTS PASSED (Honest Mock Nav2 ActionServer)
+[10/20] FINISHED (voice) Returncode: 0
+[11/20] START (moveit): /usr/bin/python3 /workspace/tests/offline/check_pose_requests.py
+PASS requested xyz + normalized quaternion preserved in actual Humble serialized GetMotionPlan request
+PASS invalid pose/tolerance rejected before any service request
+[11/20] FINISHED (moveit) Returncode: 0
+[12/20] START (moveit): /usr/bin/python3 /workspace/tests/offline/check_moveit.py
+PASS MoveIt service/actions + active arm/gripper controllers + single measured mock state source
+PASS actual OMPL GetMotionPlan joint-space planning
+PASS ExecuteTrajectory -> actual ros2_control mock joint feedback reaches goal
+PASS gripper FollowJointTrajectory execution
+PASS actual arm trajectory action cancellation
+[12/20] FINISHED (moveit) Returncode: 0
+[13/20] START (nav2): /usr/bin/python3 /workspace/src/yahboomcar_nav/scripts/nav2_offline_check.py
+[INFO] [1794837879.108836188] [x3plus_base]: X3plus base started: MOCK
+[INFO] [1794837879.110154868] [x3plus_base]: Arm control disabled (enable_arm:=true to opt in)
+[INFO] [1794837879.122579984] [x3plus_base]: Base state: IDLE
+[INFO] [1794837884.578192119] [x3plus_base]: Base state: ACTIVE
+[OFFLINE_CHECK] Scenario: navigation_only (synthetic map + static map->odom fixture)
+[OFFLINE_CHECK] Artifact note: idealized physical fixture, not a real vehicle calibration.
+[OFFLINE_CHECK] Starting Nav2 launch subprocess...
+[PASS GROUP 1] Mock BaseNode initialized, odom_raw received, TF online.
+[OFFLINE_CHECK] Waiting for navigate_to_pose action server...
+[PASS GROUP 2] Real Nav2 navigate_to_pose action server online.
+[PASS GROUP 3] Verified single velocity publisher on vel_raw (count=1).
+[OFFLINE_CHECK] Sending Goal 1: x=0.45, y=0.0...
+[OFFLINE_CHECK] Goal 1 Completed: status=4, delta_x=0.360m, dist_to_goal=0.097m, cmd_nonzero=110, vel_raw_nonzero=110
+[PASS GROUP 4] Goal 1 SUCCEEDED: accurate motion closure, relays active, metrics verified.
+[OFFLINE_CHECK] Sending Goal 2: x=2.0, y=0.0 for cancellation test...
+[OFFLINE_CHECK] Cancelling Goal 2...
+[PASS GROUP 5] Goal 2 CANCELED: status=5, velocities settled to zero within 1s.
+
+ALL INTEGRATION CHECKS PASSED SUCCESSFULLY in 12.69s.
+
+[OFFLINE_CHECK] Cleaning up child processes and nodes...
+[13/20] FINISHED (nav2) Returncode: 0
+[14/20] START (nav2): /usr/bin/python3 /workspace/src/yahboomcar_nav/scripts/nav2_offline_check.py --amcl
+[INFO] [1794837893.286974122] [x3plus_base]: X3plus base started: MOCK
+[INFO] [1794837893.288927680] [x3plus_base]: Arm control disabled (enable_arm:=true to opt in)
+[INFO] [1794837893.298727975] [x3plus_base]: Base state: IDLE
+[INFO] [1794837901.449603319] [x3plus_base]: Base state: ACTIVE
+[OFFLINE_CHECK] Scenario: AMCL (actual map_server + actual AMCL ownership)
+[OFFLINE_CHECK] Artifact note: idealized physical fixture, not a real vehicle calibration.
+[OFFLINE_CHECK] Wrote temporary map fixture: /tmp/nav2_amcl_fixture_96ucdrir/nav2_test_map.yaml
+[OFFLINE_CHECK] Starting Nav2 launch subprocess...
+[PASS GROUP 1] Mock BaseNode initialized, odom_raw received, TF online.
+[OFFLINE_CHECK] Published initialpose map(0,0,yaw=0) with tight covariance (AMCL mode).
+[PASS GROUP 6] Actual AMCL/map_server ACTIVE, initialpose accepted, map->odom observed, sole map publisher.
+[OFFLINE_CHECK] Waiting for navigate_to_pose action server...
+[PASS GROUP 2] Real Nav2 navigate_to_pose action server online.
+[PASS GROUP 3] Verified single velocity publisher on vel_raw (count=1).
+[OFFLINE_CHECK] Sending Goal 1: x=0.45, y=0.0...
+[OFFLINE_CHECK] Goal 1 Completed: status=4, delta_x=0.360m, dist_to_goal=0.095m, cmd_nonzero=57, vel_raw_nonzero=57
+[PASS GROUP 4] Goal 1 SUCCEEDED: accurate motion closure, relays active, metrics verified.
+[OFFLINE_CHECK] Sending Goal 2: x=2.0, y=0.0 for cancellation test...
+[OFFLINE_CHECK] Cancelling Goal 2...
+[PASS GROUP 5] Goal 2 CANCELED: status=5, velocities settled to zero within 1s.
+
+ALL INTEGRATION CHECKS PASSED SUCCESSFULLY in 12.69s.
+
+[OFFLINE_CHECK] Cleaning up child processes and nodes...
+[14/20] FINISHED (nav2) Returncode: 0
+[15/20] START (nav2): /usr/bin/python3 /workspace/src/yahboomcar_nav/scripts/nav2_offline_check.py --namespace test_robot
+[INFO] [1794837908.001380527] [test_robot.x3plus_base]: X3plus base started: MOCK
+[INFO] [1794837908.002040768] [test_robot.x3plus_base]: Arm control disabled (enable_arm:=true to opt in)
+[INFO] [1794837908.016778459] [test_robot.x3plus_base]: Base state: IDLE
+[INFO] [1794837913.115876152] [test_robot.x3plus_base]: Base state: ACTIVE
+[OFFLINE_CHECK] Scenario: navigation_only (synthetic map + static map->odom fixture)
+[OFFLINE_CHECK] Artifact note: idealized physical fixture, not a real vehicle calibration.
+[OFFLINE_CHECK] Starting Nav2 launch subprocess...
+[PASS GROUP 1] Mock BaseNode initialized, odom_raw received, TF online.
+[OFFLINE_CHECK] Waiting for navigate_to_pose action server...
+[PASS GROUP 2] Real Nav2 navigate_to_pose action server online.
+[PASS GROUP 3] Verified single velocity publisher on vel_raw (count=1).
+[PASS GROUP 7] Command, odometry, TF and map publishers remain inside the robot namespace.
+[OFFLINE_CHECK] Sending Goal 1: x=0.45, y=0.0...
+[OFFLINE_CHECK] Goal 1 Completed: status=4, delta_x=0.358m, dist_to_goal=0.096m, cmd_nonzero=91, vel_raw_nonzero=91
+[PASS GROUP 4] Goal 1 SUCCEEDED: accurate motion closure, relays active, metrics verified.
+[OFFLINE_CHECK] Sending Goal 2: x=2.0, y=0.0 for cancellation test...
+[OFFLINE_CHECK] Cancelling Goal 2...
+[PASS GROUP 5] Goal 2 CANCELED: status=5, velocities settled to zero within 1s.
+
+ALL INTEGRATION CHECKS PASSED SUCCESSFULLY in 11.28s.
+
+[OFFLINE_CHECK] Cleaning up child processes and nodes...
+[15/20] FINISHED (nav2) Returncode: 0
+[16/20] START (nav2): /usr/bin/python3 /workspace/src/yahboomcar_nav/scripts/nav2_offline_check.py --amcl --namespace test_robot
+[INFO] [1794837920.762817267] [test_robot.x3plus_base]: X3plus base started: MOCK
+[INFO] [1794837920.764064222] [test_robot.x3plus_base]: Arm control disabled (enable_arm:=true to opt in)
+[INFO] [1794837920.772852906] [test_robot.x3plus_base]: Base state: IDLE
+[INFO] [1794837928.298367872] [test_robot.x3plus_base]: Base state: ACTIVE
+[OFFLINE_CHECK] Scenario: AMCL (actual map_server + actual AMCL ownership)
+[OFFLINE_CHECK] Artifact note: idealized physical fixture, not a real vehicle calibration.
+[OFFLINE_CHECK] Wrote temporary map fixture: /tmp/nav2_amcl_fixture_u9xjkab0/nav2_test_map.yaml
+[OFFLINE_CHECK] Starting Nav2 launch subprocess...
+[PASS GROUP 1] Mock BaseNode initialized, odom_raw received, TF online.
+[OFFLINE_CHECK] Published initialpose map(0,0,yaw=0) with tight covariance (AMCL mode).
+[PASS GROUP 6] Actual AMCL/map_server ACTIVE, initialpose accepted, map->odom observed, sole map publisher.
+[OFFLINE_CHECK] Waiting for navigate_to_pose action server...
+[PASS GROUP 2] Real Nav2 navigate_to_pose action server online.
+[PASS GROUP 3] Verified single velocity publisher on vel_raw (count=1).
+[PASS GROUP 7] Command, odometry, TF and map publishers remain inside the robot namespace.
+[OFFLINE_CHECK] Sending Goal 1: x=0.45, y=0.0...
+[OFFLINE_CHECK] Goal 1 Completed: status=4, delta_x=0.369m, dist_to_goal=0.082m, cmd_nonzero=99, vel_raw_nonzero=99
+[PASS GROUP 4] Goal 1 SUCCEEDED: accurate motion closure, relays active, metrics verified.
+[OFFLINE_CHECK] Sending Goal 2: x=2.0, y=0.0 for cancellation test...
+[OFFLINE_CHECK] Cancelling Goal 2...
+[PASS GROUP 5] Goal 2 CANCELED: status=5, velocities settled to zero within 1s.
+
+ALL INTEGRATION CHECKS PASSED SUCCESSFULLY in 14.16s.
+
+[OFFLINE_CHECK] Cleaning up child processes and nodes...
+[16/20] FINISHED (nav2) Returncode: 0
+[17/20] START (nav2): /usr/bin/python3 /workspace/src/yahboomcar_nav/scripts/nav2_map_save_check.py
+save_map_once: saved /tmp/tmpj8sw2zji/cli_map
+[INFO] [1794837938.680423829] [rrt_save_map]: rrt_save_map ready: target=/tmp/tmpj8sw2zji/rrt_map, service=map_saver/save_map, action=navigate_to_pose
+[INFO] [1794837940.133658563] [rrt_save_map]: Requesting map save -> /tmp/tmpj8sw2zji/rrt_map.{yaml,pgm}
+[WARN] [1794837940.199522629] [rrt_save_map]: NavigateToPose action server unavailable; origin goal skipped.
+[INFO] [1794837940.228501614] [rrt_save_map]: Map saved to /tmp/tmpj8sw2zji/rrt_map
+[PASS] real server active: nav2 map_saver lifecycle is ACTIVE(3)
+[PASS] CLI YAML/PGM: save_map_once.py generated verified non-empty map artifacts
+[PASS] real RRT timer one-shot actual disk proof: rrt_map.yaml/.pgm verified without re-saves
+[17/20] FINISHED (nav2) Returncode: 0
+[18/20] START (perception): /usr/bin/python3 /workspace/src/yahboomcar_visual/scripts/perception_native_check.py
+PASS: pointCloud_pub synthetic output contract and namespace isolation
+PASS: pointCloud_visualize headless execution and frame receipt
+PASS: astra_rgb_image headless subscription and error handling
+PASS: astra_depth_image headless subscription and error handling
+PASS: IR_transform normalization and header preservation
+[18/20] FINISHED (perception) Returncode: 0
+[19/20] START (perception): /usr/bin/python3 /workspace/src/yahboomcar_visual/scripts/perception_dnn_check.py
+[INFO] [1794837950.309240522] [target_detection]: target_detection ready (mode=detection, image=/camera/image_raw, out=/camera/processed_image)
+{
+  "opencv_available": true,
+  "model_files": {
+    "frozen_graph": "/full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/frozen_inference_graph.pb",
+    "ssd_config": "/full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/ssd_mobilenet_v2_coco.txt",
+    "pose_graph": "/full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/graph_opt.pb",
+    "coco_txt": "/full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/object_detection_coco.txt",
+    "detection_img": "/full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/Detection.jpg",
+    "person_img": "/full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/person.jpg"
+  },
+  "checks": {
+    "ssd_mobilenet_v2": {
+      "status": "PASS",
+      "model_path": "/full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/frozen_inference_graph.pb",
+      "config_path": "/full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/ssd_mobilenet_v2_coco.txt",
+      "sha256": "2a8d8a89d695842e60d8c6d144181100555563e21acf2fa1e8f561fec5c3c6ad",
+      "detections_count": 46,
+      "error": null,
+      "output_shape": [
+        1,
+        1,
+        100,
+        7
+      ]
+    },
+    "openpose": {
+      "status": "PASS",
+      "model_path": "/full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/graph_opt.pb",
+      "sha256": "51f84ea82b3d0143dd4cf362e018c125e832c64771908ee8766fbd8b0328008d",
+      "heatmaps_finite": true,
+      "error": null,
+      "output_shape": [
+        1,
+        57,
+        46,
+        46
+      ]
+    },
+    "algorithm_pipeline": {
+      "status": "PASS",
+      "target_detection_pass": true,
+      "openpose_pass": true,
+      "error": null
+    },
+    "node_ros2_dds": {
+      "status": "PASS",
+      "node_instantiated": true,
+      "model_loaded": true,
+      "processed_image_received": true,
+      "target_array_received": true,
+      "error": null
+    }
+  },
+  "overall_status": "PASS",
+  "test_image_source": "/full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/Detection.jpg"
+}
+[19/20] FINISHED (perception) Returncode: 0
+[20/20] START (perception): /usr/bin/python3 /workspace/src/yahboomcar_slam/scripts/perception_mapper_check.py
+[PASS] tcw_16uc1_geometry_and_color: Geometry, colors and coordinate contract verified
+[PASS] tcw_16uc1_vs_32fc1_equivalence: 16UC1 and 32FC1 yield identical metric pointcloud coordinates
+[PASS] clear_map_observable_empty_publish: Observable clear verified: empty pointcloud published on clear_map
+[PASS] fresh_pointcloud_after_clear: Fresh pointcloud has exactly 9 points after reset
+[PASS] all_nan_depth_rejection: All-NaN depth rejected without corrupting map
+[PASS] invalid_pose_rejection: Zero quaternion and non-finite poses rejected
+[PASS] twc_mode_translation_direction: Twc mode correctly transforms +x translation to world +x (+1.0)
+
+All checks passed successfully.
+
+--- FINAL TEST RESULTS JSON ---
+{
+  "total_checks": 7,
+  "passed_checks": 7,
+  "failed_checks": 0,
+  "checks": [
+    {
+      "check": "tcw_16uc1_geometry_and_color",
+      "passed": true,
+      "message": "Geometry, colors and coordinate contract verified",
+      "evidence": {
+        "num_points": 27,
+        "unique_points": 9,
+        "mean_x": -1.0,
+        "expected_mean_x": -1.0,
+        "double_inversion_detected": false,
+        "z_valid": true,
+        "colors_matched": 27,
+        "sample_observed_pts": [
+          {
+            "x": -1.0199999809265137,
+            "y": -0.019999999552965164,
+            "z": 2.0,
+            "r": 30,
+            "g": 20,
+            "b": 10,
+            "a": 255
+          },
+          {
+            "x": -1.0,
+            "y": -0.019999999552965164,
+            "z": 2.0,
+            "r": 30,
+            "g": 20,
+            "b": 10,
+            "a": 255
+          },
+          {
+            "x": -0.9800000190734863,
+            "y": -0.019999999552965164,
+            "z": 2.0,
+            "r": 30,
+            "g": 20,
+            "b": 10,
+            "a": 255
+          },
+          {
+            "x": -1.0199999809265137,
+            "y": 0.0,
+            "z": 2.0,
+            "r": 30,
+            "g": 20,
+            "b": 10,
+            "a": 255
+          },
+          {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 2.0,
+            "r": 30,
+            "g": 20,
+            "b": 10,
+            "a": 255
+          }
+        ]
+      }
+    },
+    {
+      "check": "tcw_16uc1_vs_32fc1_equivalence",
+      "passed": true,
+      "message": "16UC1 and 32FC1 yield identical metric pointcloud coordinates",
+      "evidence": {
+        "set_16u_size": 9,
+        "set_32f_size": 9,
+        "coords_16u_sample": [
+          [
+            -0.98,
+            0.02,
+            2.0
+          ],
+          [
+            -1.02,
+            0.02,
+            2.0
+          ],
+          [
+            -0.98,
+            0.0,
+            2.0
+          ]
+        ],
+        "coords_32f_sample": [
+          [
+            -0.98,
+            0.02,
+            2.0
+          ],
+          [
+            -1.02,
+            0.02,
+            2.0
+          ],
+          [
+            -0.98,
+            0.0,
+            2.0
+          ]
+        ]
+      }
+    },
+    {
+      "check": "clear_map_observable_empty_publish",
+      "passed": true,
+      "message": "Observable clear verified: empty pointcloud published on clear_map",
+      "evidence": {
+        "global_received_after_clear": 1,
+        "observed_cloud": true
+      }
+    },
+    {
+      "check": "fresh_pointcloud_after_clear",
+      "passed": true,
+      "message": "Fresh pointcloud has exactly 9 points after reset",
+      "evidence": {
+        "fresh_points_count": 9
+      }
+    },
+    {
+      "check": "all_nan_depth_rejection",
+      "passed": true,
+      "message": "All-NaN depth rejected without corrupting map",
+      "evidence": {
+        "count_before": 9,
+        "count_after": 9
+      }
+    },
+    {
+      "check": "invalid_pose_rejection",
+      "passed": true,
+      "message": "Zero quaternion and non-finite poses rejected",
+      "evidence": {
+        "count_before": 9,
+        "count_after": 9
+      }
+    },
+    {
+      "check": "twc_mode_translation_direction",
+      "passed": true,
+      "message": "Twc mode correctly transforms +x translation to world +x (+1.0)",
+      "evidence": {
+        "mean_x": 1.0,
+        "expected_mean_x": 1.0,
+        "sample_pts": [
+          {
+            "x": 0.9800000190734863,
+            "y": -0.019999999552965164,
+            "z": 2.0,
+            "r": 30,
+            "g": 20,
+            "b": 10,
+            "a": 255
+          },
+          {
+            "x": 1.0,
+            "y": -0.019999999552965164,
+            "z": 2.0,
+            "r": 30,
+            "g": 20,
+            "b": 10,
+            "a": 255
+          },
+          {
+            "x": 1.0199999809265137,
+            "y": -0.019999999552965164,
+            "z": 2.0,
+            "r": 30,
+            "g": 20,
+            "b": 10,
+            "a": 255
+          },
+          {
+            "x": 0.9800000190734863,
+            "y": 0.0,
+            "z": 2.0,
+            "r": 30,
+            "g": 20,
+            "b": 10,
+            "a": 255
+          },
+          {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 2.0,
+            "r": 30,
+            "g": 20,
+            "b": 10,
+            "a": 255
+          }
+        ]
+      }
+    }
+  ]
+}
+[20/20] FINISHED (perception) Returncode: 0
+SUCCESS: All integration checks passed with returncode 0.

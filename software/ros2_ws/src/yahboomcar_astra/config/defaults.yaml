@@ -1,0 +1,52 @@
+# Default parameters for yahboomcar_astra (ROS2 Humble).
+# Used as starting values; launch files may override.
+
+colorHSV:
+  ros__parameters:
+    VideoSwitch: false
+    show_gui: false
+    Hmin: 0
+    Smin: 85
+    Vmin: 126
+    Hmax: 9
+    Smax: 253
+    Vmax: 255
+
+color_Tracker:
+  ros__parameters:
+    linear_Kp: 3.0
+    linear_Ki: 0.0
+    linear_Kd: 1.0
+    angular_Kp: 0.5
+    angular_Ki: 0.0
+    angular_Kd: 2.0
+    minDist: 1500.0  # millimetres
+    scale: 1000
+    image_width: 640
+    image_height: 480
+    image_center_x: 320.0
+    show_gui: false
+    joy_topic: "/JoyState"
+    depth_topic: "/camera/depth/image_raw"
+    position_topic: "/Current_point"
+
+KCF_Tracker:
+  ros__parameters:
+    linear_Kp: 0.9
+    linear_Ki: 0.0
+    linear_Kd: 0.1
+    angular_Kp: 0.5
+    angular_Ki: 0.0
+    angular_Kd: 0.2
+    minDist: 1.0  # metres
+    linear_max: 0.2
+    angular_max: 0.6
+    image_center_x: 320.0
+    image_width: 640
+    image_height: 480
+    show_gui: false
+    depth_stale_timeout: 0.5
+    initial_roi_x: 0
+    initial_roi_y: 0
+    initial_roi_w: 0
+    initial_roi_h: 0

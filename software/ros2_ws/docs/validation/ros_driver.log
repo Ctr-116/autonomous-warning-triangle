@@ -1,0 +1,7 @@
+[INFO] [1794302970.613451200] [x3plus_base]: X3plus base started: MOCK
+[INFO] [1794302970.660269154] [x3plus_base]: Base state: IDLE
+[INFO] [1794302970.754926089] [x3plus_base]: Base state: ACTIVE
+[INFO] [1794302974.420765699] [x3plus_base]: Base state: IDLE
+[INFO] [1794302974.513241949] [x3plus_base]: Base state: INVALID_COMMAND
+[INFO] [1794302974.550561677] [x3plus_base]: Base state: MULTIPLE_COMMAND_PUBLISHERS
+[INFO] [1794302975.144292143] [x3plus_base]: Base state: IDLE

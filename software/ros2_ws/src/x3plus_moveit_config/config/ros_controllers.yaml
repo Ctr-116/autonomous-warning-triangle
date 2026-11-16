@@ -1,0 +1,37 @@
+# [LEGACY REFERENCE ONLY / 原版遗留参考配置]
+# 本文件为 ROS 1 原版控制器配置 (position_controllers/JointTrajectoryController)，保留仅作历史比对。
+# ROS 2 Humble active 配置请参见同目录下由 ros2_control 管理的 ros2_controllers.yaml。
+arm_position_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - arm_joint1
+    - arm_joint2
+    - arm_joint3
+    - arm_joint4
+    - arm_joint5
+  gains:
+    arm_joint1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    arm_joint2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    arm_joint3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    arm_joint4:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    arm_joint5:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1

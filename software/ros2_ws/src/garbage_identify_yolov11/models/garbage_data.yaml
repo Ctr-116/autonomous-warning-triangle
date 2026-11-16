@@ -1,0 +1,12 @@
+train: /home/jetson/ultralytics/ultralytics/data/garbage_data/train/images
+val: /home/jetson/ultralytics/ultralytics/data/garbage_data/valid/images
+
+nc: 16
+names: ['Apple_core', 'Book', 'Cigarette_butts', 'Disposable_chopsticks', 'Egg_shell', 'Expired_cosmetics', 'Expired_tablets', 'Fish_bone', 'Newspaper', 'Old_school_bag', 'Peach_pit', 'Syringe', 'Toliet_paper', 'Used_batteries', 'Watermelon_rind', 'Zip_top_can']
+
+roboflow:
+  workspace: grabara
+  project: my-first-project-c16ff
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/grabara/my-first-project-c16ff/dataset/1

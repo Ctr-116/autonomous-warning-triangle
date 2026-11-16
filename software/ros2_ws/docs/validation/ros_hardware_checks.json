@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "fixture": "ROS 2 hardware backend / vendor SDK 3.3.9 / pyserial / Linux PTY; no physical robot",
+  "results": [
+    {
+      "check": "actual_hardware_node_sdk_startup_and_sensor_qos",
+      "passed": true
+    },
+    {
+      "check": "real_node_forward_velocity_and_odometry",
+      "passed": true,
+      "observed_delta_x_m": 0.04485721950004518
+    },
+    {
+      "check": "real_node_sideways_velocity_and_odometry",
+      "passed": true,
+      "observed_delta_y_m": 0.040081226800066365
+    },
+    {
+      "check": "real_node_yaw_and_imu_response",
+      "passed": true
+    },
+    {
+      "check": "real_node_command_timeout_zero",
+      "passed": true
+    },
+    {
+      "check": "silent_firmware_latches_fault_and_transmits_zero",
+      "passed": true
+    },
+    {
+      "check": "fresh_reports_require_explicit_reset_then_new_command",
+      "passed": true
+    }
+  ],
+  "shutdown_zero_observed": true,
+  "firmware_error": null,
+  "captured_motion_commands": 85
+}

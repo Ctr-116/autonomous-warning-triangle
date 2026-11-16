@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package format="3">
+  <name>yahboomcar_laser</name>
+  <version>0.1.0</version>
+  <description>
+    ROS 2 Humble migration of the Yahboom ROSMASTER X3plus lidar
+    avoidance, tracking and warning applications.
+  </description>
+  <license>TODO</license>
+  <maintainer email="yahboom@todo.todo">yahboom</maintainer>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>rcl_interfaces</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <test_depend>python3-pytest</test_depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,52 @@
+# robot_localization EKF configuration for yahboomcar_bringup (ROS 2 Humble).
+#
+# Requirements enforced in this file:
+#  - NO IMU orientation fusion. The base driver publishes raw IMU with
+#    orientation_covariance[0] = -1 (no fused orientation), so we MUST NOT
+#    consume IMU roll/pitch/yaw anywhere (imu0_config pose orientation is all
+#    false, first 6 entries false).
+#  - We DO fuse raw odometry velocity (vx, vy, vyaw) from odom_raw.
+#  - We ALSO fuse raw IMU angular velocity in z only (imu0_config vyaw entry).
+#  - The raw base must be launched with publish_odom_tf:=false when this EKF is
+#    active so that EKF is the sole odom TF publisher.
+#  - Only 15-bool standard config vectors (x, y, z, roll, pitch, yaw,
+#    vx, vy, vz, vroll, vpitch, vyaw, ax, ay, az).
+#  - imu0_remove_gravitational_acceleration is set to false because we do not fuse
+#    accelerations and orientation is unknown (preventing incorrect orientation assumptions).
+
+/**:
+  ros__parameters:
+    frequency: 20.0
+    sensor_timeout: 0.2
+    two_d_mode: true
+    transform_time_offset: 0.0
+    transform_timeout: 0.0
+    print_diagnostics: true
+
+    odom_frame: odom
+    base_link_frame: base_footprint
+    world_frame: odom
+    publish_tf: true
+    publish_acceleration: false
+
+    odom0: odom_raw
+    odom0_config: [false, false, false,
+                   false, false, false,
+                   true,  true,  false,
+                   false, false, true,
+                   false, false, false]
+    odom0_queue_size: 5
+    odom0_nodelay: false
+    odom0_differential: false
+    odom0_relative: false
+
+    imu0: imu/data_raw
+    imu0_config: [false, false, false,
+                  false, false, false,
+                  false, false, false,
+                  false, false, true,
+                  false, false, false]
+    imu0_queue_size: 5
+    imu0_differential: false
+    imu0_relative: false
+    imu0_remove_gravitational_acceleration: false

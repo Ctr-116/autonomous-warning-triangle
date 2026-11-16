@@ -1,0 +1,10 @@
+Starting offline suite runner. Root: /workspace. Total commands: 1
+[1/1] START (face): /usr/bin/python3 /workspace/src/yahboomcar_mediapipe/test/face_runtime.py --sdk-site /opt/x3plus_optional_dlib --image /full-validation-control/dlib-cache/2007_007763.jpg --image-scale 2
+Real SDK: dlib 19.24.6 /opt/x3plus_optional_dlib/dlib/__init__.py OpenCV 4.5.4
+PASS 1: installed Haar models, positive/blank inference, faces= 4
+PASS 2: FaceEyeDetection real DDS positive/blank images, dimensions and exact header
+PASS 3: actual HOG/68-point predictor, eye/lip coordinates, stale-state clearing
+PASS 4: FaceLandmarks real DDS positive/blank images, dimensions and exact header
+RESULT: PASS - all 4 actual face runtime groups
+[1/1] FINISHED (face) Returncode: 0
+SUCCESS: All integration checks passed with returncode 0.

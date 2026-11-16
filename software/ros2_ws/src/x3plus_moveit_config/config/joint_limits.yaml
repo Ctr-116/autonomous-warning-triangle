@@ -1,0 +1,62 @@
+# joint_limits.yaml 针对 MoveIt 2 (ROS 2 Humble) 关节限制配置
+# 注意：在 ROS 2 Humble 中，浮点型参数（如速度与加速度限制）必须为浮点类型（例如 1.0 而非 1），避免 rclcpp 类型推导异常
+
+default_velocity_scaling_factor: 0.1
+default_acceleration_scaling_factor: 0.1
+
+joint_limits:
+  arm_joint1:
+    has_velocity_limits: true
+    max_velocity: 1.0
+    has_acceleration_limits: false
+    max_acceleration: 0.0
+  arm_joint2:
+    has_velocity_limits: true
+    max_velocity: 1.0
+    has_acceleration_limits: false
+    max_acceleration: 0.0
+  arm_joint3:
+    has_velocity_limits: true
+    max_velocity: 1.0
+    has_acceleration_limits: false
+    max_acceleration: 0.0
+  arm_joint4:
+    has_velocity_limits: true
+    max_velocity: 1.0
+    has_acceleration_limits: false
+    max_acceleration: 0.0
+  arm_joint5:
+    has_velocity_limits: true
+    max_velocity: 1.0
+    has_acceleration_limits: false
+    max_acceleration: 0.0
+  grip_joint:
+    has_velocity_limits: true
+    max_velocity: 1.0
+    has_acceleration_limits: false
+    max_acceleration: 0.0
+  llink_joint1:
+    has_velocity_limits: false
+    max_velocity: 0.0
+    has_acceleration_limits: false
+    max_acceleration: 0.0
+  llink_joint2:
+    has_velocity_limits: false
+    max_velocity: 0.0
+    has_acceleration_limits: false
+    max_acceleration: 0.0
+  llink_joint3:
+    has_velocity_limits: false
+    max_velocity: 0.0
+    has_acceleration_limits: false
+    max_acceleration: 0.0
+  rlink_joint2:
+    has_velocity_limits: false
+    max_velocity: 0.0
+    has_acceleration_limits: false
+    max_acceleration: 0.0
+  rlink_joint3:
+    has_velocity_limits: false
+    max_velocity: 0.0
+    has_acceleration_limits: false
+    max_acceleration: 0.0

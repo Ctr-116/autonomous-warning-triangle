@@ -1,0 +1,7 @@
+image: /home/jetson/yahboomcar_ws/src/yahboomcar_nav/maps/map.pgm
+resolution: 0.050000
+origin: [0.106008, -0.934056, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+

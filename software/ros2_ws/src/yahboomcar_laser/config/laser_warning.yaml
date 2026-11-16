@@ -1,0 +1,17 @@
+laser_warning:
+  ros__parameters:
+    scan_topic: scan
+    command_topic: vel_raw
+    joy_state_topic: JoyState
+    buzzer_topic: Buzzer
+    control_rate_hz: 20.0
+    scan_timeout: 0.5
+    enabled: true
+    paused: false
+
+    # Effective defaults of cfg/laserWarningPID.cfg.
+    ang_kp: 2.0
+    ang_ki: 0.0
+    ang_kd: 0.0
+    laser_angle: 70.0
+    response_dist: 0.5

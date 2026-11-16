@@ -1,0 +1,4 @@
+# Preserve delivery hashes and unmodified vendor/model bytes on every platform.
+* -text
+# Shell entry points must remain executable by Bash after Windows checkouts.
+*.sh text eol=lf

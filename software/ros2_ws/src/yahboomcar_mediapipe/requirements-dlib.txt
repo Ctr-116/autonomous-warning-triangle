@@ -1,0 +1,3 @@
+# Optional FaceLandmarks SDK; tested from official PyPI source with 2 build workers.
+# Build/install inside a private venv, never into system Python.
+dlib==19.24.6

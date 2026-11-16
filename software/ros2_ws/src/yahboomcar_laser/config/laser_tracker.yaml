@@ -1,0 +1,22 @@
+laser_tracker:
+  ros__parameters:
+    scan_topic: scan
+    command_topic: vel_raw
+    joy_state_topic: JoyState
+    buzzer_topic: Buzzer
+    control_rate_hz: 20.0
+    scan_timeout: 0.5
+    enabled: true
+    paused: false
+
+    # Effective defaults of cfg/laserTrackerPID.cfg.
+    lin_kp: 1.5
+    lin_ki: 0.0
+    lin_kd: 2.0
+    ang_kp: 1.5
+    ang_ki: 0.0
+    ang_kd: 5.0
+    laser_angle: 65.0
+    response_dist: 1.0
+    priority_angle: 30.0
+    target_offset: 0.4

@@ -1,0 +1,325 @@
+{
+  "release": "x3plus_ros2_humble_mainline_20261116",
+  "target": "ROSMASTER X3plus / Ubuntu22.04 / ROS2Humble",
+  "profile": "native ROS2 mainline; original legacy algorithms/optional demonstrations documented as excluded",
+  "user_scope_decision": "选择工作量少的，然后在文档里说明一下就行",
+  "project_repository": "https://github.com/Ctr-116/autonomous-warning-triangle",
+  "project_commit": "4c05d8c00362e12b7da1c772f777e2ffe0c59f9e",
+  "inputs": [
+    {
+      "archive": "py_install_V3.3.9.zip",
+      "bytes": 13803,
+      "sha256": "1761c5873b6d1407afe5b4f4c5c4fb05787e07730448e786243071fe9e8b6ce7",
+      "verified": "2026-11-16",
+      "use": "Original user supplied ROS1 source/SDK reference"
+    },
+    {
+      "archive": "yahboomcar_ws.zip",
+      "bytes": 259103277,
+      "sha256": "13d752e04cba3e34116912c3903bbe194e5ca5185c304036fb0ddedb59937162",
+      "verified": "2026-11-16",
+      "use": "Original user supplied ROS1 source/SDK reference"
+    },
+    {
+      "archive": "Rosmaster.zip",
+      "bytes": 340550775,
+      "sha256": "3c9d8062d1ad0cfb746dfd80c487c0afe391c1e5f98c345d4b781165b696a715",
+      "verified": "2026-11-16",
+      "use": "Original user supplied ROS1 source/SDK reference"
+    }
+  ],
+  "packages": [
+    {
+      "name": "arm_autopilot",
+      "path": "src/arm_autopilot",
+      "version": "0.2.0",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "arm_color_transport",
+      "path": "src/arm_color_transport",
+      "version": "0.0.1",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "arm_mediapipe",
+      "path": "src/arm_mediapipe",
+      "version": "1.0.0",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "arm_moveit_demo",
+      "path": "src/arm_moveit_demo",
+      "version": "2.0.0",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "garbage_identify_yolov11",
+      "path": "src/garbage_identify_yolov11",
+      "version": "0.1.0",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "joy",
+      "path": "src/joy",
+      "version": "1.15.1",
+      "original_ros1_package": true,
+      "licenses": [
+        "BSD"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "motion_control_pkg",
+      "path": "src/motion_control_pkg",
+      "version": "0.2.0",
+      "original_ros1_package": false,
+      "licenses": [
+        "MIT"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "x3plus_base",
+      "path": "src/x3plus_base",
+      "version": "0.1.0",
+      "original_ros1_package": false,
+      "licenses": [
+        "MIT"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "x3plus_moveit_config",
+      "path": "src/x3plus_moveit_config",
+      "version": "0.3.0",
+      "original_ros1_package": true,
+      "licenses": [
+        "BSD"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "yahboomcar_astra",
+      "path": "src/yahboomcar_astra",
+      "version": "0.1.0",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "yahboomcar_bringup",
+      "path": "src/yahboomcar_bringup",
+      "version": "0.1.0",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "yahboomcar_ctrl",
+      "path": "src/yahboomcar_ctrl",
+      "version": "0.0.0",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "yahboomcar_description",
+      "path": "src/yahboomcar_description",
+      "version": "0.1.0",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "yahboomcar_laser",
+      "path": "src/yahboomcar_laser",
+      "version": "0.1.0",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "yahboomcar_linefollw",
+      "path": "src/yahboomcar_linefollw",
+      "version": "0.0.0",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "yahboomcar_mediapipe",
+      "path": "src/yahboomcar_mediapipe",
+      "version": "2.0.0",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "yahboomcar_msgs",
+      "path": "src/yahboomcar_msgs",
+      "version": "0.0.0",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "yahboomcar_multi",
+      "path": "src/yahboomcar_multi",
+      "version": "0.0.1",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "yahboomcar_nav",
+      "path": "src/yahboomcar_nav",
+      "version": "0.1.0",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "yahboomcar_slam",
+      "path": "src/yahboomcar_slam",
+      "version": "0.1.0",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "yahboomcar_visual",
+      "path": "src/yahboomcar_visual",
+      "version": "0.0.1",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    },
+    {
+      "name": "yahboomcar_voice_ctrl",
+      "path": "src/yahboomcar_voice_ctrl",
+      "version": "0.1.0",
+      "original_ros1_package": true,
+      "licenses": [
+        "TODO"
+      ],
+      "clean_build": "passed on Humble/Jammy x86_64",
+      "hardware_validation": false
+    }
+  ],
+  "sdk_version": "3.3.9",
+  "sdk_files_modified": false,
+  "sdk_files": [
+    {
+      "path": "vendor/py_install/Rosmaster_Lib/Rosmaster_Lib.py",
+      "sha256": "e9fd0f6bb015cda7dba58f4db6994402d83865cc125ab33035dbb39e978b1a8c",
+      "source_entry": "py_install/Rosmaster_Lib/Rosmaster_Lib.py"
+    },
+    {
+      "path": "vendor/py_install/Rosmaster_Lib/__init__.py",
+      "sha256": "3bd437478a3ff71a0a321e6e5cfe5e1fcd0e6f91f014ae5ff8b5eb6e29f651a6",
+      "source_entry": "py_install/Rosmaster_Lib/__init__.py"
+    }
+  ],
+  "additional_asset_sources": [
+    "src/garbage_identify_yolov11/models/SOURCE_MODELS.json",
+    "src/garbage_identify_yolov11/models/samples/SOURCE_SAMPLES.json",
+    "src/yahboomcar_astra/examples/opencv/provenance.json",
+    "scripts/optional_vision_assets.json"
+  ],
+  "original_face_predictor": {
+    "path": "src/yahboomcar_mediapipe/file/shape_predictor_68_face_landmarks.dat",
+    "bytes": 99693937,
+    "sha256": "fbdc2cb80eb9aa7a758672cbfdda32ba6300efe9b6e6c7a299ff7e736b11b92f"
+  },
+  "excluded_from_release": [
+    "src/yahboomcar_slam/param/ORBvoc.txt"
+  ],
+  "clean_build": {
+    "packages": 22,
+    "platform": "official Humble/Jammy x86_64",
+    "passed": true
+  },
+  "unit_tests": {
+    "suites": 17,
+    "passed": 307
+  },
+  "hardware_tested": false,
+  "arm64_tested": false,
+  "docker_daemon_build_tested": false,
+  "primary_offline_commands_passed": 20,
+  "slam_toolbox_initial_synthetic_mapping_passed": true,
+  "optional_vision_suites_passed": [
+    "mediapipe",
+    "yolo",
+    "face"
+  ],
+  "excluded_legacy_scope_accepted": true,
+  "validation_evidence_directory": "docs/validation/mainline",
+  "ros1_original_archives_changed": false
+}

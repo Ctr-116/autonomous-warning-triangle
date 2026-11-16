@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="yahboomcar_X3plus">
+
+  <!-- 参数定义 -->
+  <xacro:arg name="use_mock_hardware" default="true"/>
+  <xacro:arg name="initial_positions_file" default="$(find x3plus_moveit_config)/config/initial_positions.yaml"/>
+
+  <!-- 引入标准 yahboomcar_description 机器人模型描述 -->
+  <xacro:include filename="$(find yahboomcar_description)/urdf/yahboomcar_X3plus.urdf"/>
+
+  <!-- 引入 ros2_control 控制系统宏定义 -->
+  <xacro:include filename="$(find x3plus_moveit_config)/urdf/yahboomcar_X3plus.ros2_control.xacro"/>
+
+  <!-- 实例化 ros2_control 系统，默认采用 GenericSystem 仿真模式 -->
+  <xacro:yahboomcar_X3plus_ros2_control
+    name="YahboomcarX3plusSystem"
+    use_mock_hardware="$(arg use_mock_hardware)"
+    initial_positions_file="$(arg initial_positions_file)"
+  />
+
+</robot>

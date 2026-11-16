@@ -1,0 +1,49 @@
+name: ROS 2 Humble source review
+
+on:
+  pull_request:
+    paths:
+      - 'software/ros2_ws/**'
+      - '.github/workflows/ros2-review.yml'
+  push:
+    branches: ['main', 'ros2/**']
+    paths:
+      - 'software/ros2_ws/**'
+      - '.github/workflows/ros2-review.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ros2-review-${{ github.event.pull_request.head.ref || github.ref_name }}
+  cancel-in-progress: true
+
+jobs:
+  humble-build-and-test:
+    runs-on: ubuntu-22.04
+    container: ros:humble-ros-base-jammy
+    timeout-minutes: 45
+    defaults:
+      run:
+        shell: bash
+        working-directory: software/ros2_ws
+    env:
+      DEBIAN_FRONTEND: noninteractive
+      X3PLUS_BUILD_WORKERS: '1'
+      CMAKE_BUILD_PARALLEL_LEVEL: '2'
+      ROS_LOCALHOST_ONLY: '1'
+      ROS_DOMAIN_ID: '197'
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Verify source hashes, Python syntax and package layout
+        run: python3 tests/verify_delivery.py
+      - name: Install Humble dependencies
+        run: bash scripts/install_dependencies.sh
+      - name: Build all 22 packages
+        run: bash scripts/build.sh
+      - name: Run unit tests and mock/PTY integration checks
+        run: bash scripts/test.sh

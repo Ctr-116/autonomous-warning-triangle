@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "check": "ROS_command_limits",
+      "passed": true
+    },
+    {
+      "check": "ROS_command_deadman",
+      "passed": true
+    },
+    {
+      "check": "ROS_nonfinite_command_latch",
+      "passed": true
+    },
+    {
+      "check": "ROS_duplicate_controller_latch",
+      "passed": true
+    },
+    {
+      "check": "ROS_remap_collision_rejected",
+      "passed": true
+    }
+  ]
+}

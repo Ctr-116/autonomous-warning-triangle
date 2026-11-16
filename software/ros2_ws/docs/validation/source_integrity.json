@@ -1,0 +1,42 @@
+{
+  "inputs": [
+    {
+      "path": "E:/BaiduNetdiskDownload/20、源码汇总/py_install_V3.3.9.zip",
+      "sha256": "1761c5873b6d1407afe5b4f4c5c4fb05787e07730448e786243071fe9e8b6ce7",
+      "matches_manifest": true
+    },
+    {
+      "path": "E:/BaiduNetdiskDownload/yahboomcar_ws.zip",
+      "sha256": "13d752e04cba3e34116912c3903bbe194e5ca5185c304036fb0ddedb59937162",
+      "matches_manifest": true
+    },
+    {
+      "path": "E:/BaiduNetdiskDownload/Rosmaster.zip",
+      "sha256": "3c9d8062d1ad0cfb746dfd80c487c0afe391c1e5f98c345d4b781165b696a715",
+      "matches_manifest": true
+    }
+  ],
+  "sdk_files": [
+    {
+      "path": "vendor/py_install/README.md",
+      "sha256": "c30099ded91797790c94a8b53816a7b9f2dfcbdb72fa0f1857a21a178eba1464",
+      "unmodified": true
+    },
+    {
+      "path": "vendor/py_install/Rosmaster_Lib/__init__.py",
+      "sha256": "3bd437478a3ff71a0a321e6e5cfe5e1fcd0e6f91f014ae5ff8b5eb6e29f651a6",
+      "unmodified": true
+    },
+    {
+      "path": "vendor/py_install/Rosmaster_Lib/Rosmaster_Lib.py",
+      "sha256": "e9fd0f6bb015cda7dba58f4db6994402d83865cc125ab33035dbb39e978b1a8c",
+      "unmodified": true
+    },
+    {
+      "path": "vendor/py_install/setup.py",
+      "sha256": "a154f7824b945412d9fdd437080c6521497af996384df113cf2f0ea95b725c94",
+      "unmodified": true
+    }
+  ],
+  "sdk_source_file_count": 4
+}
