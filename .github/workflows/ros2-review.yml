@@ -15,6 +15,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ros2-review-${{ github.event.pull_request.head.ref || github.ref_name }}
+  cancel-in-progress: true
+
 jobs:
   humble-build-and-test:
     runs-on: ubuntu-22.04
@@ -32,7 +36,7 @@ jobs:
       ROS_DOMAIN_ID: '197'
       PYTHONDONTWRITEBYTECODE: '1'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           persist-credentials: false
       - name: Verify source hashes, Python syntax and package layout
