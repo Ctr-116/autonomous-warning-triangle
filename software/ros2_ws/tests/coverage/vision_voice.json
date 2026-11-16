@@ -1,0 +1,915 @@
+{
+  "scope": "static source audit",
+  "packages": [
+    {
+      "package": "garbage_identify_yolov11",
+      "entries": [
+        {
+          "original": "garbage_identify_yolov11/garbage_identify_yolov11.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "garbage_identify_yolov11/garbage_identify_yolov11/garbage_identify_yolov11.py",
+            "garbage_identify_yolov11/launch/garbage_identify.launch.py"
+          ],
+          "reason": "已完整迁移为 ROS2 节点 SpechGarbageIdentify 并注册 console_scripts 与配套 launch 文件"
+        },
+        {
+          "original": "garbage_identify_yolov11/garbage_library.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "garbage_identify_yolov11/garbage_identify_yolov11/garbage_library.py"
+          ],
+          "reason": "已迁移为 Python 算法模块 GarbageTransport 与 Step 状态机"
+        },
+        {
+          "original": "garbage_identify_yolov11/transport_common.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "garbage_identify_yolov11/garbage_identify_yolov11/transport_common.py"
+          ],
+          "reason": "已迁移为基于 ROS2 Node/Nav2 动作客户端与 publisher 的 ROSNav 导航公共组件"
+        },
+        {
+          "original": "garbage_identify_yolov11/voice_ctrl_TakeGarbage.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "garbage_identify_yolov11/garbage_identify_yolov11/voice_ctrl_take_garbage.py"
+          ],
+          "reason": "已迁移为 ColorTransportNode 节点并在 setup.py 注册 voice_ctrl_take_garbage 入口点"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "package": "yahboomcar_astra",
+      "entries": [
+        {
+          "original": "yahboomcar_astra/cfg/ColorHSV.cfg",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_astra/yahboomcar_astra/color_hsv.py"
+          ],
+          "reason": "ROS1 dynamic_reconfigure 参数配置已转换为 ColorIdentify 节点的 ROS2 声明参数 (Hmin, Smin, Vmin 等)"
+        },
+        {
+          "original": "yahboomcar_astra/cfg/ColorTrackerPID.cfg",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_astra/yahboomcar_astra/color_tracker.py"
+          ],
+          "reason": "ROS1 PID 动态重配置参数已映射为 ColorTracker 节点的 ROS2 原生参数 (linear_Kp, angular_Kp 等)"
+        },
+        {
+          "original": "yahboomcar_astra/cfg/KCFTracker.cfg",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_astra/src/KCF_Tracker.cpp",
+            "yahboomcar_astra/launch/KCFTracker.launch.py"
+          ],
+          "reason": "ROS1 KCFTracker 动态参数已转换为 KCFTrackerNode 节点的 ROS2 参数配置与 launch 传参"
+        },
+        {
+          "original": "yahboomcar_astra/include/yahboomcar_astra/PID.cpp",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_astra/include/yahboomcar_astra/PID.cpp"
+          ],
+          "reason": "C++ PID 实现源码保留并直接参与 CMakeLists.txt 中 KCFTracker_node 目标编译"
+        },
+        {
+          "original": "yahboomcar_astra/include/yahboomcar_astra/fhog.cpp",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_astra/include/yahboomcar_astra/fhog.cpp"
+          ],
+          "reason": "KCF 特征提取源码保留并参与 KCFTracker_node 目标编译"
+        },
+        {
+          "original": "yahboomcar_astra/include/yahboomcar_astra/kcftracker.cpp",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_astra/include/yahboomcar_astra/kcftracker.cpp"
+          ],
+          "reason": "KCF 跟踪核心算法保留并参与 KCFTracker_node 目标编译"
+        },
+        {
+          "original": "yahboomcar_astra/launch/KCFTracker.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_astra/launch/KCFTracker.launch.py"
+          ],
+          "reason": "已转换为 ROS2 Python 启动文件 KCFTracker.launch.py，启动 KCFTracker_node 并声明相关参数"
+        },
+        {
+          "original": "yahboomcar_astra/launch/colorHSV.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_astra/launch/colorHSV.launch.py"
+          ],
+          "reason": "已转换为 ROS2 Python 启动文件 colorHSV.launch.py"
+        },
+        {
+          "original": "yahboomcar_astra/launch/colorTracker.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_astra/launch/colorTracker.launch.py"
+          ],
+          "reason": "已转换为 ROS2 Python 启动文件 colorTracker.launch.py，同时拉起 colorTracker 与 colorHSV 节点"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/astra_common.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_astra/yahboomcar_astra/astra_common.py"
+          ],
+          "reason": "公共视觉与 PID 库已迁移为 yahboomcar_astra 包内 Python 模块"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/colorHSV.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_astra/scripts/colorHSV.py",
+            "yahboomcar_astra/yahboomcar_astra/color_hsv.py"
+          ],
+          "reason": "已迁移为 ColorIdentify 节点并通过 CMakeLists.txt 作为可执行脚本安装至 lib/yahboomcar_astra"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/colorTracker.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_astra/scripts/colorTracker.py",
+            "yahboomcar_astra/yahboomcar_astra/color_tracker.py"
+          ],
+          "reason": "已迁移为 ColorTracker 节点并通过 CMakeLists.txt 作为可执行脚本安装至 lib/yahboomcar_astra"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/1_1.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/1_1.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/1_2.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/1_2.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/1_3.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/1_3.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/1_4.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/1_4.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/2_1.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/2_1.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/2_2.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/2_2.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/2_3.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/2_3.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/2_4.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/2_4.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/3_1.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/3_1.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/3_2.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/3_2.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/3_3.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/3_3.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/3_4.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/3_4.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/3_5.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/3_5.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/3_6.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/3_6.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/3_7.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/3_7.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/3_8.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/3_8.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/3_9.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/3_9.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/4_1_1.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/4_1_1.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/4_1_2.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/4_1_2.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/4_2.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/4_2.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/scripts/opencv/4_3.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_astra/examples/opencv/4_3.py"
+          ],
+          "reason": "OpenCV 基础教程教学脚本，按规范保留于 share/examples 目录"
+        },
+        {
+          "original": "yahboomcar_astra/src/KCF_Tracker.cpp",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_astra/src/KCF_Tracker.cpp",
+            "yahboomcar_astra/include/yahboomcar_astra/KCF_Tracker.h"
+          ],
+          "reason": "已迁移为 ROS2 C++ 节点类 KCFTrackerNode 实现"
+        },
+        {
+          "original": "yahboomcar_astra/src/KCF_Tracker_main.cpp",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_astra/src/KCF_Tracker_main.cpp"
+          ],
+          "reason": "ROS2 节点主入口函数，编译生成 KCFTracker_node 可执行文件"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "package": "yahboomcar_mediapipe",
+      "entries": [
+        {
+          "original": "yahboomcar_mediapipe/launch/01_HandDetector.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/launch/01_HandDetector.launch.py"
+          ],
+          "reason": "已转换为 ROS2 Python 启动文件并调用 HandDetector 入口"
+        },
+        {
+          "original": "yahboomcar_mediapipe/launch/02_PoseDetector.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/launch/02_PoseDetector.launch.py"
+          ],
+          "reason": "已转换为 ROS2 Python 启动文件并调用 PoseDetector 入口"
+        },
+        {
+          "original": "yahboomcar_mediapipe/launch/03_Holistic.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/launch/03_Holistic.launch.py"
+          ],
+          "reason": "已转换为 ROS2 Python 启动文件并调用 Holistic 入口"
+        },
+        {
+          "original": "yahboomcar_mediapipe/launch/04_FaceMesh.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/launch/04_FaceMesh.launch.py"
+          ],
+          "reason": "已转换为 ROS2 Python 启动文件并调用 FaceMesh 入口"
+        },
+        {
+          "original": "yahboomcar_mediapipe/launch/05_FaceEyeDetection.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/launch/05_FaceEyeDetection.launch.py"
+          ],
+          "reason": "已转换为 ROS2 Python 启动文件并调用 FaceEyeDetection 入口"
+        },
+        {
+          "original": "yahboomcar_mediapipe/launch/cloud_Viewer.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/launch/cloud_Viewer.launch.py"
+          ],
+          "reason": "已转换为 ROS2 Python 启动文件并调用 mediapipe_point 入口"
+        },
+        {
+          "original": "yahboomcar_mediapipe/scripts/01_HandDetector.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/yahboomcar_mediapipe/detectors.py"
+          ],
+          "reason": "已迁移为 detectors.py 中的 HandDetector 类及 HandDetectorNode 节点，注册 HandDetector 控制台入口"
+        },
+        {
+          "original": "yahboomcar_mediapipe/scripts/02_PoseDetector.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/yahboomcar_mediapipe/detectors.py"
+          ],
+          "reason": "已迁移为 detectors.py 中的 PoseDetector 类及 PoseDetectorNode 节点，注册 PoseDetector 控制台入口"
+        },
+        {
+          "original": "yahboomcar_mediapipe/scripts/03_Holistic.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/yahboomcar_mediapipe/detectors.py"
+          ],
+          "reason": "已迁移为 detectors.py 中的 Holistic 类及 HolisticNode 节点，注册 Holistic 控制台入口"
+        },
+        {
+          "original": "yahboomcar_mediapipe/scripts/04_FaceMesh.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/yahboomcar_mediapipe/detectors.py"
+          ],
+          "reason": "已迁移为 detectors.py 中的 FaceMesh 类及 FaceMeshNode 节点，注册 FaceMesh 控制台入口"
+        },
+        {
+          "original": "yahboomcar_mediapipe/scripts/05_FaceEyeDetection.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/yahboomcar_mediapipe/detectors.py"
+          ],
+          "reason": "已迁移为 detectors.py 中的 FaceEyeDetectionNode 节点，注册 FaceEyeDetection 控制台入口并使用本地 Haar 特征模型"
+        },
+        {
+          "original": "yahboomcar_mediapipe/scripts/06_FaceLandmarks.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/yahboomcar_mediapipe/detectors.py"
+          ],
+          "reason": "已整合至 detectors.py 并在 setup.py 注册 FaceLandmarks 控制台入口，依赖 dlib 预训练特征模型"
+        },
+        {
+          "original": "yahboomcar_mediapipe/scripts/07_FaceDetection.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/yahboomcar_mediapipe/detectors.py"
+          ],
+          "reason": "已迁移为 detectors.py 中的 FaceDetector 类及 FaceDetectionNode 节点，注册 FaceDetection 入口"
+        },
+        {
+          "original": "yahboomcar_mediapipe/scripts/08_Objectron.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/yahboomcar_mediapipe/detectors.py"
+          ],
+          "reason": "已迁移为 detectors.py 中的 Objectron 类及 ObjectronNode 节点，注册 Objectron 入口"
+        },
+        {
+          "original": "yahboomcar_mediapipe/scripts/09_VirtualPaint.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/yahboomcar_mediapipe/detectors.py"
+          ],
+          "reason": "已迁移为 detectors.py 中的 VirtualPaintNode 节点，注册 VirtualPaint 入口"
+        },
+        {
+          "original": "yahboomcar_mediapipe/scripts/10_HandCtrl.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/yahboomcar_mediapipe/detectors.py"
+          ],
+          "reason": "已迁移为 detectors.py 中的 HandCtrlNode 节点，注册 HandCtrl 入口"
+        },
+        {
+          "original": "yahboomcar_mediapipe/scripts/11_GestureRecognition.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/yahboomcar_mediapipe/detectors.py",
+            "yahboomcar_mediapipe/yahboomcar_mediapipe/gesture.py"
+          ],
+          "reason": "手势识别算法已解耦至 gesture.py，并在 detectors.py 中实现 GestureRecognitionNode 节点与控制台入口"
+        },
+        {
+          "original": "yahboomcar_mediapipe/src/mediapipe_point.cpp",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_mediapipe/yahboomcar_mediapipe/mediapipe_point.py"
+          ],
+          "reason": "C++ 点云转换节点已重新实现为原生 ROS2 Python 节点 MediaPipePointNode 并注册 mediapipe_point 入口"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "package": "yahboomcar_visual",
+      "entries": [
+        {
+          "original": "yahboomcar_visual/AR/simple_AR.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/yahboomcar_visual/ar_tools.py"
+          ],
+          "reason": "已迁移为 ar_tools.py 中的 SimpleAR 类及 SimpleARNode 节点"
+        },
+        {
+          "original": "yahboomcar_visual/AR/test.py",
+          "status": "pure_example",
+          "ros2_paths": [
+            "yahboomcar_visual/yahboomcar_visual/ar_tools.py"
+          ],
+          "reason": "AR 坐标轴与线框投影测试算法逻辑已整合进 SimpleAR 内部绘制模块"
+        },
+        {
+          "original": "yahboomcar_visual/detection/target_detection.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/yahboomcar_visual/target_detection.py"
+          ],
+          "reason": "已迁移为 TargetDetectionAlgorithm 算法类及 TargetDetectionNode 原生 ROS2 节点"
+        },
+        {
+          "original": "yahboomcar_visual/launch/ar_track.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/launch/ar_track.launch.py"
+          ],
+          "reason": "已迁移为 ROS2 Python launch 文件，包含 usb_cam 及 ar_track_alvar 依赖防护处理"
+        },
+        {
+          "original": "yahboomcar_visual/launch/astra_calibration.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/launch/astra_calibration.launch.py"
+          ],
+          "reason": "已迁移为 ROS2 Python launch 文件，启动 IR_transform 节点及可选标定工具"
+        },
+        {
+          "original": "yahboomcar_visual/launch/astra_get_depth.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/launch/astra_get_depth.launch.py"
+          ],
+          "reason": "已迁移为 ROS2 Python launch 文件，支持切换 Python 版 visual_node 或 C++ 原生节点"
+        },
+        {
+          "original": "yahboomcar_visual/launch/astra_get_rgb.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/launch/astra_get_rgb.launch.py"
+          ],
+          "reason": "已迁移为 ROS2 Python launch 文件，支持切换 Python 版 visual_node 或 C++ 原生节点"
+        },
+        {
+          "original": "yahboomcar_visual/launch/astra_image_flip.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/launch/astra_image_flip.launch.py"
+          ],
+          "reason": "已迁移为 ROS2 Python launch 文件，调度 visual_node.py flip 模式"
+        },
+        {
+          "original": "yahboomcar_visual/launch/laser_to_image.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/launch/laser_to_image.launch.py"
+          ],
+          "reason": "已迁移为 ROS2 Python launch 文件，调度 visual_node.py laser_to_image 模式"
+        },
+        {
+          "original": "yahboomcar_visual/launch/opencv_apps.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/launch/opencv_apps.launch.py"
+          ],
+          "reason": "已迁移为 ROS2 Python launch 文件，调度 visual_node.py pub_image 模式"
+        },
+        {
+          "original": "yahboomcar_visual/launch/pointCloud_pub.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/launch/pointCloud_pub.launch.py"
+          ],
+          "reason": "已迁移为 ROS2 Python launch 文件，启动 pointCloud_pub 原生 C++ 节点及 rviz2"
+        },
+        {
+          "original": "yahboomcar_visual/launch/pointCloud_visualize.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/launch/pointCloud_visualize.launch.py"
+          ],
+          "reason": "已迁移为 ROS2 Python launch 文件，启动 pointCloud_visualize 原生 C++ 节点"
+        },
+        {
+          "original": "yahboomcar_visual/launch/simple_AR.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/launch/simple_AR.launch.py"
+          ],
+          "reason": "已迁移为 ROS2 Python launch 文件，调度 visual_node.py ar 模式"
+        },
+        {
+          "original": "yahboomcar_visual/scripts/astra_color_point.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/yahboomcar_visual/image_nodes.py"
+          ],
+          "reason": "已重构为 image_nodes.py 中的 _ColorPointNode 节点与 main_color_point 入口"
+        },
+        {
+          "original": "yahboomcar_visual/scripts/astra_depth_image.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/yahboomcar_visual/image_nodes.py"
+          ],
+          "reason": "已重构为 image_nodes.py 中的 _DepthViewer 节点与 main_depth 入口"
+        },
+        {
+          "original": "yahboomcar_visual/scripts/astra_image_flip.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/yahboomcar_visual/image_nodes.py"
+          ],
+          "reason": "已重构为 image_nodes.py 中的 _FlipNode 节点与 main_flip 入口"
+        },
+        {
+          "original": "yahboomcar_visual/scripts/astra_rgb_image.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/yahboomcar_visual/image_nodes.py"
+          ],
+          "reason": "已重构为 image_nodes.py 中的 _RgbViewer 节点与 main_rgb 入口"
+        },
+        {
+          "original": "yahboomcar_visual/scripts/laser_to_image.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/yahboomcar_visual/laser_to_image.py"
+          ],
+          "reason": "已迁移为 laser_to_image.py 中的 LaserToImage 原生 ROS2 节点"
+        },
+        {
+          "original": "yahboomcar_visual/scripts/pub_image.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/yahboomcar_visual/image_nodes.py"
+          ],
+          "reason": "已重构为 image_nodes.py 中的 _PubImageNode 节点与 main_pubimage 入口"
+        },
+        {
+          "original": "yahboomcar_visual/scripts/sub_point.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/yahboomcar_visual/point_tools.py"
+          ],
+          "reason": "已重构为 point_tools.py 中的 SubPoint 节点与 main_sub_point 入口"
+        },
+        {
+          "original": "yahboomcar_visual/simple_qrcode/QRcode_Create.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/yahboomcar_visual/qr_tools.py"
+          ],
+          "reason": "二维码生成功能已迁移为 qr_tools.py 中的 Create_QRcode 函数及 QRCreateNode 节点"
+        },
+        {
+          "original": "yahboomcar_visual/simple_qrcode/QRcode_Parsing.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/yahboomcar_visual/qr_tools.py"
+          ],
+          "reason": "二维码解析功能已迁移为 qr_tools.py 中的 decodeDisplay 函数及 QRParserNode 节点"
+        },
+        {
+          "original": "yahboomcar_visual/src/IR_transform.cpp",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/src/IR_transform.cpp"
+          ],
+          "reason": "已迁移为 ROS2 C++ 节点 IrTransform 并由 CMakeLists.txt 编译安装为 IR_transform 可执行程序"
+        },
+        {
+          "original": "yahboomcar_visual/src/astra_depth_image.cpp",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/src/astra_depth_image.cpp"
+          ],
+          "reason": "已迁移为 ROS2 C++ 节点 AstraDepthImage 并编译安装为 astra_depth_image 可执行程序"
+        },
+        {
+          "original": "yahboomcar_visual/src/astra_rgb_image.cpp",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/src/astra_rgb_image.cpp"
+          ],
+          "reason": "已迁移为 ROS2 C++ 节点 AstraRgbImage 并编译安装为 astra_rgb_image 可执行程序"
+        },
+        {
+          "original": "yahboomcar_visual/src/pointCloud_pub.cpp",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/src/pointCloud_pub.cpp"
+          ],
+          "reason": "已迁移为 ROS2 C++ 节点 PointCloudPublisher，集成 PCL 与 pcl_conversions 编译发布点云"
+        },
+        {
+          "original": "yahboomcar_visual/src/pointCloud_visualize.cpp",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_visual/src/pointCloud_visualize.cpp"
+          ],
+          "reason": "已迁移为 ROS2 C++ 节点 CloudHandler，通过 PCL 可视化点云数据"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "package": "yahboomcar_voice_ctrl",
+      "entries": [
+        {
+          "original": "yahboomcar_voice_ctrl/launch/voice_ctrl_arm.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/launch/voice_ctrl_arm.launch.py",
+            "yahboomcar_voice_ctrl/launch/voice.launch.py"
+          ],
+          "reason": "提供兼容启动文件 voice_ctrl_arm.launch.py，由统一调度入口 voice.launch.py 运行 arm 模式"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/launch/voice_ctrl_arm_study.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/launch/voice_ctrl_arm_study.launch.py",
+            "yahboomcar_voice_ctrl/launch/voice.launch.py"
+          ],
+          "reason": "提供兼容启动文件 voice_ctrl_arm_study.launch.py，由 voice.launch.py 运行 study 模式"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/launch/voice_ctrl_colorTracker.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/launch/voice_ctrl_colorTracker.launch.py",
+            "yahboomcar_voice_ctrl/launch/voice.launch.py"
+          ],
+          "reason": "提供兼容启动文件 voice_ctrl_colorTracker.launch.py，由 voice.launch.py 运行 color_tracker 模式"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/launch/voice_ctrl_followline.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/launch/voice_ctrl_followline.launch.py",
+            "yahboomcar_voice_ctrl/launch/voice.launch.py"
+          ],
+          "reason": "提供兼容启动文件 voice_ctrl_followline.launch.py，由 voice.launch.py 运行 line 模式"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/launch/voice_ctrl_takethings.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/launch/voice_ctrl_takethings.launch.py",
+            "yahboomcar_voice_ctrl/launch/voice.launch.py"
+          ],
+          "reason": "提供兼容启动文件 voice_ctrl_takethings.launch.py，由 voice.launch.py 协同拉起 Nav2 导航与 takethings 业务模式"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/launch/voice_ctrl_yahboomcar.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/launch/voice_ctrl_yahboomcar.launch.py",
+            "yahboomcar_voice_ctrl/launch/voice.launch.py"
+          ],
+          "reason": "提供兼容启动文件 voice_ctrl_yahboomcar.launch.py，由 voice.launch.py 运行 base 底盘控制模式"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/launch/voice_transport_base.launch",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/launch/voice_transport_base.launch.py",
+            "yahboomcar_voice_ctrl/launch/voice.launch.py"
+          ],
+          "reason": "提供兼容启动文件 voice_transport_base.launch.py，由 voice.launch.py 运行 transport 业务模式"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/scripts/astra_common.py",
+          "status": "upstream_replacement",
+          "ros2_paths": [
+            "yahboomcar_astra/yahboomcar_astra/astra_common.py"
+          ],
+          "reason": "代码重复项已消除，直接复用上游 yahboomcar_astra 包提供的规范 astra_common 模块"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/scripts/colorHSV.py",
+          "status": "upstream_replacement",
+          "ros2_paths": [
+            "yahboomcar_astra/yahboomcar_astra/color_hsv.py",
+            "yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_color_tracker.py"
+          ],
+          "reason": "HSV 追踪与识别继承复用 yahboomcar_astra.color_hsv，语音扩展实现于 voice_color_tracker.py"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/scripts/colorTracker.py",
+          "status": "upstream_replacement",
+          "ros2_paths": [
+            "yahboomcar_astra/yahboomcar_astra/color_tracker.py",
+            "yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_color_tracker.py"
+          ],
+          "reason": "颜色跟踪节点继承复用 yahboomcar_astra.color_tracker，语音交互包装于 voice_color_tracker.py"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/scripts/follow_common.py",
+          "status": "upstream_replacement",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_line.py"
+          ],
+          "reason": "巡线公共控制逻辑由 yahboomcar_linefollw 依赖项统一提供，语音端在 voice_line.py 派生"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/scripts/transport_common.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_business.py"
+          ],
+          "reason": "搬运核心逻辑（路点导航、机械臂动作序列、蜂鸣器控制）已重构为 voice_business.py 的 _BusinessNode 状态机"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/scripts/voice_Ctrl_Mcnamu_driver.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_base.py"
+          ],
+          "reason": "麦克纳姆轮底盘语音控制已迁移为 VoiceBase 节点并注册 voice_base 控制台入口"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/scripts/voice_Ctrl_color_identify.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_color_identify.py"
+          ],
+          "reason": "语音触发颜色识别已迁移为 VoiceColorIdentify 节点并注册 voice_color_identify 控制台入口"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/scripts/voice_Ctrl_color_tracker.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_color_tracker.py"
+          ],
+          "reason": "语音控制颜色跟随已迁移为 VoiceColorHSV 与 VoiceDepthTracker，注册 voice_color_tracker 入口"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/scripts/voice_Ctrl_follow_line.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_line.py"
+          ],
+          "reason": "语音控制巡线已迁移为 VoiceLine 节点并注册 voice_line 入口"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/scripts/voice_Ctrl_send_mark.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_waypoints.py"
+          ],
+          "reason": "多路点发送逻辑已迁移为基于 Nav2 NavigateToPose 动作客户端的 VoiceWaypoints 节点并注册 voice_waypoints 入口"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/scripts/voice_arm_library.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_arm.py"
+          ],
+          "reason": "机械臂动作库 (舞蹈、点赞、招手等预设序列) 已重构为 voice_arm.py 内部动作序列生成器"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/scripts/voice_arm_study.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_arm_study.py"
+          ],
+          "reason": "示教再现功能已迁移为 VoiceArmStudy 原生 ROS2 节点并注册 voice_arm_study 入口"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/scripts/voice_color_transport.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_business.py"
+          ],
+          "reason": "颜色搬运业务已迁移为 VoiceColorTransport 节点并注册 voice_color_transport 入口"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/scripts/voice_ctrl_arm.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_arm.py"
+          ],
+          "reason": "机械臂语音控制驱动已迁移为 VoiceArm 节点并注册 voice_arm 控制台入口"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/scripts/voice_ctrl_armBK.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_arm.py"
+          ],
+          "reason": "ROS1 备份文件 voice_ctrl_armBK.py 的功能与 voice_ctrl_arm.py 等同，由 VoiceArm 节点完整覆盖"
+        },
+        {
+          "original": "yahboomcar_voice_ctrl/scripts/voice_ctrl_takethings.py",
+          "status": "mapped",
+          "ros2_paths": [
+            "yahboomcar_voice_ctrl/yahboomcar_voice_ctrl/voice_business.py"
+          ],
+          "reason": "语音取物业务已迁移为 VoiceTakeThings 节点并注册 voice_take_things 控制台入口"
+        }
+      ],
+      "gaps": []
+    }
+  ],
+  "summary": {
+    "total_packages": 4,
+    "total_ros1_entries": 68,
+    "mapped_entries": 43,
+    "pure_example_entries": 22,
+    "upstream_replacement_entries": 3,
+    "missing_entries": 0,
+    "needs_review_entries": 0
+  }
+}

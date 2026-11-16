@@ -1,0 +1,22 @@
+# Velocity mux configuration.
+#
+# The mux is the SOLE publisher of ``vel_raw`` when launched with
+# use_mux:=true.  Applications must publish to ``control/<source>`` with
+# source in {teleop, navigation, laser, application, calibration}.
+#
+# Priority order (index-aligned with sources):
+#   teleop(100) > laser(40) > navigation(30) > application(20) > calibration(10)
+# Priority only breaks ties between fresh sources. Idle teleop (all zero)
+# will not permanently starve navigation. JoyState=true restricts teleop.
+
+velocity_mux:
+  ros__parameters:
+    source_timeout_s: 0.3
+    max_linear_x: 0.2
+    max_linear_y: 0.2
+    max_angular_z: 0.6
+    publish_rate: 20.0
+    output_topic: vel_raw
+    status_topic: base/status
+    reset_service_hint: base/reset_stop
+    priority: [100, 30, 40, 20, 10]

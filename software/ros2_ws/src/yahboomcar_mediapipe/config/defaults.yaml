@@ -1,0 +1,109 @@
+# Default parameters for yahboomcar_mediapipe ROS2 Humble nodes.
+# Load with: ros2 param load /<node> config/defaults.yaml
+handDetector:
+  ros__parameters:
+    image_topic: /camera/color/image_raw
+    landmark_topic: /mediapipe/points
+    image_output_topic: /mediapipe/image
+    gui: false
+    publish_image: false
+    mode: HandDetector
+    max_hands: 2
+    min_detection_confidence: 0.5
+    min_tracking_confidence: 0.5
+
+PoseDetector:
+  ros__parameters:
+    image_topic: /camera/color/image_raw
+    landmark_topic: /mediapipe/points
+    image_output_topic: /mediapipe/image
+    gui: false
+    publish_image: false
+    mode: PoseDetector
+    smooth_landmarks: true
+    min_detection_confidence: 0.5
+    min_tracking_confidence: 0.5
+
+Holistic:
+  ros__parameters:
+    image_topic: /camera/color/image_raw
+    landmark_topic: /mediapipe/points
+    image_output_topic: /mediapipe/image
+    gui: false
+    publish_image: false
+    mode: Holistic
+    smooth_landmarks: true
+
+FaceMesh:
+  ros__parameters:
+    image_topic: /camera/color/image_raw
+    landmark_topic: /mediapipe/points
+    image_output_topic: /mediapipe/image
+    gui: false
+    publish_image: false
+    mode: FaceMesh
+    max_faces: 2
+
+FaceEyeDetection:
+  ros__parameters:
+    image_topic: /camera/color/image_raw
+    image_output_topic: /FaceEyeDetection/image
+    gui: false
+    mode: FaceEyeDetection
+
+FaceLandmarks:
+  ros__parameters:
+    image_topic: /camera/color/image_raw
+    image_output_topic: /FaceLandmarks/image
+    gui: false
+    mode: FaceLandmarks
+
+FaceDetection:
+  ros__parameters:
+    image_topic: /camera/color/image_raw
+    image_output_topic: /mediapipe/image
+    gui: false
+    publish_image: true
+    mode: FaceDetection
+    min_detection_confidence: 0.75
+
+Objectron:
+  ros__parameters:
+    image_topic: /camera/color/image_raw
+    gui: false
+    publish_image: true
+    mode: Objectron
+    model_index: 0
+    max_objects: 5
+    min_detection_confidence: 0.5
+    min_tracking_confidence: 0.99
+
+VirtualPaint:
+  ros__parameters:
+    image_topic: /camera/color/image_raw
+    gui: false
+    publish_image: true
+    mode: VirtualPaint
+    min_detection_confidence: 0.85
+
+HandCtrl:
+  ros__parameters:
+    image_topic: /camera/color/image_raw
+    gui: false
+    publish_image: true
+    mode: HandCtrl
+
+GestureRecognition:
+  ros__parameters:
+    image_topic: /camera/color/image_raw
+    gui: false
+    publish_image: true
+    mode: GestureRecognition
+    min_detection_confidence: 0.75
+
+mediapipe_Viewer:
+  ros__parameters:
+    point_topic: /mediapipe/points
+    cloud_topic: /mediapipe_cloud
+    cloud_frame_id: map
+    viewer_display: true

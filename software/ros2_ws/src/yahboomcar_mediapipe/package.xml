@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package format="3">
+  <name>yahboomcar_mediapipe</name>
+  <version>2.0.0</version>
+  <description>ROS2 Humble port of yahboomcar_mediapipe: MediaPipe hand/pose/holistic/face detectors, gesture recognition, virtual paint, hand-controlled effects, and landmark-to-point-cloud conversion.</description>
+  <license>TODO</license>
+  <maintainer email="yahboom@todo.todo">yahboom</maintainer>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>sensor_msgs_py</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>yahboomcar_msgs</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <exec_depend>mediapipe</exec_depend>
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,21 @@
+# [LEGACY REFERENCE ONLY / 原版遗留参考配置]
+# 本文件为 ROS 1 原版假控制器管理器配置 (moveit_fake_controller_manager)，保留仅作历史比对。
+# ROS 2 Humble active 配置已迁移为 ros2_control 的 mock_components/GenericSystem 与 moveit_controllers.yaml。
+controller_list:
+  - name: fake_arm_group_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - arm_joint1
+      - arm_joint2
+      - arm_joint3
+      - arm_joint4
+      - arm_joint5
+  - name: fake_grip_group_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - grip_joint
+initial:  # Define initial robot poses per group
+  - group: arm_group
+    pose: up
+  - group: grip_group
+    pose: close

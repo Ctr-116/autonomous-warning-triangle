@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package format="3">
+  <name>yahboomcar_astra</name>
+  <version>0.1.0</version>
+  <description>ROS2 Humble migration of the Yahboom Astra color/KCF tracker applications (uses an external camera driver).</description>
+  <license>TODO</license>
+  <maintainer email="yahboom@todo.todo">yahboom</maintainer>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>yahboomcar_msgs</depend>
+  <test_depend>ament_cmake_pytest</test_depend>
+  <test_depend>python3-numpy</test_depend>
+  <test_depend>python3-opencv</test_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

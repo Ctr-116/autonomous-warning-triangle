@@ -1,0 +1,22 @@
+motion_test_node:
+  ros__parameters:
+    command_topic: /vel_raw
+    odom_topic: /odom_raw
+    test_cmd_topic: /test_cmd
+    test_speed: 0.15
+    turn_speed: 0.5  # rad/s
+    kp_pos: 0.8
+    ki_pos: 0.0
+    kd_pos: 0.0
+    kp_turn: 1.5
+    minimum_speed: 0.04
+    distance_tolerance: 0.02
+    angle_tolerance: 0.05235987755982989  # 3 degrees, rad
+    max_distance: 10.0
+    max_turn_degrees: 360.0
+    odom_timeout: 0.5
+    progress_timeout: 2.0
+    max_test_duration: 120.0
+    minimum_linear_progress: 0.005
+    minimum_angular_progress: 0.01
+    data_dir: "~/motion_test_data"

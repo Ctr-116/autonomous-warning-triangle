@@ -1,0 +1,18 @@
+{
+  "name": "dlib",
+  "version": "19.24.6",
+  "source": {
+    "filename": "dlib-19.24.6.tar.gz",
+    "url": "https://files.pythonhosted.org/packages/3c/07/a2693a94ac678c442c4cfe269d24f63053b14410ef2d09957a762eeb4b8e/dlib-19.24.6.tar.gz",
+    "sha256": "77e3c28ac2c66141514b07cbb74b7c7f80381c019ce5fec99007980bc6490d7d",
+    "bytes": 3374495,
+    "integrity": "PyPI SHA256 verified"
+  },
+  "testdata": {
+    "filename": "2007_007763.jpg",
+    "url": "https://raw.githubusercontent.com/davisking/dlib/v19.24.6/examples/faces/2007_007763.jpg",
+    "sha256": "17d9897dd55d38179f51dc18371b3f4495a606aaa2846e25a3cb6a58b3a97c89",
+    "integrity": "locally recorded HTTPS download hash"
+  },
+  "validationOnly": true
+}

@@ -1,0 +1,99 @@
+hand_ctrl:
+  ros__parameters:
+    enabled: false
+    camera_device: "/dev/camera_depth"
+    gui: false
+    publish_image: true
+    topic_image: "Media_image"
+    topic_joy_state: "JoyState"
+    topic_arm_joint: "TargetAngle"
+    topic_buzzer: "Buzzer"
+    topic_cmd_vel: "cmd_vel"
+    service_current_angle: "CurrentAngle"
+    current_angle_apply: "get"
+    ticker_period: 0.05
+    stale_image_timeout: 0.5
+    feedback_timeout: 1.0
+    joint_min: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    joint_max: [180.0, 180.0, 180.0, 180.0, 180.0, 180.0]
+finger_ctrl:
+  ros__parameters:
+    enabled: false
+    camera_device: "/dev/camera_depth"
+    gui: false
+    publish_image: true
+    topic_image: "Media_image"
+    topic_joy_state: "JoyState"
+    topic_arm_joint: "TargetAngle"
+    topic_buzzer: "Buzzer"
+    topic_cmd_vel: "cmd_vel"
+    service_current_angle: "CurrentAngle"
+    current_angle_apply: "get"
+    ticker_period: 0.05
+    stale_image_timeout: 0.5
+    feedback_timeout: 1.0
+    joint_min: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    joint_max: [180.0, 180.0, 180.0, 180.0, 180.0, 180.0]
+pose_arm:
+  ros__parameters:
+    enabled: false
+    camera_device: "/dev/camera_depth"
+    gui: false
+    publish_image: true
+    topic_image: "Media_image"
+    topic_joy_state: "JoyState"
+    topic_arm_joint: "TargetAngle"
+    topic_buzzer: "Buzzer"
+    topic_cmd_vel: "cmd_vel"
+    service_current_angle: "CurrentAngle"
+    current_angle_apply: "get"
+    ticker_period: 0.05
+    stale_image_timeout: 0.5
+    feedback_timeout: 1.0
+    joint_min: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    joint_max: [180.0, 180.0, 180.0, 180.0, 180.0, 180.0]
+arm_ctrl:
+  ros__parameters:
+    enabled: false
+    camera_device: "/dev/camera_depth"
+    gui: false
+    publish_image: true
+    topic_image: "Media_image"
+    topic_joy_state: "JoyState"
+    topic_arm_joint: "TargetAngle"
+    topic_buzzer: "Buzzer"
+    topic_cmd_vel: "cmd_vel"
+    service_current_angle: "CurrentAngle"
+    current_angle_apply: "get"
+    ticker_period: 0.05
+    stale_image_timeout: 0.5
+    feedback_timeout: 1.0
+    joint_min: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    joint_max: [180.0, 180.0, 180.0, 180.0, 180.0, 180.0]
+robot_ctrl:
+  ros__parameters:
+    enabled: false
+    camera_device: "/dev/camera_depth"
+    gui: false
+    publish_image: true
+    topic_image: "Media_image"
+    topic_joy_state: "JoyState"
+    topic_arm_joint: "TargetAngle"
+    topic_buzzer: "Buzzer"
+    topic_cmd_vel: "cmd_vel"
+    service_current_angle: "CurrentAngle"
+    current_angle_apply: "get"
+    ticker_period: 0.05
+    stale_image_timeout: 0.5
+    feedback_timeout: 1.0
+    vel_limit_xy: 0.2
+    vel_limit_z: 0.6
+    joint_min: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    joint_max: [180.0, 180.0, 180.0, 180.0, 180.0, 180.0]
+msg_to_img:
+  ros__parameters:
+    topic_image_msg: "/image_msg"
+    topic_image_out: "/image"
+    img_flip: false
+    resize_width: 640
+    resize_height: 480

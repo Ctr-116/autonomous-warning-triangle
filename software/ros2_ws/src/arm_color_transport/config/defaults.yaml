@@ -1,0 +1,51 @@
+draw_marker:
+  ros__parameters:
+    marker_topic: color_end_pose
+    start_point_topic: start_point
+    clicked_point_topic: clicked_point
+    cancel_topic: color_transport/cancel
+    frame_id: map
+    gui: false
+    rate_hz: 10.0
+
+transport_main:
+  ros__parameters:
+    camera_topic: image_in
+    transport_rgb_topic: Transport/rgb
+    marker_topic: color_end_pose
+    rgb_light_topic: RGBLight
+    buzzer_topic: Buzzer
+    arm_topic: TargetAngle
+    cmd_vel_topic: cmd_vel
+    kinematics_service: ik_service
+    current_angle_service: CurrentAngle
+    start_topic: start
+    nav_action: navigate_to_pose
+    frame_id: map
+    robot_base_frame: base_link
+    img_show: false
+    gui: false
+    start_once: false
+    speed_x_max: 0.3
+    speed_y_max: 0.3
+    speed_z_max: 0.6
+    hsv_red_low: [0, 0, 0]
+    hsv_red_high: [10, 255, 255]
+    hsv_red2_low: [156, 0, 0]
+    hsv_red2_high: [180, 255, 255]
+    hsv_yellow_low: [23, 0, 0]
+    hsv_yellow_high: [56, 255, 255]
+    hsv_green_low: [35, 0, 0]
+    hsv_green_high: [78, 255, 255]
+    hsv_blue_low: [100, 0, 0]
+    hsv_blue_high: [124, 255, 255]
+    roi_x0: 280
+    roi_y0: 180
+    roi_x1: 360
+    roi_y1: 260
+    color_names: [red, green, blue, yellow]
+    service_timeout_sec: 5.0
+    stale_camera_sec: 1.0
+    nav_timeout_sec: 300.0
+    rgb_light_debounce_sec: 0.5
+    poll_hz: 30.0

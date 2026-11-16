@@ -1,0 +1,92 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 0
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Map1
+        - /Global Plan1
+        - /Local Plan1
+        - /RobotModel1
+        - /LaserScan1
+        - /Path Points1
+      Splitter Ratio: 0.5
+    Tree Height: 560
+  - Class: rviz_common/Selection
+    Name: Selection
+  - Class: rviz_common/Tool Properties
+    Name: Tool Properties
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Enabled: true
+      Name: Grid
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Class: rviz_default_plugins/RobotModel
+      Enabled: true
+      Name: RobotModel
+      Description Topic:
+        Value: /robot_description
+      Value: true
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Name: TF
+      Value: true
+    - Class: rviz_default_plugins/Map
+      Enabled: true
+      Name: Map
+      Topic:
+        Value: /map
+      Value: true
+    - Class: rviz_default_plugins/LaserScan
+      Enabled: true
+      Name: LaserScan
+      Topic:
+        Value: /scan
+      Value: true
+    - Class: rviz_default_plugins/Path
+      Enabled: true
+      Name: Global Plan
+      Topic:
+        Value: /plan
+      Value: true
+    - Class: rviz_default_plugins/Path
+      Enabled: true
+      Name: Local Plan
+      Topic:
+        Value: /local_plan
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: Path Points
+      Topic:
+        Value: /path_point
+      Value: true
+  Enabled: true
+  Global Options:
+    Fixed Frame: map
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+    - Class: rviz_default_plugins/SetInitialPose
+      Topic:
+        Value: /initialpose
+    - Class: rviz_default_plugins/SetGoal
+      Topic:
+        Value: /move_base_simple/goal
+    - Class: rviz_default_plugins/PublishPoint
+      Topic:
+        Value: /clicked_point
+  Value: true
+Window Geometry:
+  Height: 900
+  Width: 1400

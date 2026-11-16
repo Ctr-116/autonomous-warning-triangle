@@ -18,4 +18,20 @@
 
 ## 当前状态
 
-项目初始化阶段。
+已加入 ROSMASTER X3plus 的 ROS 2 Humble 主线工作空间，位置为 [`software/ros2_ws`](software/ros2_ws)。原 `software/motion_control_pkg` 已迁入其 `src` 目录，避免重复发现同名 ROS 包。
+
+## ROS 2 主线源码与评审
+
+- [开始使用](software/ros2_ws/docs/开始使用.md)：Ubuntu 22.04 / ROS 2 Humble 下的依赖、构建和测试入口。
+- [迁移范围与未移植项](software/ros2_ws/docs/迁移范围与未移植项.md)：采用 Nav2、slam_toolbox、MoveIt 2；明确列出未保留的旧算法与可选演示。
+- [本地验证结果](software/ros2_ws/docs/验证结果.md)：22 包干净构建、307 项单元测试、基础集成和实际软件闭环记录。
+
+```bash
+cd software/ros2_ws
+bash scripts/install_dependencies.sh
+bash scripts/build.sh
+source scripts/environment.sh
+bash scripts/test.sh
+```
+
+本地验证使用 x86_64 Ubuntu 22.04 和 ROS 2 Humble，底盘使用模拟或虚拟串口。Jetson ARM64、真实固件、传感器和实际车辆运动仍待实机验收；MoveIt 轨迹执行当前使用模拟硬件。该迁移不包含新增的道路部署、LoRa 或 GNSS 业务实现。

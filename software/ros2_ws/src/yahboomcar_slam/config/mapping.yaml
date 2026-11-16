@@ -1,0 +1,32 @@
+pointcloud_mapping:
+  ros__parameters:
+    topicColor: /RGBD/RGB/Image
+    topicDepth: /RGBD/Depth/Image
+    topicTcw: /RGBD/CameraPose
+    topicCameraInfo: /camera/color/camera_info
+    map_frame: map
+    local_frame_id: camera
+    fx: 615.50506
+    fy: 623.69024
+    cx: 365.84388
+    cy: 238.778
+    resolution: 0.04
+    depthfactor: 5000.0
+    depth_unit: 0
+    sync_slop: 0.05
+    pixel_step: 3
+    min_depth: 0.01
+    max_depth: 10.0
+    max_points: 1500000
+    input_pose_is_twc: false
+orb_slam2_tracker:
+  ros__parameters:
+    vocabulary_file: ""
+    settings_file: ""
+    mode: rgbd
+    depth_map_factor: 5000.0
+    map_frame: map
+    camera_frame: camera
+    viewer: false
+    topicColor: /camera/color/image_raw
+    topicDepth: /camera/depth/image_raw

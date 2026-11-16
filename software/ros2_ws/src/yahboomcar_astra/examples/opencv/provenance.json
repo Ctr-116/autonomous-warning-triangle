@@ -1,0 +1,210 @@
+[
+  {
+    "original": "yahboomcar_astra/scripts/opencv/1_1.py",
+    "preserved": "yahboomcar_astra/examples/opencv/1_1.py",
+    "original_sha256": "352885a524c237e31497b2bae2a94aee4efa428c65a1499db18364d62f9b029e",
+    "sha256": "297a067e677cb399f841988b72bd6af00bcd79dffc01750864a3274f71af71a9",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/1_2.py",
+    "preserved": "yahboomcar_astra/examples/opencv/1_2.py",
+    "original_sha256": "10e38f7e78f8d931132cc81908947b2eafac641ff74e43854df6a028ea0d8554",
+    "sha256": "1e8abe4ff7db0e8311b75b8a5889223d48339f1f3ca98c3788e9488f575cc6c6",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/1_3.py",
+    "preserved": "yahboomcar_astra/examples/opencv/1_3.py",
+    "original_sha256": "11219489c46ef7fcbd5474b00288da24610997a6ba54143b52d4fc4d99ac56fe",
+    "sha256": "07724e37190d65fed547983f7bdff032f63aa263e19ef27a49fcb3786b2712e4",
+    "changes": []
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/1_4.py",
+    "preserved": "yahboomcar_astra/examples/opencv/1_4.py",
+    "original_sha256": "78e4491b7f05319681f49b4565c4279d1a937182eb795e84066bb499646c8795",
+    "sha256": "ec5ee68041828763bd7cc255df73be9a7b2a6b221bfdd70e1b18eed7f9abfa73",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/2_1.py",
+    "preserved": "yahboomcar_astra/examples/opencv/2_1.py",
+    "original_sha256": "59e2476c7831ba364e2f322031e7477fe8b874a90db621109b03d9fd6f7968d7",
+    "sha256": "402f40f28521ddc5e32f4fbc104bd8352a10cff2ca6c0ea4276036635c84e941",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/2_2.py",
+    "preserved": "yahboomcar_astra/examples/opencv/2_2.py",
+    "original_sha256": "b44c23184e27d330829a76766fdfbba89b0e25546dd2bdeb972808bf14d6abc0",
+    "sha256": "d5533c69ba3ff3507dc84071446ffc3ec90b26f92f6888be674177aacfce9a10",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/2_3.py",
+    "preserved": "yahboomcar_astra/examples/opencv/2_3.py",
+    "original_sha256": "acd03bbb8aab3ddb78cc19e0030dbf7408aafbce060beb6fa7e3fafd9080f2e9",
+    "sha256": "49e43c1ec77f040bbcef2d70eeedef58f3b411b245e9b92c2a569af31f9d876a",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/2_4.py",
+    "preserved": "yahboomcar_astra/examples/opencv/2_4.py",
+    "original_sha256": "3171f7166273f96f9e1dde7e63b6bb1e0bf558804c438a093e5f54025452f1d9",
+    "sha256": "e6bb136d4bb19300ee83549450eda9d0b6f06f9f1a23cda3979d8289ba1a36e9",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/3_1.py",
+    "preserved": "yahboomcar_astra/examples/opencv/3_1.py",
+    "original_sha256": "04679b7c5912a62b107f601718173391a03e9e6dd38ea5854a91f21c69c2a414",
+    "sha256": "afca636ae5f738c802fc0011f692e3a866bfbe03489f3323b4af3da3e68a268f",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/3_2.py",
+    "preserved": "yahboomcar_astra/examples/opencv/3_2.py",
+    "original_sha256": "532703a0084d8126f6bee9f7975afe8961187392bae0dbdd119f71b186566588",
+    "sha256": "7e5e7a5522ad990f10530d2247f62ea4ab0169ec1152dbdf97c3cda19001d736",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/3_3.py",
+    "preserved": "yahboomcar_astra/examples/opencv/3_3.py",
+    "original_sha256": "f69b80e6f79e6764c791dfa94cb854225c8743b861c250ff701f183b6cf954f9",
+    "sha256": "aa82a6604f0d14ad481bee23dec3e6c77ee783676b8bd72bb13f865c5b8f5e4b",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/3_4.py",
+    "preserved": "yahboomcar_astra/examples/opencv/3_4.py",
+    "original_sha256": "8de09a49ea0a86f15ae3bf13224fad9719290c9fb2b2c74118f01e30249f58b2",
+    "sha256": "980d95d9a9f44a8bfe1e10c970fa4444031d1d92e4d6039c0896ef45b770fc49",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/3_5.py",
+    "preserved": "yahboomcar_astra/examples/opencv/3_5.py",
+    "original_sha256": "abd3e73579455a1be37dd8030fe085c2d99933f6f3cc74887c71256eac4a5ce1",
+    "sha256": "5c1a6d15662c6bedb3e98dc43cc90d83cda409880a26a08f7f9dc8a3c2079574",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/3_6.py",
+    "preserved": "yahboomcar_astra/examples/opencv/3_6.py",
+    "original_sha256": "647224bc0b4ad04e532f607a54cfa6e778b03fa39d6f483f71a2f90cf919c358",
+    "sha256": "5ee92776251d9c4821ccadaee9de2228d96d441ededb704ecef3a7996b00426f",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/3_7.py",
+    "preserved": "yahboomcar_astra/examples/opencv/3_7.py",
+    "original_sha256": "5c6c1d8a0f8505cc11d65f9bcd5f34750b6e3d3b4fc1b4d173ba3e181d60494f",
+    "sha256": "bba15b521fff93671e45a5155f2eda59efdd23a164c649eb6399be09b97cbd6f",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/3_8.py",
+    "preserved": "yahboomcar_astra/examples/opencv/3_8.py",
+    "original_sha256": "fe546bbc4a3b7fdf5e82a334f1d9928692ad74d8585bc47fc1912f0361d9b1ea",
+    "sha256": "d6a9975f209ae247fa7d11bd1993e91292b824e44b2499f0dbce3cce80091282",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/3_9.py",
+    "preserved": "yahboomcar_astra/examples/opencv/3_9.py",
+    "original_sha256": "89f3b5d07bd5dcb14c08164b2e7de2fbf42d2a0f4911eab080a67d838874bfed",
+    "sha256": "c0dc5155c64a477d68a4a3aa7b22a073dcd3bb7d115b0fec9d78a17838eb03b1",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/4_1_1.py",
+    "preserved": "yahboomcar_astra/examples/opencv/4_1_1.py",
+    "original_sha256": "817e0cec04c78e53caebf40005c3e245f2f4f132e35f00d1c8c0d3da1218c01b",
+    "sha256": "18d756a811374f53fea13a7a2e5428f59c85e7e64cf4c0934541242fa7af3717",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/4_1_2.py",
+    "preserved": "yahboomcar_astra/examples/opencv/4_1_2.py",
+    "original_sha256": "60b921141e869132001b2c60e3fa9f1f31fcf99a6b0898d432b0b7862a972edb",
+    "sha256": "391601adffccd0280be6f8ba49a363384d4448b5089a61bdb3d4900e1100246a",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/4_2.py",
+    "preserved": "yahboomcar_astra/examples/opencv/4_2.py",
+    "original_sha256": "907c8e05141a7f2b3bccc9d2d914bae66a5f2c7c3dee6c0adf26f9d27e6b49de",
+    "sha256": "b9dee5f90349b0cf695402a026ef16d40cb52cb767681758cf71362cfdc58d65",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/4_3.py",
+    "preserved": "yahboomcar_astra/examples/opencv/4_3.py",
+    "original_sha256": "19b3b4937528fd183ae290c62793edd3f417e873d9c525e4de59189511351e3c",
+    "sha256": "9fa2eccbd3aff9771931348c78893021c3c8d806c9382a24eaf2bf3c21c4ca21",
+    "changes": [
+      "Removed invalid ndarray img.release() cleanup; VideoCapture cleanup preserved"
+    ]
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/damaged.jpg",
+    "preserved": "yahboomcar_astra/examples/opencv/damaged.jpg",
+    "original_sha256": "566d576449afeef18e826f6604602aae059232856e9b836988d395de00a20e12",
+    "sha256": "566d576449afeef18e826f6604602aae059232856e9b836988d395de00a20e12",
+    "changes": []
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/yahboom.jpg",
+    "preserved": "yahboomcar_astra/examples/opencv/yahboom.jpg",
+    "original_sha256": "1f9d81aee1ee1664f6bc7dac4a32ee914a90af71a27ef15163aac5bdfe6ee180",
+    "sha256": "1f9d81aee1ee1664f6bc7dac4a32ee914a90af71a27ef15163aac5bdfe6ee180",
+    "changes": []
+  },
+  {
+    "original": "yahboomcar_astra/scripts/opencv/yahboom_new.jpg",
+    "preserved": "yahboomcar_astra/examples/opencv/yahboom_new.jpg",
+    "original_sha256": "9a68b1c20c399d4dead2920d16ea6e24ab2407ddd9672409e69e95f0a5adfcaf",
+    "sha256": "9a68b1c20c399d4dead2920d16ea6e24ab2407ddd9672409e69e95f0a5adfcaf",
+    "changes": []
+  }
+]

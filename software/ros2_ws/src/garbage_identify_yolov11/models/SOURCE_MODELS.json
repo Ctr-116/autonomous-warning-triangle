@@ -1,0 +1,23 @@
+[
+  {
+    "File": "best1.onnx",
+    "SourceArchive": "ultralytics.zip",
+    "SourceEntry": "ultralytics/ultralytics/data/garbage_data/runs/detect/train/weights/best1.onnx",
+    "Bytes": 10595485,
+    "SHA256": "e654e51f8cf75a75ca3ba67b5604b5287d4fa762ce7c43a107164755609299f2"
+  },
+  {
+    "File": "best1.pt",
+    "SourceArchive": "ultralytics.zip",
+    "SourceEntry": "ultralytics/ultralytics/data/garbage_data/runs/detect/train/weights/best1.pt",
+    "Bytes": 5497171,
+    "SHA256": "12861b0b10062aeec24302ba699ff7721286a927cdf39a116ea10cfc8516f117"
+  },
+  {
+    "File": "garbage_data.yaml",
+    "SourceArchive": "ultralytics.zip",
+    "SourceEntry": "ultralytics/ultralytics/data/garbage_data/garbage_data.yaml",
+    "Bytes": 596,
+    "SHA256": "541e4acb389cbd4d32b0f1d1bed6ae0ecd3f78db3f45358a18d610bb0ccfb3fb"
+  }
+]

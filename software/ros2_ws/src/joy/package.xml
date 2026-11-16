@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package format="3">
+  <name>joy</name>
+  <version>1.15.1</version>
+  <description>
+    ROS 2 Humble remapping and launch helper for the upstream joy_linux driver.
+    The original ROS 1 joy package provided a generic Linux joystick driver
+    (joy_node) plus a YAML-driven axis/button remapper (joy_remap.py). In ROS 2
+    the driver is provided by the upstream joy_linux package as
+    joy_linux/joy_linux_node; this package keeps the remapper and the PS4 launch
+    configuration. The package deliberately has the same name as the historical
+    ROS 1 package, so it must not depend on an ROS 2 package also named joy.
+  </description>
+  <license>BSD</license>
+  <maintainer email="jbo@jhu.edu">Jonathan Bohren</maintainer>
+  <author>Morgan Quigley</author>
+  <author>Brian Gerkey</author>
+  <author>Kevin Watts</author>
+  <author>Blaise Gassend</author>
+  <author>furushchev</author>
+  <url type="website">http://wiki.ros.org/joy</url>
+  <url type="development">https://github.com/ros-drivers/joystick_drivers</url>
+  <url type="bugtracker">https://github.com/ros-drivers/joystick_drivers/issues</url>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>joy_linux</exec_depend>
+  <test_depend>python3-pytest</test_depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

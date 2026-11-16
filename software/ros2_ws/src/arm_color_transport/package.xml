@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package format="3">
+  <name>arm_color_transport</name>
+  <version>0.0.1</version>
+  <description>
+    Color-based arm transport/carry application (ported from ROS1).
+    Original license unknown (TODO: determine upstream license); do not assume.
+  </description>
+  <license>TODO</license>
+  <maintainer email="yahboom@todo.todo">yahboom</maintainer>
+  <buildtool_depend>ament_copyright</buildtool_depend>
+  <buildtool_depend>ament_flake8</buildtool_depend>
+  <buildtool_depend>ament_pep257</buildtool_depend>
+  <buildtool_depend>python3-pytest</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>tf_transformations</exec_depend>
+  <exec_depend>yahboomcar_msgs</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

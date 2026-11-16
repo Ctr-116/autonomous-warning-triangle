@@ -1,0 +1,21 @@
+# Binary / asset files to copy verbatim from the read-only ROS 1 tree.
+# Paths are relative to work/ros1_source_full/ ; targets are relative to
+# work/x3plus_ros2_full_ws/src/yahboomcar_nav/ .
+#
+# Maps (source of truth for the installed map):
+#   yahboomcar_nav/maps/my_map.pgm   -> maps/my_map.pgm
+#   yahboomcar_nav/maps/my_map.yaml  -> maps/my_map.yaml
+#   yahboomcar_nav/maps/map.pgm      -> maps/map.pgm
+#   yahboomcar_nav/maps/map.yaml     -> maps/map.yaml
+#
+# RViz assets (still authored for ROS 1; used only as reference until a
+# native ROS 2 RViz config is produced):
+#   yahboomcar_nav/rviz/nav.rviz          -> rviz/nav.rviz
+#   yahboomcar_nav/rviz/mapping.rviz      -> rviz/mapping.rviz
+#   yahboomcar_nav/rviz/multi_goal.rviz   -> rviz/multi_goal.rviz
+#
+# Verification checklist for the coordinator:
+#   1. Confirm my_map.pgm and my_map.yaml are byte-identical copies.
+#   2. Edit my_map.yaml image: field only if the filename differs.
+#   3. Keep the maps directory mode 0644; no generated PGM stubs.
+#   4. Replace RViz configs when native ROS 2 versions exist upstream.

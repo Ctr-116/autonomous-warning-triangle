@@ -1,0 +1,22 @@
+garbage_transport:
+  ros__parameters:
+    detect_topic: DetectMsg
+    voice_cmd_topic: voice_cmd
+    voice_write_topic: voice_write
+    voice_enabled: false
+    enable_arm: false
+    nav_server_wait_s: 5.0
+    task_timeout_s: 120.0
+    stale_input_s: 2.0
+    arm_topic: TargetAngle
+    arm_array_service: CurrentAngle
+    kinematics_service: Kinematics
+    marker_topic: color_end_pose
+
+garbage_yolo_detector:
+  ros__parameters:
+    model_path: ''
+    image_topic: /camera/color/image_raw
+    detect_topic: DetectMsg
+    confidence: 0.88
+    publish_period_s: 0.1

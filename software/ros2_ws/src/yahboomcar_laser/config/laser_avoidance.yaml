@@ -1,0 +1,19 @@
+laser_avoidance:
+  ros__parameters:
+    # Relative names resolve inside the node namespace.
+    scan_topic: scan
+    command_topic: vel_raw
+    joy_state_topic: JoyState
+    control_rate_hz: 20.0
+    scan_timeout: 0.5
+    enabled: true
+    paused: false
+
+    # Effective defaults of cfg/laserAvoidancePID.cfg, which overrode the
+    # constructor values in the ROS 1 node.
+    linear: 0.5
+    angular: 1.0
+    laser_angle: 30.0
+    response_dist: 0.55
+    obstacle_valid_angle: 4.0
+    front_half_angle: 10.0

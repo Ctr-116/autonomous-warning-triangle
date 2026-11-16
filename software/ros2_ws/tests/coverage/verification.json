@@ -1,0 +1,58 @@
+{
+  "scope": "Static audit output completeness/path verification only; not functionality proof",
+  "reports": [
+    {
+      "group": "controls",
+      "expected": 69,
+      "returned": 69,
+      "omitted": [],
+      "unknown": [],
+      "badPaths": [],
+      "counts": {
+        "mapped": 54,
+        "upstream_replacement": 6,
+        "needs_review": 9
+      }
+    },
+    {
+      "group": "arms_models",
+      "expected": 60,
+      "returned": 60,
+      "omitted": [],
+      "unknown": [],
+      "badPaths": [],
+      "counts": {
+        "mapped": 39,
+        "needs_review": 1,
+        "upstream_replacement": 12,
+        "missing": 8
+      }
+    },
+    {
+      "group": "vision_voice",
+      "expected": 107,
+      "returned": 107,
+      "omitted": [],
+      "unknown": [],
+      "badPaths": [],
+      "counts": {
+        "mapped": 81,
+        "pure_example": 22,
+        "upstream_replacement": 4
+      }
+    },
+    {
+      "group": "navigation",
+      "expected": 46,
+      "returned": 46,
+      "omitted": [],
+      "unknown": [],
+      "badPaths": [],
+      "counts": {
+        "missing": 25,
+        "upstream_replacement": 3,
+        "mapped": 18
+      }
+    }
+  ]
+}

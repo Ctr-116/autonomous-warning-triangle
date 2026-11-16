@@ -1,0 +1,74 @@
+All delivery shell scripts: bash syntax PASS
+python3-colcon-core	0.21.3+upstream-1
+python3-serial	3.5-1
+ros-humble-fastrtps	2.6.12-1jammy.20260723.233918
+ros-humble-rclpy	3.3.22-1jammy.20260907.213431
+ros-humble-rmw-fastrtps-cpp	6.2.10-1jammy.20260907.210327
+RMW: rmw_fastrtps_cpp
+Workspace is not built. Run bash scripts/build.sh from the workspace first.
+Starting >>> motion_control_pkg
+running develop
+running egg_info
+creating motion_control_pkg.egg-info
+writing motion_control_pkg.egg-info/PKG-INFO
+writing dependency_links to motion_control_pkg.egg-info/dependency_links.txt
+writing entry points to motion_control_pkg.egg-info/entry_points.txt
+writing requirements to motion_control_pkg.egg-info/requires.txt
+writing top-level names to motion_control_pkg.egg-info/top_level.txt
+writing manifest file 'motion_control_pkg.egg-info/SOURCES.txt'
+reading manifest file 'motion_control_pkg.egg-info/SOURCES.txt'
+writing manifest file 'motion_control_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /validation-user-workspace.sazTz7/install/motion_control_pkg/lib/python3.10/site-packages/motion-control-pkg.egg-link (link to .)
+Installing motion_test_node script to /validation-user-workspace.sazTz7/install/motion_control_pkg/lib/motion_control_pkg
+Installing test_cli script to /validation-user-workspace.sazTz7/install/motion_control_pkg/lib/motion_control_pkg
+
+Installed /validation-user-workspace.sazTz7/build/motion_control_pkg
+running symlink_data
+creating /validation-user-workspace.sazTz7/install/motion_control_pkg/share/ament_index
+creating /validation-user-workspace.sazTz7/install/motion_control_pkg/share/ament_index/resource_index
+creating /validation-user-workspace.sazTz7/install/motion_control_pkg/share/ament_index/resource_index/packages
+symbolically linking /validation-user-workspace.sazTz7/build/motion_control_pkg/resource/motion_control_pkg -> /validation-user-workspace.sazTz7/install/motion_control_pkg/share/ament_index/resource_index/packages
+symbolically linking /validation-user-workspace.sazTz7/build/motion_control_pkg/package.xml -> /validation-user-workspace.sazTz7/install/motion_control_pkg/share/motion_control_pkg
+creating /validation-user-workspace.sazTz7/install/motion_control_pkg/share/motion_control_pkg/launch
+symbolically linking /validation-user-workspace.sazTz7/build/motion_control_pkg/launch/motion_test.launch.py -> /validation-user-workspace.sazTz7/install/motion_control_pkg/share/motion_control_pkg/launch
+creating /validation-user-workspace.sazTz7/install/motion_control_pkg/share/motion_control_pkg/config
+symbolically linking /validation-user-workspace.sazTz7/build/motion_control_pkg/config/motion_params.yaml -> /validation-user-workspace.sazTz7/install/motion_control_pkg/share/motion_control_pkg/config
+creating /validation-user-workspace.sazTz7/install/motion_control_pkg/share/motion_control_pkg/docs
+Finished <<< motion_control_pkg [0.43s]
+Starting >>> x3plus_base
+running develop
+running egg_info
+creating x3plus_base.egg-info
+writing x3plus_base.egg-info/PKG-INFO
+writing dependency_links to x3plus_base.egg-info/dependency_links.txt
+writing entry points to x3plus_base.egg-info/entry_points.txt
+writing requirements to x3plus_base.egg-info/requires.txt
+writing top-level names to x3plus_base.egg-info/top_level.txt
+writing manifest file 'x3plus_base.egg-info/SOURCES.txt'
+reading manifest file 'x3plus_base.egg-info/SOURCES.txt'
+writing manifest file 'x3plus_base.egg-info/SOURCES.txt'
+running build_ext
+Creating /validation-user-workspace.sazTz7/install/x3plus_base/lib/python3.10/site-packages/x3plus-base.egg-link (link to .)
+Installing base_node script to /validation-user-workspace.sazTz7/install/x3plus_base/lib/x3plus_base
+
+Installed /validation-user-workspace.sazTz7/build/x3plus_base
+running symlink_data
+creating /validation-user-workspace.sazTz7/install/x3plus_base/share/ament_index
+creating /validation-user-workspace.sazTz7/install/x3plus_base/share/ament_index/resource_index
+creating /validation-user-workspace.sazTz7/install/x3plus_base/share/ament_index/resource_index/packages
+symbolically linking /validation-user-workspace.sazTz7/build/x3plus_base/resource/x3plus_base -> /validation-user-workspace.sazTz7/install/x3plus_base/share/ament_index/resource_index/packages
+symbolically linking /validation-user-workspace.sazTz7/build/x3plus_base/package.xml -> /validation-user-workspace.sazTz7/install/x3plus_base/share/x3plus_base
+creating /validation-user-workspace.sazTz7/install/x3plus_base/share/x3plus_base/config
+symbolically linking /validation-user-workspace.sazTz7/build/x3plus_base/config/base.yaml -> /validation-user-workspace.sazTz7/install/x3plus_base/share/x3plus_base/config
+creating /validation-user-workspace.sazTz7/install/x3plus_base/share/x3plus_base/launch
+symbolically linking /validation-user-workspace.sazTz7/build/x3plus_base/launch/bringup.launch.py -> /validation-user-workspace.sazTz7/install/x3plus_base/share/x3plus_base/launch
+Finished <<< x3plus_base [0.42s]
+
+Summary: 2 packages finished [0.93s]
+Build complete. source scripts/environment.sh
+SDK and both packages import: PASS
+x3plus_base base_node
+motion_control_pkg motion_test_node
+motion_control_pkg test_cli
+README default build and environment load: PASS

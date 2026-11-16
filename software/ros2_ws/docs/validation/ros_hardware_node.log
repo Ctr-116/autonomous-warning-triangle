@@ -1,0 +1,8 @@
+[INFO] [1794302980.021816948] [x3plus_base]: X3plus base started: /dev/pts/4
+[INFO] [1794302980.030497641] [x3plus_base]: Base state: IDLE
+[INFO] [1794302980.059022938] [x3plus_base]: Base state: ACTIVE
+[INFO] [1794302982.039899493] [x3plus_base]: Base state: IDLE
+[INFO] [1794302982.161157588] [x3plus_base]: Base state: ACTIVE
+[INFO] [1794302982.549535046] [x3plus_base]: Base state: FEEDBACK_TIMEOUT
+[INFO] [1794302983.417070857] [x3plus_base]: Base state: IDLE
+[INFO] [1794302983.527647312] [x3plus_base]: Base state: ACTIVE

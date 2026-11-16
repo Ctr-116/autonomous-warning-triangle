@@ -1,0 +1,63 @@
+/**:
+  ros__parameters:
+    use_sim_time: false
+    display: false
+
+astra_rgb_image_py:
+  ros__parameters:
+    image_topic: camera/rgb/image_raw
+    display: false
+
+astra_depth_image_py:
+  ros__parameters:
+    image_topic: camera/depth/image_raw
+    display: false
+
+astra_rgb_image_cpp:
+  ros__parameters:
+    image_topic: camera/rgb/image_raw
+    display: false
+
+astra_depth_image_cpp:
+  ros__parameters:
+    image_topic: camera/depth/image_raw
+    display: false
+
+IR_transform:
+  ros__parameters:
+    image_topic: camera/ir/image_raw
+    output_topic: camera/ir/image_mono8
+
+astra_image_flip:
+  ros__parameters:
+    image_topic: camera/rgb/image_raw
+    output_topic: camera/rgb/image_flip
+
+pub_img:
+  ros__parameters:
+    img_flip: false
+    image_topic: usb_cam/image_raw
+    output_topic: image
+
+astra_pcl_py:
+  ros__parameters:
+    rgb_topic: camera/rgb/image_raw
+    depth_topic: camera/depth/image_raw
+    camera_info_topic: camera/depth/camera_info
+    pixel_u: 320
+    pixel_v: 240
+    fx: 0.0
+    fy: 0.0
+    cx: 0.0
+    cy: 0.0
+    display: false
+
+laser_to_Image:
+  ros__parameters:
+    scan_topic: scan
+    output_topic: laserImage
+    display: false
+
+sub_astra_point:
+  ros__parameters:
+    cloud_topic: camera/depth/points

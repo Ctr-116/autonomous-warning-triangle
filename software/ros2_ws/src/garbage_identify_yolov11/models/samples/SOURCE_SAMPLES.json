@@ -1,0 +1,38 @@
+[
+  {
+    "File": "302_jpg.rf.6aaf584ff6254ac32eeff41950e2dd83.jpg",
+    "SourceEntry": "ultralytics/ultralytics/data/garbage_data/valid/images/302_jpg.rf.6aaf584ff6254ac32eeff41950e2dd83.jpg",
+    "Bytes": 43345,
+    "SHA256": "e5612e09d1c1cb3b26ee91fd998d5a8e77c14d28fe2287ba31ff4444c7adefe5"
+  },
+  {
+    "File": "303_jpg.rf.b8235f335babbeb86e815f87deaf00ff.jpg",
+    "SourceEntry": "ultralytics/ultralytics/data/garbage_data/valid/images/303_jpg.rf.b8235f335babbeb86e815f87deaf00ff.jpg",
+    "Bytes": 43236,
+    "SHA256": "b6c09a0b931f6cdd82df8aba3e0e2e0a9ffcd91ac7f8bdc25c70cd8b0cf04de7"
+  },
+  {
+    "File": "304_jpg.rf.e3f6a62aec7c4bf2d18ee94a0b58d822.jpg",
+    "SourceEntry": "ultralytics/ultralytics/data/garbage_data/valid/images/304_jpg.rf.e3f6a62aec7c4bf2d18ee94a0b58d822.jpg",
+    "Bytes": 43832,
+    "SHA256": "093040e8563e07b69d197e30ca00b9354edd5087b52cab5bb45b6dbca5581503"
+  },
+  {
+    "File": "305_jpg.rf.75b55301ffc7959ddc73505b2b29b0da.jpg",
+    "SourceEntry": "ultralytics/ultralytics/data/garbage_data/valid/images/305_jpg.rf.75b55301ffc7959ddc73505b2b29b0da.jpg",
+    "Bytes": 44613,
+    "SHA256": "c091523378f06b8d7a39e478a6959000ec6f2df242ff4863967aacdf865faabd"
+  },
+  {
+    "File": "306_jpg.rf.a9af60befbca5f1cd62f14298271baaa.jpg",
+    "SourceEntry": "ultralytics/ultralytics/data/garbage_data/valid/images/306_jpg.rf.a9af60befbca5f1cd62f14298271baaa.jpg",
+    "Bytes": 45302,
+    "SHA256": "fb4a5bf41f37c7fce90fbafd147384598d929beedd5066eab5fc5757a2574450"
+  },
+  {
+    "File": "307_jpg.rf.fcdc57af0fffafd3acf024e85ea6be97.jpg",
+    "SourceEntry": "ultralytics/ultralytics/data/garbage_data/valid/images/307_jpg.rf.fcdc57af0fffafd3acf024e85ea6be97.jpg",
+    "Bytes": 45699,
+    "SHA256": "7f77202c3016c185b218abfd1ee401f6e3c0078902545ed4130458c050a485c3"
+  }
+]

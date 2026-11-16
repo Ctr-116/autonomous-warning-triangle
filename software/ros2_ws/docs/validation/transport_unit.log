@@ -1,0 +1,21 @@
+test_corrupt_checksum_and_length_resynchronize (test_transport.DecoderTests) ... ok
+test_invalid_imu_payload_length_never_accepted (test_transport.DecoderTests) ... ok
+test_payload_contains_header (test_transport.DecoderTests) ... ok
+test_split_and_coalesced_frames (test_transport.DecoderTests) ... ok
+test_unknown_truncated_frame_expires (test_transport.DecoderTests) ... ok
+test_invalid_velocity_cannot_enter_mailbox (test_transport.TransportTests) ... ok
+test_mailbox_is_nonblocking_and_discards_queued_old_commands (test_transport.TransportTests) ... ok
+test_mpu_and_icm_units_follow_vendor (test_transport.TransportTests) ... ok
+test_only_valid_received_frame_refreshes_motion (test_transport.TransportTests) ... ok
+test_reader_disconnect_latches_error (test_transport.TransportTests) ... ok
+test_real_sdk_velocity_frame (test_transport.TransportTests) ... ok
+test_short_write_not_hidden_by_sdk_exception_handler (test_transport.TransportTests) ... ok
+test_shutdown_zero_and_no_live_workers (test_transport.TransportTests) ... ok
+test_startup_only_zero_and_temporary_reporting_no_arm_or_flash (test_transport.TransportTests) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.157s
+
+OK
+---set_car_motion error!---
+---set_car_motion error!---

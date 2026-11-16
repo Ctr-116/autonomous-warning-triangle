@@ -1,0 +1,25 @@
+# MoveIt 2 控制器管理器配置 (MoveItSimpleControllerManager)
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - arm_controller
+    - gripper_controller
+
+  arm_controller:
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - arm_joint1
+      - arm_joint2
+      - arm_joint3
+      - arm_joint4
+      - arm_joint5
+
+  gripper_controller:
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - grip_joint

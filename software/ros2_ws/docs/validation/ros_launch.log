@@ -1,0 +1,26 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-11-10-09-30-22-129327-LAPTOP-DQB7JT52-39128
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [base_node-1]: process started with pid [39140]
+[INFO] [motion_test_node-2]: process started with pid [39142]
+[motion_test_node-2] [INFO] [1794303022.745811973] [motion_test_node]: Waiting for fresh odometry. Commands: forward_1m, back_1m, turn_90, turnr_90, stop
+[base_node-1] [INFO] [1794303022.790781563] [x3plus_base]: X3plus base started: MOCK
+[base_node-1] [INFO] [1794303022.824885965] [x3plus_base]: Base state: IDLE
+[motion_test_node-2] [INFO] [1794303023.266138830] [motion_test_node]: Test started: forward, target=0.2000
+[base_node-1] [INFO] [1794303023.337206696] [x3plus_base]: Base state: ACTIVE
+[motion_test_node-2] [INFO] [1794303025.753343059] [motion_test_node]: Test finished, progress=0.1804
+[motion_test_node-2] [INFO] [1794303025.828838636] [motion_test_node]: Test started: back, target=-0.2000
+[motion_test_node-2] [INFO] [1794303028.274577904] [motion_test_node]: Test finished, progress=0.1804
+[motion_test_node-2] [INFO] [1794303028.364308130] [motion_test_node]: Test started: turn_left, target=1.5708
+[motion_test_node-2] [INFO] [1794303032.040215037] [motion_test_node]: Test finished, progress=1.5207
+[motion_test_node-2] [INFO] [1794303032.128628833] [motion_test_node]: Test started: turn_right, target=-1.5708
+[motion_test_node-2] [INFO] [1794303035.839784358] [motion_test_node]: Test finished, progress=1.5218
+[motion_test_node-2] [INFO] [1794303035.912343738] [motion_test_node]: Test started: forward, target=1.0000
+[base_node-1] [INFO] [1794303036.284031971] [x3plus_base]: Base state: FEEDBACK_TIMEOUT
+[motion_test_node-2] [ERROR] [1794303036.461623552] [motion_test_node]: Test fault: odometry timeout or non-advancing header timestamp; send stop to reset
+[motion_test_node-2] [INFO] [1794303036.816206772] [motion_test_node]: STOP: test stopped and fault latch reset
+[base_node-1] [INFO] [1794303036.863977735] [x3plus_base]: Base state: EMERGENCY_STOP
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [motion_test_node-2]: sending signal 'SIGINT' to process[motion_test_node-2]
+[INFO] [base_node-1]: sending signal 'SIGINT' to process[base_node-1]
+[INFO] [motion_test_node-2]: process has finished cleanly [pid 39142]
+[INFO] [base_node-1]: process has finished cleanly [pid 39140]

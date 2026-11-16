@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "check": "forward_0.2m",
+      "passed": true,
+      "observed": 0.18043715766572863
+    },
+    {
+      "check": "back_0.2m",
+      "passed": true,
+      "observed": 0.1804332585073665
+    },
+    {
+      "check": "turn_90",
+      "passed": true,
+      "observed": 1.5206550152674254
+    },
+    {
+      "check": "turnr_90",
+      "passed": true,
+      "observed": -1.521815298534132
+    },
+    {
+      "check": "feedback_timeout_latched",
+      "passed": true
+    },
+    {
+      "check": "emergency_stop_and_explicit_reset",
+      "passed": true
+    },
+    {
+      "check": "documented_ros2_run_cli_entrypoint",
+      "passed": true
+    }
+  ]
+}

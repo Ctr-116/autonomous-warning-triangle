@@ -1,0 +1,1801 @@
+Starting >>> yahboomcar_msgs
+Starting >>> motion_control_pkg
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found builtin_interfaces: 1.2.3 (/opt/ros/humble/share/builtin_interfaces/cmake)
+-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+running develop
+running egg_info
+creating motion_control_pkg.egg-info
+writing motion_control_pkg.egg-info/PKG-INFO
+writing dependency_links to motion_control_pkg.egg-info/dependency_links.txt
+writing entry points to motion_control_pkg.egg-info/entry_points.txt
+writing requirements to motion_control_pkg.egg-info/requires.txt
+writing top-level names to motion_control_pkg.egg-info/top_level.txt
+writing manifest file 'motion_control_pkg.egg-info/SOURCES.txt'
+reading manifest file 'motion_control_pkg.egg-info/SOURCES.txt'
+writing manifest file 'motion_control_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /full-clean-workspace-20261116-c/install/motion_control_pkg/lib/python3.10/site-packages/motion-control-pkg.egg-link (link to .)
+Installing motion_test_node script to /full-clean-workspace-20261116-c/install/motion_control_pkg/lib/motion_control_pkg
+Installing test_cli script to /full-clean-workspace-20261116-c/install/motion_control_pkg/lib/motion_control_pkg
+
+Installed /full-clean-workspace-20261116-c/build/motion_control_pkg
+running symlink_data
+creating /full-clean-workspace-20261116-c/install/motion_control_pkg/share/ament_index
+creating /full-clean-workspace-20261116-c/install/motion_control_pkg/share/ament_index/resource_index
+creating /full-clean-workspace-20261116-c/install/motion_control_pkg/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/motion_control_pkg/resource/motion_control_pkg -> /full-clean-workspace-20261116-c/install/motion_control_pkg/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/motion_control_pkg/package.xml -> /full-clean-workspace-20261116-c/install/motion_control_pkg/share/motion_control_pkg
+creating /full-clean-workspace-20261116-c/install/motion_control_pkg/share/motion_control_pkg/launch
+symbolically linking /full-clean-workspace-20261116-c/build/motion_control_pkg/launch/motion_test.launch.py -> /full-clean-workspace-20261116-c/install/motion_control_pkg/share/motion_control_pkg/launch
+creating /full-clean-workspace-20261116-c/install/motion_control_pkg/share/motion_control_pkg/config
+symbolically linking /full-clean-workspace-20261116-c/build/motion_control_pkg/config/motion_params.yaml -> /full-clean-workspace-20261116-c/install/motion_control_pkg/share/motion_control_pkg/config
+creating /full-clean-workspace-20261116-c/install/motion_control_pkg/share/motion_control_pkg/docs
+Finished <<< motion_control_pkg [0.55s]
+Starting >>> yahboomcar_description
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /full-clean-workspace-20261116-c/build/yahboomcar_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/launch/display.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3/back_left_wheel.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3/back_right_wheel.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3/base_link.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3/front_left_wheel.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3/front_right_wheel.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3/mecanum/back_left_wheel.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3/mecanum/back_right_wheel.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3/mecanum/base_link.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3/mecanum/base_link1.stl
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3/mecanum/front_left_wheel.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3/mecanum/front_right_wheel.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3/mecanum/hokuyo.dae
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3/mecanum/kinect.dae
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3/mecanum/mecanum_left_hands.stl
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3/mecanum/mecanum_right_hands.stl
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/collision/arm_link1.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/collision/arm_link2.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/collision/arm_link3.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/collision/arm_link4.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/collision/arm_link5.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/collision/base_link.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/collision/llink1.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/collision/llink2.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/collision/llink3.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/collision/rlink1.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/collision/rlink2.STL
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/collision/rlink3.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/visual/arm_link1.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/visual/arm_link2.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/visual/arm_link3.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/visual/arm_link4.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/visual/arm_link5.STL
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/visual/base_link.STL
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/visual/llink1.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/visual/llink2.STL
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/visual/llink3.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/visual/rlink1.STL
+-- Found PythonExtra: .so  
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/visual/rlink2.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/X3plus/visual/rlink3.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/sensor/collision/camera_link.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/sensor/collision/laser_link.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/sensor/collision/mono_link.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/sensor/visual/camera_link.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/sensor/visual/laser_link.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/meshes/sensor/visual/mono_link.STL
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/rviz/yahboomcar.rviz
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/rviz/yahboomcar_ros2.rviz
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/.ipynb_checkpoints/yahboomcar_X3plus.urdf-checkpoint.xacro
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/bak/yahboomcar_X3.gazebo.xacro
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/bak/yahboomcar_X3.urdf
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/bak/yahboomcar_X3.urdf.xacro
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/bak/yahboomcar_X3plus.gazebo.xacro
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/bak/yahboomcar_X3plus.urdf
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/bak/yahboomcar_X3plus.urdf.xacro.1
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/sensors copy/camera.xacro
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/sensors copy/imu.xacro
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/sensors copy/lidar.xacro
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/sensors/camera.xacro
+-- Configuring done
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/sensors/imu.xacro
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/sensors/lidar.xacro
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/yahboomcar_X3.gazebo.urdf.xacro
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/yahboomcar_X3.gazebo.xacro
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/yahboomcar_X3.urdf
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/yahboomcar_X3.urdf.xacro
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/yahboomcar_X3plus.gazebo.urdf.xacro
+-- Generating done
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/yahboomcar_X3plus.gazebo.xacro
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/yahboomcar_X3plus.urdf
+-- Build files have been written to: /full-clean-workspace-20261116-c/build/yahboomcar_msgs
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/urdf/yahboomcar_X3plus.urdf.xacro
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/MIGRATION.md
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/SOURCE_ASSETS.md
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/ament_index/resource_index/package_run_dependencies/yahboomcar_description
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/ament_index/resource_index/parent_prefix_path/yahboomcar_description
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/environment/ament_prefix_path.sh
+[  1%] Generating C code for ROS interfaces
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/environment/ament_prefix_path.dsv
+[  2%] Generating Rust code for ROS interfaces
+[  3%] Generating C++ code for ROS interfaces
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/environment/path.sh
+[  3%] Built target ament_cmake_python_symlink_yahboomcar_msgs
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/environment/path.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/local_setup.bash
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/local_setup.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/local_setup.zsh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/local_setup.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/package.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/ament_index/resource_index/packages/yahboomcar_description
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/cmake/yahboomcar_descriptionConfig.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/cmake/yahboomcar_descriptionConfig-version.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_description/share/yahboomcar_description/package.xml
+Finished <<< yahboomcar_description [0.60s]
+Starting >>> yahboomcar_nav
+-- The C compiler identification is GNU 11.4.0
+running egg_info
+creating yahboomcar_msgs.egg-info
+writing yahboomcar_msgs.egg-info/PKG-INFO
+writing dependency_links to yahboomcar_msgs.egg-info/dependency_links.txt
+writing top-level names to yahboomcar_msgs.egg-info/top_level.txt
+writing manifest file 'yahboomcar_msgs.egg-info/SOURCES.txt'
+reading manifest file 'yahboomcar_msgs.egg-info/SOURCES.txt'
+writing manifest file 'yahboomcar_msgs.egg-info/SOURCES.txt'
+[  3%] Built target ament_cmake_python_build_yahboomcar_msgs_egg
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+[  3%] Built target yahboomcar_msgs__rs
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+[  4%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/image_msg__functions.c.o
+[  5%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/arm_joint__functions.c.o
+[  6%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/position__functions.c.o
+[  7%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/point_array__functions.c.o
+[  9%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/target__functions.c.o
+[ 10%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/target_array__functions.c.o
+[ 11%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/srv/detail/kinematics__functions.c.o
+[ 12%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/srv/detail/robot_arm_array__functions.c.o
+-- Found ament_cmake_pytest: 1.3.14 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[ 12%] Built target yahboomcar_msgs__cpp
+[ 13%] Generating C++ introspection for ROS interfaces
+[ 15%] Generating C++ type support for eProsima Fast-RTPS
+[ 15%] Generating C++ type support dispatch for ROS interfaces
+[ 17%] Linking C shared library libyahboomcar_msgs__rosidl_generator_c.so
+[ 17%] Built target yahboomcar_msgs__rosidl_generator_c
+[ 19%] Generating C type support for eProsima Fast-RTPS
+[ 19%] Generating C type support dispatch for ROS interfaces
+[ 20%] Generating C introspection for ROS interfaces
+[ 21%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/position__type_support.cpp.o
+[ 22%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/point_array__type_support.cpp.o
+[ 23%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/target__type_support.cpp.o
+[ 25%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/target_array__type_support.cpp.o
+[ 26%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/srv/robot_arm_array__type_support.cpp.o
+[ 27%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/image_msg__type_support.cpp.o
+[ 28%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/srv/kinematics__type_support.cpp.o
+[ 29%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/arm_joint__type_support.cpp.o
+[ 30%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/target_array__type_support.cpp.o
+[ 31%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/point_array__type_support.cpp.o
+[ 32%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/position__type_support.cpp.o
+[ 34%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/image_msg__type_support.cpp.o
+[ 35%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/srv/kinematics__type_support.cpp.o
+[ 36%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/target__type_support.cpp.o
+[ 37%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/arm_joint__type_support.cpp.o
+[ 38%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/srv/robot_arm_array__type_support.cpp.o
+[ 39%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/target__type_support.cpp.o
+[ 42%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/position__type_support.cpp.o
+[ 42%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/point_array__type_support.cpp.o
+[ 43%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/arm_joint__type_support.cpp.o
+[ 44%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/image_msg__type_support.cpp.o
+[ 45%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/srv/detail/kinematics__type_support.cpp.o
+[ 46%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/target_array__type_support.cpp.o
+[ 47%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/srv/detail/robot_arm_array__type_support.cpp.o
+[ 48%] Linking CXX shared library libyahboomcar_msgs__rosidl_typesupport_c.so
+[ 48%] Built target yahboomcar_msgs__rosidl_typesupport_c
+[ 50%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/point_array__type_support.cpp.o
+[ 51%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/position__type_support.cpp.o
+[ 52%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/image_msg__type_support.cpp.o
+[ 55%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/target_array__type_support.cpp.o
+[ 53%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/arm_joint__type_support.cpp.o
+[ 55%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/target__type_support.cpp.o
+[ 57%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/srv/detail/dds_fastrtps/robot_arm_array__type_support.cpp.o
+[ 57%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/srv/detail/dds_fastrtps/kinematics__type_support.cpp.o
+[ 59%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/position__type_support.c.o
+[ 61%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/image_msg__type_support.c.o
+[ 61%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/target__type_support.c.o
+[ 63%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/arm_joint__type_support.c.o
+[ 63%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/target_array__type_support.c.o
+[ 64%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/point_array__type_support.c.o
+[ 65%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/srv/detail/robot_arm_array__type_support.c.o
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /full-clean-workspace-20261116-c/build/yahboomcar_nav
+[ 67%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/srv/detail/kinematics__type_support.c.o
+[ 69%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/position__type_support_c.cpp.o
+[ 69%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/image_msg__type_support_c.cpp.o
+[ 70%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/srv/detail/kinematics__type_support_c.cpp.o
+[ 71%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/point_array__type_support_c.cpp.o
+[ 72%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/target__type_support_c.cpp.o
+[ 73%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/srv/detail/robot_arm_array__type_support_c.cpp.o
+[ 75%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/arm_joint__type_support_c.cpp.o
+[ 76%] Building CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/target_array__type_support_c.cpp.o
+[ 77%] Linking C shared library libyahboomcar_msgs__rosidl_typesupport_introspection_c.so
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/launch/map_saver.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/launch/yahboomcar_map.launch.py
+[ 78%] Linking CXX shared library libyahboomcar_msgs__rosidl_typesupport_cpp.so
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/launch/yahboomcar_navigation.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/config/nav2.yaml
+[ 78%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_c
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/config/slam_toolbox.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/rviz/navigation.rviz
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/11hous22.pgm
+[ 78%] Built target yahboomcar_msgs__rosidl_typesupport_cpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/11hous22.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/11house.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/11house.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/123456.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/123456.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/Aaa.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/Aaa.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/Ana.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/Ana.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/Anacccc.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/Anacccc.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/Ss.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/Ss.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/ansndhb.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/ansndhb.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/ansndhbzssqw.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/ansndhbzssqw.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/ansndhbzssqwsd.pgm
+[ 79%] Linking CXX shared library libyahboomcar_msgs__rosidl_typesupport_introspection_cpp.so
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/ansndhbzssqwsd.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/carto_map.pbstream
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/carto_map.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/carto_map.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/carto_map.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/house.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/house.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/map.pgm
+[ 79%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_cpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/map.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/map.yaml
+[ 80%] Linking CXX shared library libyahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[ 81%] Linking CXX shared library libyahboomcar_msgs__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/map925.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/map925.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/mjpg.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/mjpg.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/mjpgdeee.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/mjpgdeee.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/mmy.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/mmy.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/my12.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/my12.yaml
+[ 81%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_c
+[ 81%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/my_map.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/my_map.yaml
+[ 81%] Built target yahboomcar_msgs
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/rrt_map.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/rrt_map.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/sdddd.pgm
+[ 82%] Generating Python code for ROS interfaces
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/sdddd.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/testa.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/testa.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/white.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/wweerff.pgm
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/maps/wweerff.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/lib/yahboomcar_nav/velocity_output.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/lib/yahboomcar_nav/scan_dilute.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/lib/yahboomcar_nav/send_mark.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/lib/yahboomcar_nav/rrt_save_map.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/lib/yahboomcar_nav/save_map_once.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/lib/yahboomcar_nav/scan_dilute_lib.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/lib/yahboomcar_nav/map_paths.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/ament_index/resource_index/package_run_dependencies/yahboomcar_nav
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/ament_index/resource_index/parent_prefix_path/yahboomcar_nav
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/environment/ament_prefix_path.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/environment/ament_prefix_path.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/environment/path.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/environment/path.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/local_setup.bash
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/local_setup.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/local_setup.zsh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/local_setup.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/package.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/ament_index/resource_index/packages/yahboomcar_nav
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/cmake/yahboomcar_navConfig.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/cmake/yahboomcar_navConfig-version.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_nav/share/yahboomcar_nav/package.xml
+Finished <<< yahboomcar_nav [1.31s]
+Starting >>> joy
+[ 82%] Built target yahboomcar_msgs__py
+[ 84%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboomcar_msgs/msg/_position_s.c.o
+[ 85%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboomcar_msgs/msg/_point_array_s.c.o
+[ 87%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboomcar_msgs/msg/_target_s.c.o
+[ 86%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboomcar_msgs/msg/_image_msg_s.c.o
+[ 88%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboomcar_msgs/msg/_target_array_s.c.o
+[ 89%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboomcar_msgs/srv/_robot_arm_array_s.c.o
+[ 90%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboomcar_msgs/srv/_kinematics_s.c.o
+[ 92%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboomcar_msgs/msg/_arm_joint_s.c.o
+[ 93%] Linking C shared library rosidl_generator_py/yahboomcar_msgs/libyahboomcar_msgs__rosidl_generator_py.so
+running develop
+[ 93%] Built target yahboomcar_msgs__rosidl_generator_py
+[ 95%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 95%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 96%] Building C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_c.c.o
+running egg_info
+creating joy.egg-info
+writing joy.egg-info/PKG-INFO
+writing dependency_links to joy.egg-info/dependency_links.txt
+writing entry points to joy.egg-info/entry_points.txt
+writing requirements to joy.egg-info/requires.txt
+writing top-level names to joy.egg-info/top_level.txt
+writing manifest file 'joy.egg-info/SOURCES.txt'
+reading manifest file 'joy.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'joy.egg-info/SOURCES.txt'
+running build_ext
+Creating /full-clean-workspace-20261116-c/install/joy/lib/python3.10/site-packages/joy.egg-link (link to .)
+Installing joy_remap script to /full-clean-workspace-20261116-c/install/joy/lib/joy
+
+Installed /full-clean-workspace-20261116-c/build/joy
+running symlink_data
+creating /full-clean-workspace-20261116-c/install/joy/share/ament_index
+creating /full-clean-workspace-20261116-c/install/joy/share/ament_index/resource_index
+creating /full-clean-workspace-20261116-c/install/joy/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/joy/resource/joy -> /full-clean-workspace-20261116-c/install/joy/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/joy/package.xml -> /full-clean-workspace-20261116-c/install/joy/share/joy
+symbolically linking /full-clean-workspace-20261116-c/build/joy/README.md -> /full-clean-workspace-20261116-c/install/joy/share/joy
+symbolically linking /full-clean-workspace-20261116-c/build/joy/MIGRATION.md -> /full-clean-workspace-20261116-c/install/joy/share/joy
+symbolically linking /full-clean-workspace-20261116-c/build/joy/LICENSE -> /full-clean-workspace-20261116-c/install/joy/share/joy
+creating /full-clean-workspace-20261116-c/install/joy/share/joy/launch
+symbolically linking /full-clean-workspace-20261116-c/build/joy/launch/ps4joy.launch.py -> /full-clean-workspace-20261116-c/install/joy/share/joy/launch
+creating /full-clean-workspace-20261116-c/install/joy/share/joy/config
+symbolically linking /full-clean-workspace-20261116-c/build/joy/config/ps4joy.yaml -> /full-clean-workspace-20261116-c/install/joy/share/joy/config
+Finished <<< joy [0.57s]
+Starting >>> yahboomcar_linefollw
+[100%] Linking C shared library rosidl_generator_py/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[100%] Linking C shared library rosidl_generator_py/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[100%] Linking C shared library rosidl_generator_py/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[100%] Built target yahboomcar_msgs__rosidl_typesupport_c__pyext
+[100%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/ament_index/resource_index/rosidl_interfaces/yahboomcar_msgs
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/arm_joint.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/arm_joint__functions.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/arm_joint__struct.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/arm_joint__type_support.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__functions.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__struct.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__type_support.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__functions.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__struct.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__type_support.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__functions.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__struct.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__type_support.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__functions.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__struct.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__type_support.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__functions.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__struct.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__type_support.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/image_msg.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/point_array.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/position.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/target.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/target_array.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/kinematics__functions.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/kinematics__struct.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/kinematics__type_support.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/robot_arm_array__functions.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/robot_arm_array__struct.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/robot_arm_array__type_support.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/kinematics.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/robot_arm_array.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/library_path.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/library_path.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/arm_joint__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/kinematics__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/robot_arm_array__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/arm_joint__rosidl_typesupport_introspection_c.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__rosidl_typesupport_introspection_c.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_introspection_c.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__rosidl_typesupport_introspection_c.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__rosidl_typesupport_introspection_c.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__rosidl_typesupport_introspection_c.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/kinematics__rosidl_typesupport_introspection_c.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/robot_arm_array__rosidl_typesupport_introspection_c.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/arm_joint.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/arm_joint__builder.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/arm_joint__struct.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/arm_joint__traits.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/arm_joint__type_support.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__builder.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__struct.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__traits.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__type_support.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__builder.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__struct.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__traits.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__type_support.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__builder.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__struct.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__traits.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__type_support.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__builder.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__struct.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__traits.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__type_support.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__builder.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__struct.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__traits.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__type_support.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/image_msg.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/point_array.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/position.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/target.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/target_array.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/kinematics__builder.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/kinematics__struct.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/kinematics__traits.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/kinematics__type_support.hpp
+running develop
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/robot_arm_array__builder.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/robot_arm_array__struct.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/robot_arm_array__traits.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/robot_arm_array__type_support.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/kinematics.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/robot_arm_array.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/arm_joint__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__rosidl_typesupport_fastrtps_cpp.hpp
+running egg_info
+creating yahboomcar_linefollw.egg-info
+writing yahboomcar_linefollw.egg-info/PKG-INFO
+writing dependency_links to yahboomcar_linefollw.egg-info/dependency_links.txt
+writing entry points to yahboomcar_linefollw.egg-info/entry_points.txt
+writing requirements to yahboomcar_linefollw.egg-info/requires.txt
+writing top-level names to yahboomcar_linefollw.egg-info/top_level.txt
+writing manifest file 'yahboomcar_linefollw.egg-info/SOURCES.txt'
+reading manifest file 'yahboomcar_linefollw.egg-info/SOURCES.txt'
+writing manifest file 'yahboomcar_linefollw.egg-info/SOURCES.txt'
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+running build_ext
+Creating /full-clean-workspace-20261116-c/install/yahboomcar_linefollw/lib/python3.10/site-packages/yahboomcar-linefollw.egg-link (link to .)
+Installing follow_line script to /full-clean-workspace-20261116-c/install/yahboomcar_linefollw/lib/yahboomcar_linefollw
+
+Installed /full-clean-workspace-20261116-c/build/yahboomcar_linefollw
+running symlink_data
+creating /full-clean-workspace-20261116-c/install/yahboomcar_linefollw/share/ament_index
+creating /full-clean-workspace-20261116-c/install/yahboomcar_linefollw/share/ament_index/resource_index
+creating /full-clean-workspace-20261116-c/install/yahboomcar_linefollw/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_linefollw/resource/yahboomcar_linefollw -> /full-clean-workspace-20261116-c/install/yahboomcar_linefollw/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_linefollw/package.xml -> /full-clean-workspace-20261116-c/install/yahboomcar_linefollw/share/yahboomcar_linefollw
+creating /full-clean-workspace-20261116-c/install/yahboomcar_linefollw/share/yahboomcar_linefollw/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_linefollw/launch/follow_line.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_linefollw/share/yahboomcar_linefollw/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_linefollw/launch/line.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_linefollw/share/yahboomcar_linefollw/launch
+creating /full-clean-workspace-20261116-c/install/yahboomcar_linefollw/share/yahboomcar_linefollw/config
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_linefollw/config/defaults.yaml -> /full-clean-workspace-20261116-c/install/yahboomcar_linefollw/share/yahboomcar_linefollw/config
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/kinematics__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/robot_arm_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/arm_joint__rosidl_typesupport_introspection_cpp.hpp
+Finished <<< yahboomcar_linefollw [0.51s]
+Starting >>> x3plus_moveit_config
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/image_msg__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/msg/detail/target_array__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/kinematics__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/include/yahboomcar_msgs/yahboomcar_msgs/srv/detail/robot_arm_array__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/pythonpath.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/pythonpath.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+-- The C compiler identification is GNU 11.4.0
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/__init__.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/libyahboomcar_msgs__rosidl_generator_py.so
+-- The CXX compiler identification is GNU 11.4.0
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/__init__.py
+-- Detecting C compiler ABI info
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_arm_joint.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_arm_joint_s.c
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_image_msg.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_image_msg_s.c
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_point_array.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_point_array_s.c
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_position.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_position_s.c
+-- Detecting C compiler ABI info - done
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_target.py
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_target_array.py
+-- Detecting CXX compiler ABI info
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_target_array_s.c
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_target_s.c
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/srv/__init__.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/srv/_kinematics.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/srv/_kinematics_s.c
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/srv/_robot_arm_array.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/srv/_robot_arm_array_s.c
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Detecting CXX compiler ABI info - done
+-- Up-to-date symlink: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/rust/Cargo.toml
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/rust/build.rs
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/rust/src/lib.rs
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/rust/src/msg.rs
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/rust/src/msg/rmw.rs
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/rust/src/srv.rs
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/rust/src/srv/rmw.rs
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/Position.idl
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/PointArray.idl
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/ImageMsg.idl
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/Target.idl
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/TargetArray.idl
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/ArmJoint.idl
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/srv/RobotArmArray.idl
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/srv/Kinematics.idl
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/Position.msg
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/PointArray.msg
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/ImageMsg.msg
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/Target.msg
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/TargetArray.msg
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/ArmJoint.msg
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/srv/RobotArmArray.srv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/srv/RobotArmArray_Request.msg
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/srv/RobotArmArray_Response.msg
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/srv/Kinematics.srv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/srv/Kinematics_Request.msg
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/srv/Kinematics_Response.msg
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/ament_index/resource_index/package_run_dependencies/yahboomcar_msgs
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/ament_index/resource_index/parent_prefix_path/yahboomcar_msgs
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/path.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/path.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.bash
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.zsh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/package.dsv
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /full-clean-workspace-20261116-c/build/x3plus_moveit_config
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/ament_index/resource_index/packages/yahboomcar_msgs
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/config/cartesian_limits.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/config/chomp_planning.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/config/fake_controllers.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/config/gazebo_controllers.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgsConfig.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/config/initial_positions.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgsConfig-version.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/config/joint_limits.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/package.xml
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/config/kinematics.yaml
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_generator_c.so
+-- Set runtime path of "/full-clean-workspace-20261116-c/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_generator_c.so" to ""
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/full-clean-workspace-20261116-c/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/full-clean-workspace-20261116-c/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/full-clean-workspace-20261116-c/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/full-clean-workspace-20261116-c/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/full-clean-workspace-20261116-c/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/full-clean-workspace-20261116-c/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_cpp.so" to ""
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/config/moveit_controllers.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/config/ompl_planning.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/config/ros2_controllers.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/config/ros_controllers.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/config/sensors_3d.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/config/simple_moveit_controllers.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/config/stomp_planning.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/config/yahboomcar_X3plus.srdf
+Listing '/full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/__init__.py'...
+Listing '/full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/__init__.py'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_arm_joint.py'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_image_msg.py'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_point_array.py'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_position.py'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_target.py'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/msg/_target_array.py'...
+Listing '/full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/srv'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/srv/__init__.py'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/srv/_kinematics.py'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_msgs/local/lib/python3.10/dist-packages/yahboomcar_msgs/srv/_robot_arm_array.py'...
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/launch/demo.launch.py
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_generator_py.so
+-- Set runtime path of "/full-clean-workspace-20261116-c/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_generator_py.so" to ""
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_generator_cExport.cmake
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/export_yahboomcar_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/launch/move_group.launch.py
+Finished <<< yahboomcar_msgs [3.92s]
+Starting >>> x3plus_base
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/launch/moveit_config_helper.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/launch/moveit_rviz.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/launch/ros_controllers.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/launch/setup_assistant.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/rviz/moveit.rviz
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/urdf/yahboomcar_X3plus.ros2_control.xacro
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/urdf/yahboomcar_X3plus.urdf.xacro
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/ament_index/resource_index/package_run_dependencies/x3plus_moveit_config
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/ament_index/resource_index/parent_prefix_path/x3plus_moveit_config
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/environment/ament_prefix_path.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/environment/ament_prefix_path.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/environment/path.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/environment/path.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/local_setup.bash
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/local_setup.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/local_setup.zsh
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/local_setup.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/package.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/ament_index/resource_index/packages/x3plus_moveit_config
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/cmake/x3plus_moveit_configConfig.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/cmake/x3plus_moveit_configConfig-version.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/x3plus_moveit_config/share/x3plus_moveit_config/package.xml
+Finished <<< x3plus_moveit_config [0.48s]
+Starting >>> arm_color_transport
+running develop
+running egg_info
+creating x3plus_base.egg-info
+writing x3plus_base.egg-info/PKG-INFO
+writing dependency_links to x3plus_base.egg-info/dependency_links.txt
+writing entry points to x3plus_base.egg-info/entry_points.txt
+writing requirements to x3plus_base.egg-info/requires.txt
+writing top-level names to x3plus_base.egg-info/top_level.txt
+writing manifest file 'x3plus_base.egg-info/SOURCES.txt'
+reading manifest file 'x3plus_base.egg-info/SOURCES.txt'
+writing manifest file 'x3plus_base.egg-info/SOURCES.txt'
+running build_ext
+Creating /full-clean-workspace-20261116-c/install/x3plus_base/lib/python3.10/site-packages/x3plus-base.egg-link (link to .)
+Installing base_node script to /full-clean-workspace-20261116-c/install/x3plus_base/lib/x3plus_base
+
+Installed /full-clean-workspace-20261116-c/build/x3plus_base
+running symlink_data
+creating /full-clean-workspace-20261116-c/install/x3plus_base/share/ament_index
+creating /full-clean-workspace-20261116-c/install/x3plus_base/share/ament_index/resource_index
+creating /full-clean-workspace-20261116-c/install/x3plus_base/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/x3plus_base/resource/x3plus_base -> /full-clean-workspace-20261116-c/install/x3plus_base/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/x3plus_base/package.xml -> /full-clean-workspace-20261116-c/install/x3plus_base/share/x3plus_base
+creating /full-clean-workspace-20261116-c/install/x3plus_base/share/x3plus_base/config
+symbolically linking /full-clean-workspace-20261116-c/build/x3plus_base/config/accessories.yaml -> /full-clean-workspace-20261116-c/install/x3plus_base/share/x3plus_base/config
+symbolically linking /full-clean-workspace-20261116-c/build/x3plus_base/config/base.yaml -> /full-clean-workspace-20261116-c/install/x3plus_base/share/x3plus_base/config
+creating /full-clean-workspace-20261116-c/install/x3plus_base/share/x3plus_base/launch
+symbolically linking /full-clean-workspace-20261116-c/build/x3plus_base/launch/bringup.launch.py -> /full-clean-workspace-20261116-c/install/x3plus_base/share/x3plus_base/launch
+Finished <<< x3plus_base [0.52s]
+Starting >>> yahboomcar_astra
+-- The C compiler identification is GNU 11.4.0
+running develop
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+running egg_info
+creating arm_color_transport.egg-info
+writing arm_color_transport.egg-info/PKG-INFO
+writing dependency_links to arm_color_transport.egg-info/dependency_links.txt
+writing entry points to arm_color_transport.egg-info/entry_points.txt
+writing requirements to arm_color_transport.egg-info/requires.txt
+writing top-level names to arm_color_transport.egg-info/top_level.txt
+writing manifest file 'arm_color_transport.egg-info/SOURCES.txt'
+reading manifest file 'arm_color_transport.egg-info/SOURCES.txt'
+writing manifest file 'arm_color_transport.egg-info/SOURCES.txt'
+running build_ext
+Creating /full-clean-workspace-20261116-c/install/arm_color_transport/lib/python3.10/site-packages/arm-color-transport.egg-link (link to .)
+Installing draw_marker script to /full-clean-workspace-20261116-c/install/arm_color_transport/lib/arm_color_transport
+Installing transport_common script to /full-clean-workspace-20261116-c/install/arm_color_transport/lib/arm_color_transport
+Installing transport_main script to /full-clean-workspace-20261116-c/install/arm_color_transport/lib/arm_color_transport
+
+Installed /full-clean-workspace-20261116-c/build/arm_color_transport
+running symlink_data
+creating /full-clean-workspace-20261116-c/install/arm_color_transport/share/ament_index
+creating /full-clean-workspace-20261116-c/install/arm_color_transport/share/ament_index/resource_index
+creating /full-clean-workspace-20261116-c/install/arm_color_transport/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/arm_color_transport/resource/arm_color_transport -> /full-clean-workspace-20261116-c/install/arm_color_transport/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/arm_color_transport/package.xml -> /full-clean-workspace-20261116-c/install/arm_color_transport/share/arm_color_transport
+creating /full-clean-workspace-20261116-c/install/arm_color_transport/share/arm_color_transport/launch
+symbolically linking /full-clean-workspace-20261116-c/build/arm_color_transport/launch/transport_base.launch.py -> /full-clean-workspace-20261116-c/install/arm_color_transport/share/arm_color_transport/launch
+symbolically linking /full-clean-workspace-20261116-c/build/arm_color_transport/launch/transport_rviz.launch.py -> /full-clean-workspace-20261116-c/install/arm_color_transport/share/arm_color_transport/launch
+creating /full-clean-workspace-20261116-c/install/arm_color_transport/share/arm_color_transport/config
+symbolically linking /full-clean-workspace-20261116-c/build/arm_color_transport/config/defaults.yaml -> /full-clean-workspace-20261116-c/install/arm_color_transport/share/arm_color_transport/config
+Finished <<< arm_color_transport [0.55s]
+Starting >>> yahboomcar_ctrl
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.22 (/opt/ros/humble/share/rclpy/cmake)
+-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found image_transport: 3.1.13 (/opt/ros/humble/share/image_transport/cmake)
+-- Found yahboomcar_msgs: 0.0.0 (/full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake)
+-- Found OpenCV: /usr (found version "4.5.4") found components: core imgproc highgui 
+running develop
+-- Found ament_cmake_pytest: 1.3.14 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+running egg_info
+creating yahboomcar_ctrl.egg-info
+writing yahboomcar_ctrl.egg-info/PKG-INFO
+writing dependency_links to yahboomcar_ctrl.egg-info/dependency_links.txt
+writing entry points to yahboomcar_ctrl.egg-info/entry_points.txt
+writing requirements to yahboomcar_ctrl.egg-info/requires.txt
+writing top-level names to yahboomcar_ctrl.egg-info/top_level.txt
+writing manifest file 'yahboomcar_ctrl.egg-info/SOURCES.txt'
+reading manifest file 'yahboomcar_ctrl.egg-info/SOURCES.txt'
+writing manifest file 'yahboomcar_ctrl.egg-info/SOURCES.txt'
+running build_ext
+Creating /full-clean-workspace-20261116-c/install/yahboomcar_ctrl/lib/python3.10/site-packages/yahboomcar-ctrl.egg-link (link to .)
+Installing turtlebot_joy script to /full-clean-workspace-20261116-c/install/yahboomcar_ctrl/lib/yahboomcar_ctrl
+Installing twist_joy script to /full-clean-workspace-20261116-c/install/yahboomcar_ctrl/lib/yahboomcar_ctrl
+Installing yahboom_joy script to /full-clean-workspace-20261116-c/install/yahboomcar_ctrl/lib/yahboomcar_ctrl
+Installing yahboom_keyboard script to /full-clean-workspace-20261116-c/install/yahboomcar_ctrl/lib/yahboomcar_ctrl
+
+Installed /full-clean-workspace-20261116-c/build/yahboomcar_ctrl
+running symlink_data
+creating /full-clean-workspace-20261116-c/install/yahboomcar_ctrl/share/ament_index
+creating /full-clean-workspace-20261116-c/install/yahboomcar_ctrl/share/ament_index/resource_index
+creating /full-clean-workspace-20261116-c/install/yahboomcar_ctrl/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_ctrl/resource/yahboomcar_ctrl -> /full-clean-workspace-20261116-c/install/yahboomcar_ctrl/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_ctrl/package.xml -> /full-clean-workspace-20261116-c/install/yahboomcar_ctrl/share/yahboomcar_ctrl
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_ctrl/README.md -> /full-clean-workspace-20261116-c/install/yahboomcar_ctrl/share/yahboomcar_ctrl
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_ctrl/MIGRATION.md -> /full-clean-workspace-20261116-c/install/yahboomcar_ctrl/share/yahboomcar_ctrl
+creating /full-clean-workspace-20261116-c/install/yahboomcar_ctrl/share/yahboomcar_ctrl/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_ctrl/launch/twist_joy.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_ctrl/share/yahboomcar_ctrl/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_ctrl/launch/yahboom_keyboard.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_ctrl/share/yahboomcar_ctrl/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_ctrl/launch/turtlebot_joy.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_ctrl/share/yahboomcar_ctrl/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_ctrl/launch/yahboom_joy.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_ctrl/share/yahboomcar_ctrl/launch
+Finished <<< yahboomcar_ctrl [0.50s]
+Starting >>> yahboomcar_bringup
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /full-clean-workspace-20261116-c/build/yahboomcar_astra
+[ 16%] Building CXX object CMakeFiles/KCFTracker_node.dir/src/KCF_Tracker_main.cpp.o
+[ 33%] Building CXX object CMakeFiles/KCFTracker_node.dir/src/KCF_Tracker.cpp.o
+[ 50%] Building CXX object CMakeFiles/KCFTracker_node.dir/include/yahboomcar_astra/kcftracker.cpp.o
+[ 66%] Building CXX object CMakeFiles/KCFTracker_node.dir/include/yahboomcar_astra/fhog.cpp.o
+[ 83%] Building CXX object CMakeFiles/KCFTracker_node.dir/include/yahboomcar_astra/PID.cpp.o
+[ 83%] Built target ament_cmake_python_symlink_yahboomcar_astra
+running egg_info
+creating yahboomcar_astra.egg-info
+writing yahboomcar_astra.egg-info/PKG-INFO
+writing dependency_links to yahboomcar_astra.egg-info/dependency_links.txt
+writing top-level names to yahboomcar_astra.egg-info/top_level.txt
+writing manifest file 'yahboomcar_astra.egg-info/SOURCES.txt'
+reading manifest file 'yahboomcar_astra.egg-info/SOURCES.txt'
+writing manifest file 'yahboomcar_astra.egg-info/SOURCES.txt'
+[ 83%] Built target ament_cmake_python_build_yahboomcar_astra_egg
+running develop
+running egg_info
+creating yahboomcar_bringup.egg-info
+writing yahboomcar_bringup.egg-info/PKG-INFO
+writing dependency_links to yahboomcar_bringup.egg-info/dependency_links.txt
+writing entry points to yahboomcar_bringup.egg-info/entry_points.txt
+writing requirements to yahboomcar_bringup.egg-info/requires.txt
+writing top-level names to yahboomcar_bringup.egg-info/top_level.txt
+writing manifest file 'yahboomcar_bringup.egg-info/SOURCES.txt'
+reading manifest file 'yahboomcar_bringup.egg-info/SOURCES.txt'
+writing manifest file 'yahboomcar_bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /full-clean-workspace-20261116-c/install/yahboomcar_bringup/lib/python3.10/site-packages/yahboomcar-bringup.egg-link (link to .)
+Installing calibrate_angular script to /full-clean-workspace-20261116-c/install/yahboomcar_bringup/lib/yahboomcar_bringup
+Installing calibrate_linear script to /full-clean-workspace-20261116-c/install/yahboomcar_bringup/lib/yahboomcar_bringup
+Installing patrol script to /full-clean-workspace-20261116-c/install/yahboomcar_bringup/lib/yahboomcar_bringup
+Installing velocity_mux script to /full-clean-workspace-20261116-c/install/yahboomcar_bringup/lib/yahboomcar_bringup
+
+Installed /full-clean-workspace-20261116-c/build/yahboomcar_bringup
+running symlink_data
+creating /full-clean-workspace-20261116-c/install/yahboomcar_bringup/share/ament_index
+creating /full-clean-workspace-20261116-c/install/yahboomcar_bringup/share/ament_index/resource_index
+creating /full-clean-workspace-20261116-c/install/yahboomcar_bringup/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_bringup/resource/yahboomcar_bringup -> /full-clean-workspace-20261116-c/install/yahboomcar_bringup/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_bringup/package.xml -> /full-clean-workspace-20261116-c/install/yahboomcar_bringup/share/yahboomcar_bringup
+creating /full-clean-workspace-20261116-c/install/yahboomcar_bringup/share/yahboomcar_bringup/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_bringup/launch/view_odom.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_bringup/share/yahboomcar_bringup/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_bringup/launch/yahboomcar.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_bringup/share/yahboomcar_bringup/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_bringup/launch/calibrate_angular.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_bringup/share/yahboomcar_bringup/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_bringup/launch/calibrate_linear.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_bringup/share/yahboomcar_bringup/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_bringup/launch/bringup.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_bringup/share/yahboomcar_bringup/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_bringup/launch/patrol.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_bringup/share/yahboomcar_bringup/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_bringup/launch/yahboomcar_model.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_bringup/share/yahboomcar_bringup/launch
+creating /full-clean-workspace-20261116-c/install/yahboomcar_bringup/share/yahboomcar_bringup/config
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_bringup/config/ekf.yaml -> /full-clean-workspace-20261116-c/install/yahboomcar_bringup/share/yahboomcar_bringup/config
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_bringup/config/mux.yaml -> /full-clean-workspace-20261116-c/install/yahboomcar_bringup/share/yahboomcar_bringup/config
+Finished <<< yahboomcar_bringup [0.56s]
+Starting >>> yahboomcar_laser
+running develop
+running egg_info
+creating yahboomcar_laser.egg-info
+writing yahboomcar_laser.egg-info/PKG-INFO
+writing dependency_links to yahboomcar_laser.egg-info/dependency_links.txt
+writing entry points to yahboomcar_laser.egg-info/entry_points.txt
+writing requirements to yahboomcar_laser.egg-info/requires.txt
+writing top-level names to yahboomcar_laser.egg-info/top_level.txt
+writing manifest file 'yahboomcar_laser.egg-info/SOURCES.txt'
+reading manifest file 'yahboomcar_laser.egg-info/SOURCES.txt'
+writing manifest file 'yahboomcar_laser.egg-info/SOURCES.txt'
+running build_ext
+Creating /full-clean-workspace-20261116-c/install/yahboomcar_laser/lib/python3.10/site-packages/yahboomcar-laser.egg-link (link to .)
+Installing laser_avoidance script to /full-clean-workspace-20261116-c/install/yahboomcar_laser/lib/yahboomcar_laser
+Installing laser_tracker script to /full-clean-workspace-20261116-c/install/yahboomcar_laser/lib/yahboomcar_laser
+Installing laser_warning script to /full-clean-workspace-20261116-c/install/yahboomcar_laser/lib/yahboomcar_laser
+
+Installed /full-clean-workspace-20261116-c/build/yahboomcar_laser
+running symlink_data
+creating /full-clean-workspace-20261116-c/install/yahboomcar_laser/share/ament_index
+creating /full-clean-workspace-20261116-c/install/yahboomcar_laser/share/ament_index/resource_index
+creating /full-clean-workspace-20261116-c/install/yahboomcar_laser/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_laser/resource/yahboomcar_laser -> /full-clean-workspace-20261116-c/install/yahboomcar_laser/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_laser/package.xml -> /full-clean-workspace-20261116-c/install/yahboomcar_laser/share/yahboomcar_laser
+creating /full-clean-workspace-20261116-c/install/yahboomcar_laser/share/yahboomcar_laser/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_laser/launch/laser_tracker.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_laser/share/yahboomcar_laser/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_laser/launch/lidar.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_laser/share/yahboomcar_laser/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_laser/launch/laser_avoidance.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_laser/share/yahboomcar_laser/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_laser/launch/laser_warning.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_laser/share/yahboomcar_laser/launch
+creating /full-clean-workspace-20261116-c/install/yahboomcar_laser/share/yahboomcar_laser/config
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_laser/config/laser_warning.yaml -> /full-clean-workspace-20261116-c/install/yahboomcar_laser/share/yahboomcar_laser/config
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_laser/config/laser_avoidance.yaml -> /full-clean-workspace-20261116-c/install/yahboomcar_laser/share/yahboomcar_laser/config
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_laser/config/laser_tracker.yaml -> /full-clean-workspace-20261116-c/install/yahboomcar_laser/share/yahboomcar_laser/config
+Finished <<< yahboomcar_laser [0.53s]
+Starting >>> yahboomcar_slam
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found std_srvs: 4.9.2 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found tf2: 0.25.24 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.24 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.24 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.12  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+-- Found PCL_MODELER: /usr/include/pcl-1.12  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found OpenCV: /usr (found version "4.5.4") found components: core imgproc 
+CMake Warning (dev) at CMakeLists.txt:32 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /full-clean-workspace-20261116-c/build/yahboomcar_slam
+[ 25%] Building CXX object CMakeFiles/PCLMapper.dir/src/PCLMapper.cpp.o
+[100%] Linking CXX executable KCFTracker_node
+[100%] Built target KCFTracker_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/lib/yahboomcar_astra/KCFTracker_node
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/environment/pythonpath.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/environment/pythonpath.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/local/lib/python3.10/dist-packages/yahboomcar_astra-0.1.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/local/lib/python3.10/dist-packages/yahboomcar_astra-0.1.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/local/lib/python3.10/dist-packages/yahboomcar_astra-0.1.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/local/lib/python3.10/dist-packages/yahboomcar_astra-0.1.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/local/lib/python3.10/dist-packages/yahboomcar_astra/__init__.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/local/lib/python3.10/dist-packages/yahboomcar_astra/astra_common.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/local/lib/python3.10/dist-packages/yahboomcar_astra/color_hsv.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/local/lib/python3.10/dist-packages/yahboomcar_astra/color_tracker.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/lib/yahboomcar_astra/colorHSV.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/lib/yahboomcar_astra/colorTracker.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/launch/KCFTracker.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/launch/colorHSV.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/launch/colorTracker.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/config/defaults.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/1_1.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/1_2.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/1_3.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/1_4.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/2_1.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/2_2.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/2_3.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/2_4.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/3_1.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/3_2.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/3_3.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/3_4.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/3_5.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/3_6.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/3_7.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/3_8.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/3_9.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/4_1_1.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/4_1_2.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/4_2.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/4_3.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/README.md
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/damaged.jpg
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/provenance.json
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/yahboom.jpg
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/examples/opencv/yahboom_new.jpg
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/include/yahboomcar_astra/KCF_Tracker.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/include/yahboomcar_astra/PID.cpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/include/yahboomcar_astra/PID.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/include/yahboomcar_astra/ffttools.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/include/yahboomcar_astra/fhog.cpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/include/yahboomcar_astra/fhog.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/include/yahboomcar_astra/kcftracker.cpp
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/include/yahboomcar_astra/kcftracker.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/include/yahboomcar_astra/labdata.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/include/yahboomcar_astra/recttools.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/include/yahboomcar_astra/tracker.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/ament_index/resource_index/package_run_dependencies/yahboomcar_astra
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/ament_index/resource_index/parent_prefix_path/yahboomcar_astra
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/environment/ament_prefix_path.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/environment/ament_prefix_path.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/environment/path.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/environment/path.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/local_setup.bash
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/local_setup.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/local_setup.zsh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/local_setup.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/package.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/ament_index/resource_index/packages/yahboomcar_astra
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/cmake/yahboomcar_astraConfig.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/cmake/yahboomcar_astraConfig-version.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_astra/share/yahboomcar_astra/package.xml
+Listing '/full-clean-workspace-20261116-c/install/yahboomcar_astra/local/lib/python3.10/dist-packages/yahboomcar_astra'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_astra/local/lib/python3.10/dist-packages/yahboomcar_astra/__init__.py'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_astra/local/lib/python3.10/dist-packages/yahboomcar_astra/astra_common.py'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_astra/local/lib/python3.10/dist-packages/yahboomcar_astra/color_hsv.py'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_astra/local/lib/python3.10/dist-packages/yahboomcar_astra/color_tracker.py'...
+Finished <<< yahboomcar_astra [8.20s]
+Starting >>> yahboomcar_visual
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.22 (/opt/ros/humble/share/rclpy/cmake)
+-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found image_transport: 3.1.13 (/opt/ros/humble/share/image_transport/cmake)
+-- Found tf2_ros: 0.25.24 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found OpenCV: /usr (found version "4.5.4") found components: core imgproc highgui 
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1") found components: C 
+-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+-- Found utf8cpp: /usr/include/utf8cpp  
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- looking for PCL_IO
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- looking for PCL_GEOMETRY
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- looking for PCL_SEARCH
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- looking for PCL_VISUALIZATION
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL: pcl_common;pcl_octree;pcl_io;pcl_kdtree;pcl_search;pcl_visualization;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN  
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Found ament_cmake_pytest: 1.3.14 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /full-clean-workspace-20261116-c/build/yahboomcar_visual
+[ 20%] Building CXX object CMakeFiles/IR_transform.dir/src/IR_transform.cpp.o
+[ 20%] Building CXX object CMakeFiles/astra_depth_image.dir/src/astra_depth_image.cpp.o
+[ 30%] Building CXX object CMakeFiles/astra_rgb_image.dir/src/astra_rgb_image.cpp.o
+[ 40%] Building CXX object CMakeFiles/pointCloud_visualize.dir/src/pointCloud_visualize.cpp.o
+[ 50%] Building CXX object CMakeFiles/pointCloud_pub.dir/src/pointCloud_pub.cpp.o
+[ 50%] Built target ament_cmake_python_symlink_yahboomcar_visual
+running egg_info
+creating yahboomcar_visual.egg-info
+writing yahboomcar_visual.egg-info/PKG-INFO
+writing dependency_links to yahboomcar_visual.egg-info/dependency_links.txt
+writing top-level names to yahboomcar_visual.egg-info/top_level.txt
+writing manifest file 'yahboomcar_visual.egg-info/SOURCES.txt'
+reading manifest file 'yahboomcar_visual.egg-info/SOURCES.txt'
+writing manifest file 'yahboomcar_visual.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_yahboomcar_visual_egg
+[ 60%] Linking CXX executable pointCloud_pub
+[ 60%] Built target pointCloud_pub
+[ 70%] Linking CXX executable astra_depth_image
+[ 80%] Linking CXX executable astra_rgb_image
+[ 80%] Built target astra_depth_image
+[ 80%] Built target astra_rgb_image
+[ 90%] Linking CXX executable IR_transform
+[ 90%] Built target IR_transform
+[ 50%] Linking CXX shared library libPCLMapper.so
+[ 50%] Built target PCLMapper
+[ 75%] Building CXX object CMakeFiles/pointcloud_mapping.dir/src/pointcloud_mapping.cpp.o
+[100%] Linking CXX executable pointCloud_visualize
+[100%] Built target pointCloud_visualize
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/lib/yahboomcar_visual/pointCloud_pub
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/lib/yahboomcar_visual/pointCloud_visualize
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/environment/pythonpath.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/environment/pythonpath.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual-0.0.1-py3.10.egg-info/PKG-INFO
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual-0.0.1-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual-0.0.1-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual-0.0.1-py3.10.egg-info/top_level.txt
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual/__init__.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual/ar_tools.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual/image_nodes.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual/laser_to_image.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual/point_tools.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual/qr_tools.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual/target_detection.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/lib/yahboomcar_visual/astra_rgb_image
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/lib/yahboomcar_visual/astra_depth_image
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/lib/yahboomcar_visual/IR_transform
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/lib/yahboomcar_visual/visual_node.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/launch/ar_track.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/launch/astra_calibration.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/launch/astra_get_depth.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/launch/astra_get_rgb.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/launch/astra_image_flip.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/launch/laser_to_image.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/launch/opencv_apps.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/launch/pointCloud_pub.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/launch/pointCloud_visualize.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/launch/simple_AR.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/config/defaults.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/Detection.jpg
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/OpenPose.pdf
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/frozen_inference_graph.pb
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/graph_opt.pb
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/object_detection_coco.txt
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/person.jpg
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/result.jpg
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/detection/ssd_mobilenet_v2_coco.txt
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/AR/astra.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/simple_qrcode/myQRcode.jpg
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/simple_qrcode/yahboom.jpg
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/ament_index/resource_index/package_run_dependencies/yahboomcar_visual
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/ament_index/resource_index/parent_prefix_path/yahboomcar_visual
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/environment/ament_prefix_path.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/environment/ament_prefix_path.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/environment/path.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/environment/path.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/local_setup.bash
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/local_setup.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/local_setup.zsh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/local_setup.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/package.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/ament_index/resource_index/packages/yahboomcar_visual
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/cmake/yahboomcar_visualConfig.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/cmake/yahboomcar_visualConfig-version.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_visual/share/yahboomcar_visual/package.xml
+Listing '/full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual/__init__.py'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual/ar_tools.py'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual/image_nodes.py'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual/laser_to_image.py'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual/point_tools.py'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual/qr_tools.py'...
+Compiling '/full-clean-workspace-20261116-c/install/yahboomcar_visual/local/lib/python3.10/dist-packages/yahboomcar_visual/target_detection.py'...
+--- stderr: yahboomcar_visual
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+---
+Finished <<< yahboomcar_visual [10.7s]
+Starting >>> arm_autopilot
+running develop
+running egg_info
+creating arm_autopilot.egg-info
+writing arm_autopilot.egg-info/PKG-INFO
+writing dependency_links to arm_autopilot.egg-info/dependency_links.txt
+writing entry points to arm_autopilot.egg-info/entry_points.txt
+writing requirements to arm_autopilot.egg-info/requires.txt
+writing top-level names to arm_autopilot.egg-info/top_level.txt
+writing manifest file 'arm_autopilot.egg-info/SOURCES.txt'
+reading manifest file 'arm_autopilot.egg-info/SOURCES.txt'
+writing manifest file 'arm_autopilot.egg-info/SOURCES.txt'
+running build_ext
+Creating /full-clean-workspace-20261116-c/install/arm_autopilot/lib/python3.10/site-packages/arm-autopilot.egg-link (link to .)
+Installing autopilot_main script to /full-clean-workspace-20261116-c/install/arm_autopilot/lib/arm_autopilot
+
+Installed /full-clean-workspace-20261116-c/build/arm_autopilot
+running symlink_data
+creating /full-clean-workspace-20261116-c/install/arm_autopilot/share/ament_index
+creating /full-clean-workspace-20261116-c/install/arm_autopilot/share/ament_index/resource_index
+creating /full-clean-workspace-20261116-c/install/arm_autopilot/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/arm_autopilot/resource/arm_autopilot -> /full-clean-workspace-20261116-c/install/arm_autopilot/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/arm_autopilot/package.xml -> /full-clean-workspace-20261116-c/install/arm_autopilot/share/arm_autopilot
+creating /full-clean-workspace-20261116-c/install/arm_autopilot/share/arm_autopilot/launch
+symbolically linking /full-clean-workspace-20261116-c/build/arm_autopilot/launch/arm_autopilot.launch.py -> /full-clean-workspace-20261116-c/install/arm_autopilot/share/arm_autopilot/launch
+creating /full-clean-workspace-20261116-c/install/arm_autopilot/share/arm_autopilot/config
+symbolically linking /full-clean-workspace-20261116-c/build/arm_autopilot/config/defaults.yaml -> /full-clean-workspace-20261116-c/install/arm_autopilot/share/arm_autopilot/config
+Finished <<< arm_autopilot [0.56s]
+Starting >>> arm_mediapipe
+running develop
+running egg_info
+creating arm_mediapipe.egg-info
+writing arm_mediapipe.egg-info/PKG-INFO
+writing dependency_links to arm_mediapipe.egg-info/dependency_links.txt
+writing entry points to arm_mediapipe.egg-info/entry_points.txt
+writing requirements to arm_mediapipe.egg-info/requires.txt
+writing top-level names to arm_mediapipe.egg-info/top_level.txt
+writing manifest file 'arm_mediapipe.egg-info/SOURCES.txt'
+reading manifest file 'arm_mediapipe.egg-info/SOURCES.txt'
+writing manifest file 'arm_mediapipe.egg-info/SOURCES.txt'
+running build_ext
+Creating /full-clean-workspace-20261116-c/install/arm_mediapipe/lib/python3.10/site-packages/arm-mediapipe.egg-link (link to .)
+Installing 01_HandCtrlArm script to /full-clean-workspace-20261116-c/install/arm_mediapipe/lib/arm_mediapipe
+Installing 02_PoseCtrlArm script to /full-clean-workspace-20261116-c/install/arm_mediapipe/lib/arm_mediapipe
+Installing ArmCtrl script to /full-clean-workspace-20261116-c/install/arm_mediapipe/lib/arm_mediapipe
+Installing FingerCtrl script to /full-clean-workspace-20261116-c/install/arm_mediapipe/lib/arm_mediapipe
+Installing HandCtrl script to /full-clean-workspace-20261116-c/install/arm_mediapipe/lib/arm_mediapipe
+Installing PoseArm script to /full-clean-workspace-20261116-c/install/arm_mediapipe/lib/arm_mediapipe
+Installing RobotCtrl script to /full-clean-workspace-20261116-c/install/arm_mediapipe/lib/arm_mediapipe
+Installing arm_ctrl script to /full-clean-workspace-20261116-c/install/arm_mediapipe/lib/arm_mediapipe
+Installing finger_ctrl script to /full-clean-workspace-20261116-c/install/arm_mediapipe/lib/arm_mediapipe
+Installing hand_ctrl script to /full-clean-workspace-20261116-c/install/arm_mediapipe/lib/arm_mediapipe
+Installing msgToimg script to /full-clean-workspace-20261116-c/install/arm_mediapipe/lib/arm_mediapipe
+Installing msg_to_img script to /full-clean-workspace-20261116-c/install/arm_mediapipe/lib/arm_mediapipe
+Installing pose_arm script to /full-clean-workspace-20261116-c/install/arm_mediapipe/lib/arm_mediapipe
+Installing robot_ctrl script to /full-clean-workspace-20261116-c/install/arm_mediapipe/lib/arm_mediapipe
+
+Installed /full-clean-workspace-20261116-c/build/arm_mediapipe
+running symlink_data
+creating /full-clean-workspace-20261116-c/install/arm_mediapipe/share/ament_index
+creating /full-clean-workspace-20261116-c/install/arm_mediapipe/share/ament_index/resource_index
+creating /full-clean-workspace-20261116-c/install/arm_mediapipe/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/arm_mediapipe/resource/arm_mediapipe -> /full-clean-workspace-20261116-c/install/arm_mediapipe/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/arm_mediapipe/package.xml -> /full-clean-workspace-20261116-c/install/arm_mediapipe/share/arm_mediapipe
+creating /full-clean-workspace-20261116-c/install/arm_mediapipe/share/arm_mediapipe/launch
+symbolically linking /full-clean-workspace-20261116-c/build/arm_mediapipe/launch/mediaArm.launch.py -> /full-clean-workspace-20261116-c/install/arm_mediapipe/share/arm_mediapipe/launch
+symbolically linking /full-clean-workspace-20261116-c/build/arm_mediapipe/launch/01_HandCtrlArm.launch.py -> /full-clean-workspace-20261116-c/install/arm_mediapipe/share/arm_mediapipe/launch
+symbolically linking /full-clean-workspace-20261116-c/build/arm_mediapipe/launch/02_PoseCtrlArm.launch.py -> /full-clean-workspace-20261116-c/install/arm_mediapipe/share/arm_mediapipe/launch
+creating /full-clean-workspace-20261116-c/install/arm_mediapipe/share/arm_mediapipe/config
+symbolically linking /full-clean-workspace-20261116-c/build/arm_mediapipe/config/defaults.yaml -> /full-clean-workspace-20261116-c/install/arm_mediapipe/share/arm_mediapipe/config
+creating /full-clean-workspace-20261116-c/install/arm_mediapipe/share/arm_mediapipe/README.md
+Finished <<< arm_mediapipe [0.54s]
+Starting >>> garbage_identify_yolov11
+running develop
+running egg_info
+creating garbage_identify_yolov11.egg-info
+writing garbage_identify_yolov11.egg-info/PKG-INFO
+writing dependency_links to garbage_identify_yolov11.egg-info/dependency_links.txt
+writing entry points to garbage_identify_yolov11.egg-info/entry_points.txt
+writing requirements to garbage_identify_yolov11.egg-info/requires.txt
+writing top-level names to garbage_identify_yolov11.egg-info/top_level.txt
+writing manifest file 'garbage_identify_yolov11.egg-info/SOURCES.txt'
+reading manifest file 'garbage_identify_yolov11.egg-info/SOURCES.txt'
+writing manifest file 'garbage_identify_yolov11.egg-info/SOURCES.txt'
+running build_ext
+Creating /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/lib/python3.10/site-packages/garbage-identify-yolov11.egg-link (link to .)
+Installing detector script to /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/lib/garbage_identify_yolov11
+Installing garbage_identify_yolov11 script to /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/lib/garbage_identify_yolov11
+Installing voice_ctrl_take_garbage script to /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/lib/garbage_identify_yolov11
+
+Installed /full-clean-workspace-20261116-c/build/garbage_identify_yolov11
+running symlink_data
+creating /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/ament_index
+creating /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/ament_index/resource_index
+creating /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/resource/garbage_identify_yolov11 -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/package.xml -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/requirements-onnx.txt -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11
+creating /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/launch
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/launch/garbage_identify.launch.py -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/launch
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/launch/detector.launch.py -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/launch
+creating /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/config
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/config/defaults.yaml -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/config
+creating /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/models
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/models/best1.onnx -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/models
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/models/best1.pt -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/models
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/models/garbage_data.yaml -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/models
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/models/SOURCE_MODELS.json -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/models
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/models/README.md -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/models
+creating /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/models/samples
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/models/samples/304_jpg.rf.e3f6a62aec7c4bf2d18ee94a0b58d822.jpg -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/models/samples
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/models/samples/302_jpg.rf.6aaf584ff6254ac32eeff41950e2dd83.jpg -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/models/samples
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/models/samples/306_jpg.rf.a9af60befbca5f1cd62f14298271baaa.jpg -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/models/samples
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/models/samples/305_jpg.rf.75b55301ffc7959ddc73505b2b29b0da.jpg -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/models/samples
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/models/samples/303_jpg.rf.b8235f335babbeb86e815f87deaf00ff.jpg -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/models/samples
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/models/samples/307_jpg.rf.fcdc57af0fffafd3acf024e85ea6be97.jpg -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/models/samples
+symbolically linking /full-clean-workspace-20261116-c/build/garbage_identify_yolov11/models/samples/SOURCE_SAMPLES.json -> /full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/models/samples
+Finished <<< garbage_identify_yolov11 [0.54s]
+Starting >>> yahboomcar_mediapipe
+running develop
+running egg_info
+creating yahboomcar_mediapipe.egg-info
+writing yahboomcar_mediapipe.egg-info/PKG-INFO
+writing dependency_links to yahboomcar_mediapipe.egg-info/dependency_links.txt
+writing entry points to yahboomcar_mediapipe.egg-info/entry_points.txt
+writing requirements to yahboomcar_mediapipe.egg-info/requires.txt
+writing top-level names to yahboomcar_mediapipe.egg-info/top_level.txt
+writing manifest file 'yahboomcar_mediapipe.egg-info/SOURCES.txt'
+reading manifest file 'yahboomcar_mediapipe.egg-info/SOURCES.txt'
+writing manifest file 'yahboomcar_mediapipe.egg-info/SOURCES.txt'
+running build_ext
+Creating /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/lib/python3.10/site-packages/yahboomcar-mediapipe.egg-link (link to .)
+Installing FaceDetection script to /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+Installing FaceEyeDetection script to /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+Installing FaceLandmarks script to /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+Installing FaceMesh script to /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+Installing GestureRecognition script to /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+Installing HandCtrl script to /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+Installing HandDetector script to /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+Installing Holistic script to /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+Installing Objectron script to /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+Installing PoseDetector script to /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+Installing VirtualPaint script to /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+Installing mediapipe_point script to /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+
+Installed /full-clean-workspace-20261116-c/build/yahboomcar_mediapipe
+running symlink_data
+creating /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/ament_index
+creating /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/ament_index/resource_index
+creating /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_mediapipe/resource/yahboomcar_mediapipe -> /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_mediapipe/package.xml -> /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/yahboomcar_mediapipe
+creating /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/yahboomcar_mediapipe/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_mediapipe/launch/03_Holistic.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/yahboomcar_mediapipe/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_mediapipe/launch/01_HandDetector.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/yahboomcar_mediapipe/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_mediapipe/launch/04_FaceMesh.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/yahboomcar_mediapipe/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_mediapipe/launch/02_PoseDetector.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/yahboomcar_mediapipe/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_mediapipe/launch/05_FaceEyeDetection.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/yahboomcar_mediapipe/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_mediapipe/launch/cloud_Viewer.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/yahboomcar_mediapipe/launch
+creating /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/yahboomcar_mediapipe/config
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_mediapipe/config/defaults.yaml -> /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/yahboomcar_mediapipe/config
+creating /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/yahboomcar_mediapipe/file
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_mediapipe/file/haarcascade_eye.xml -> /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/yahboomcar_mediapipe/file
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_mediapipe/file/haarcascade_frontalface_default.xml -> /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/yahboomcar_mediapipe/file
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_mediapipe/file/shape_predictor_68_face_landmarks.dat -> /full-clean-workspace-20261116-c/install/yahboomcar_mediapipe/share/yahboomcar_mediapipe/file
+Finished <<< yahboomcar_mediapipe [0.52s]
+Starting >>> arm_moveit_demo
+[100%] Linking CXX executable pointcloud_mapping
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 16.0.21 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found shape_msgs: 4.9.2 (/opt/ros/humble/share/shape_msgs/cmake)
+-- Found moveit_msgs: 2.2.3 (/opt/ros/humble/share/moveit_msgs/cmake)
+-- Found moveit_ros_planning_interface: 2.5.10 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found tcb_span: 1.3.2 (/opt/ros/humble/share/tcb_span/cmake)
+-- Found rclcpp_lifecycle: 16.0.21 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found parameter_traits: 0.7.7 (/opt/ros/humble/share/parameter_traits/cmake)
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[100%] Built target pointcloud_mapping
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/lib/libPCLMapper.so
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/lib/yahboomcar_slam/pointcloud_mapping
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/include/yahboomcar_slam/PCLMapper.h
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/lib/yahboomcar_slam/associate.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/launch/camera_driver.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/launch/camera_orb_slam.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/launch/robot_orb_octomap.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/launch/robot_orb_slam.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/launch/test_orb_slam.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/launch/test_pcl_mapping.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/launch/view_orb_octomap.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/config/mapping.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/param/ORBvoc.txt
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/param/astra.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/param/astra1.0.yaml
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/rviz/orb_octomap.rviz
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/README.md
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/MIGRATION.md
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/ament_index/resource_index/package_run_dependencies/yahboomcar_slam
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/ament_index/resource_index/parent_prefix_path/yahboomcar_slam
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/environment/ament_prefix_path.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/environment/ament_prefix_path.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/environment/path.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/environment/path.dsv
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/local_setup.bash
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/local_setup.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/local_setup.zsh
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/local_setup.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/package.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/ament_index/resource_index/packages/yahboomcar_slam
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/cmake/yahboomcar_slamConfig.cmake
+-- Found yahboomcar_msgs: 0.0.0 (/full-clean-workspace-20261116-c/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake)
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/cmake/yahboomcar_slamConfig-version.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/yahboomcar_slam/share/yahboomcar_slam/package.xml
+--- stderr: yahboomcar_slam
+CMake Warning (dev) at CMakeLists.txt:32 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+---
+Finished <<< yahboomcar_slam [20.2s]
+Starting >>> yahboomcar_voice_ctrl
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /full-clean-workspace-20261116-c/build/arm_moveit_demo
+[  7%] Building CXX object CMakeFiles/demo.dir/src/demo.cpp.o
+[ 21%] Building CXX object CMakeFiles/03_set_joint_plan.dir/src/demo.cpp.o
+[ 28%] Building CXX object CMakeFiles/04_cartesian.dir/src/demo.cpp.o
+[ 21%] Building CXX object CMakeFiles/02_set_pose_plan.dir/src/demo.cpp.o
+[ 35%] Building CXX object CMakeFiles/06_multi_track_motion.dir/src/demo.cpp.o
+[ 42%] Building CXX object CMakeFiles/05_attached_object.dir/src/demo.cpp.o
+[ 50%] Building CXX object CMakeFiles/01_random_move.dir/src/demo.cpp.o
+[ 50%] Built target ament_cmake_python_symlink_arm_moveit_demo
+running egg_info
+creating arm_moveit_demo.egg-info
+writing arm_moveit_demo.egg-info/PKG-INFO
+writing dependency_links to arm_moveit_demo.egg-info/dependency_links.txt
+writing top-level names to arm_moveit_demo.egg-info/top_level.txt
+writing manifest file 'arm_moveit_demo.egg-info/SOURCES.txt'
+reading manifest file 'arm_moveit_demo.egg-info/SOURCES.txt'
+writing manifest file 'arm_moveit_demo.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_arm_moveit_demo_egg
+running develop
+running egg_info
+creating yahboomcar_voice_ctrl.egg-info
+writing yahboomcar_voice_ctrl.egg-info/PKG-INFO
+writing dependency_links to yahboomcar_voice_ctrl.egg-info/dependency_links.txt
+writing entry points to yahboomcar_voice_ctrl.egg-info/entry_points.txt
+writing requirements to yahboomcar_voice_ctrl.egg-info/requires.txt
+writing top-level names to yahboomcar_voice_ctrl.egg-info/top_level.txt
+writing manifest file 'yahboomcar_voice_ctrl.egg-info/SOURCES.txt'
+reading manifest file 'yahboomcar_voice_ctrl.egg-info/SOURCES.txt'
+writing manifest file 'yahboomcar_voice_ctrl.egg-info/SOURCES.txt'
+running build_ext
+Creating /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/lib/python3.10/site-packages/yahboomcar-voice-ctrl.egg-link (link to .)
+Installing speech_transport script to /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+Installing voice_arm script to /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+Installing voice_arm_study script to /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+Installing voice_base script to /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+Installing voice_color_identify script to /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+Installing voice_color_tracker script to /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+Installing voice_color_transport script to /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+Installing voice_line script to /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+Installing voice_take_things script to /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+Installing voice_waypoints script to /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+
+Installed /full-clean-workspace-20261116-c/build/yahboomcar_voice_ctrl
+running symlink_data
+creating /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/share/ament_index
+creating /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/share/ament_index/resource_index
+creating /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_voice_ctrl/resource/yahboomcar_voice_ctrl -> /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_voice_ctrl/package.xml -> /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/share/yahboomcar_voice_ctrl
+creating /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/share/yahboomcar_voice_ctrl/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_voice_ctrl/launch/voice.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/share/yahboomcar_voice_ctrl/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_voice_ctrl/launch/voice_ctrl_takethings.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/share/yahboomcar_voice_ctrl/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_voice_ctrl/launch/voice_ctrl_colorTracker.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/share/yahboomcar_voice_ctrl/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_voice_ctrl/launch/voice_ctrl_arm_study.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/share/yahboomcar_voice_ctrl/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_voice_ctrl/launch/voice_ctrl_followline.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/share/yahboomcar_voice_ctrl/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_voice_ctrl/launch/voice_ctrl_arm.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/share/yahboomcar_voice_ctrl/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_voice_ctrl/launch/voice_ctrl_yahboomcar.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/share/yahboomcar_voice_ctrl/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_voice_ctrl/launch/voice_transport_base.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/share/yahboomcar_voice_ctrl/launch
+creating /full-clean-workspace-20261116-c/install/yahboomcar_voice_ctrl/share/yahboomcar_voice_ctrl/config
+Finished <<< yahboomcar_voice_ctrl [0.67s]
+Starting >>> yahboomcar_multi
+running develop
+running egg_info
+creating yahboomcar_multi.egg-info
+writing yahboomcar_multi.egg-info/PKG-INFO
+writing dependency_links to yahboomcar_multi.egg-info/dependency_links.txt
+writing entry points to yahboomcar_multi.egg-info/entry_points.txt
+writing requirements to yahboomcar_multi.egg-info/requires.txt
+writing top-level names to yahboomcar_multi.egg-info/top_level.txt
+writing manifest file 'yahboomcar_multi.egg-info/SOURCES.txt'
+reading manifest file 'yahboomcar_multi.egg-info/SOURCES.txt'
+writing manifest file 'yahboomcar_multi.egg-info/SOURCES.txt'
+running build_ext
+Creating /full-clean-workspace-20261116-c/install/yahboomcar_multi/lib/python3.10/site-packages/yahboomcar-multi.egg-link (link to .)
+Installing broad_queue script to /full-clean-workspace-20261116-c/install/yahboomcar_multi/lib/yahboomcar_multi
+Installing broad_round script to /full-clean-workspace-20261116-c/install/yahboomcar_multi/lib/yahboomcar_multi
+Installing listener script to /full-clean-workspace-20261116-c/install/yahboomcar_multi/lib/yahboomcar_multi
+
+Installed /full-clean-workspace-20261116-c/build/yahboomcar_multi
+running symlink_data
+creating /full-clean-workspace-20261116-c/install/yahboomcar_multi/share/ament_index
+creating /full-clean-workspace-20261116-c/install/yahboomcar_multi/share/ament_index/resource_index
+creating /full-clean-workspace-20261116-c/install/yahboomcar_multi/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_multi/resource/yahboomcar_multi -> /full-clean-workspace-20261116-c/install/yahboomcar_multi/share/ament_index/resource_index/packages
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_multi/package.xml -> /full-clean-workspace-20261116-c/install/yahboomcar_multi/share/yahboomcar_multi
+creating /full-clean-workspace-20261116-c/install/yahboomcar_multi/share/yahboomcar_multi/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_multi/launch/yahboomcar_nav_multi.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_multi/share/yahboomcar_multi/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_multi/launch/tf_roundbroad.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_multi/share/yahboomcar_multi/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_multi/launch/laser_bringup_multi.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_multi/share/yahboomcar_multi/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_multi/launch/tf_queuebroad.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_multi/share/yahboomcar_multi/launch
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_multi/launch/joy_multi.launch.py -> /full-clean-workspace-20261116-c/install/yahboomcar_multi/share/yahboomcar_multi/launch
+creating /full-clean-workspace-20261116-c/install/yahboomcar_multi/share/yahboomcar_multi/config
+symbolically linking /full-clean-workspace-20261116-c/build/yahboomcar_multi/config/defaults.yaml -> /full-clean-workspace-20261116-c/install/yahboomcar_multi/share/yahboomcar_multi/config
+Finished <<< yahboomcar_multi [0.76s]
+[ 57%] Linking CXX executable 05_attached_object
+[ 64%] Linking CXX executable 01_random_move
+[ 71%] Linking CXX executable 06_multi_track_motion
+[ 78%] Linking CXX executable 04_cartesian
+[ 85%] Linking CXX executable demo
+[ 92%] Linking CXX executable 02_set_pose_plan
+[100%] Linking CXX executable 03_set_joint_plan
+[100%] Built target 05_attached_object
+[100%] Built target 01_random_move
+[100%] Built target 06_multi_track_motion
+[100%] Built target demo
+[100%] Built target 04_cartesian
+[100%] Built target 03_set_joint_plan
+[100%] Built target 02_set_pose_plan
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/lib/arm_moveit_demo/demo
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/lib/arm_moveit_demo/01_random_move
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/lib/arm_moveit_demo/02_set_pose_plan
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/lib/arm_moveit_demo/03_set_joint_plan
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/lib/arm_moveit_demo/04_cartesian
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/lib/arm_moveit_demo/05_attached_object
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/lib/arm_moveit_demo/06_multi_track_motion
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/environment/pythonpath.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/environment/pythonpath.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/local/lib/python3.10/dist-packages/arm_moveit_demo-2.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/local/lib/python3.10/dist-packages/arm_moveit_demo-2.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/local/lib/python3.10/dist-packages/arm_moveit_demo-2.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/local/lib/python3.10/dist-packages/arm_moveit_demo-2.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/local/lib/python3.10/dist-packages/arm_moveit_demo/__init__.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/local/lib/python3.10/dist-packages/arm_moveit_demo/demo.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/local/lib/python3.10/dist-packages/arm_moveit_demo/kinematics_service.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/local/lib/python3.10/dist-packages/arm_moveit_demo/simulation_to_machine.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/lib/arm_moveit_demo/demo.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/lib/arm_moveit_demo/simulation_to_machine.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/lib/arm_moveit_demo/kinematics_service.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/launch/x3plus_moveit_demo.launch.py
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/README.md
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/MIGRATION.md
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/ament_index/resource_index/package_run_dependencies/arm_moveit_demo
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/ament_index/resource_index/parent_prefix_path/arm_moveit_demo
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/environment/ament_prefix_path.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/environment/ament_prefix_path.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/environment/path.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/environment/path.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/local_setup.bash
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/local_setup.sh
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/local_setup.zsh
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/local_setup.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/package.dsv
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/ament_index/resource_index/packages/arm_moveit_demo
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/cmake/arm_moveit_demoConfig.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/cmake/arm_moveit_demoConfig-version.cmake
+-- Symlinking: /full-clean-workspace-20261116-c/install/arm_moveit_demo/share/arm_moveit_demo/package.xml
+Listing '/full-clean-workspace-20261116-c/install/arm_moveit_demo/local/lib/python3.10/dist-packages/arm_moveit_demo'...
+Compiling '/full-clean-workspace-20261116-c/install/arm_moveit_demo/local/lib/python3.10/dist-packages/arm_moveit_demo/__init__.py'...
+Compiling '/full-clean-workspace-20261116-c/install/arm_moveit_demo/local/lib/python3.10/dist-packages/arm_moveit_demo/demo.py'...
+Compiling '/full-clean-workspace-20261116-c/install/arm_moveit_demo/local/lib/python3.10/dist-packages/arm_moveit_demo/kinematics_service.py'...
+Compiling '/full-clean-workspace-20261116-c/install/arm_moveit_demo/local/lib/python3.10/dist-packages/arm_moveit_demo/simulation_to_machine.py'...
+Finished <<< arm_moveit_demo [7.50s]
+
+Summary: 22 packages finished [33.1s]
+  2 packages had stderr output: yahboomcar_slam yahboomcar_visual
+Build succeeded. To load environment and run tests:
+  source scripts/environment.sh
+  bash scripts/test.sh

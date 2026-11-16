@@ -1,0 +1,11 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+.pytest_cache/
+motion_test_data/
+validation-runtime/
+test_results/
+*.egg-info/
+.venv*/

@@ -1,0 +1,126 @@
+Starting offline suite runner. Root: /workspace. Total commands: 1
+[1/1] START (yolo): /usr/bin/python3 /workspace/src/garbage_identify_yolov11/scripts/perception_yolo_check.py
+[WARN] [1794838113.320238627] [garbage_yolo_detector]: YOLO inference DISABLED (invalid/empty model_path). Publishing is disabled; no fake detections will be emitted.
+[INFO] [1794838114.078030043] [garbage_yolo_detector]: YOLO detector ready: backend=onnxruntime model=/full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/models/best1.onnx conf=0.88 topic=fixture/DetectMsg
+PASS: Dependency isolation (torch and ultralytics not loaded)
+PASS: Pure synthetic YOLO11 post-processing unit fixture
+PASS: Model metadata and garbage_library class mapping alignment
+PASS: Actual OnnxYoloBackend session inference (6 positive detections at threshold 0.88)
+PASS: Black image inference yields zero fabricated detections
+PASS: Default blank model_path keeps enabled=False and emits nothing
+PASS: Actual DDS node detects matching labels and enforces publish_period rate limiting
+
+Regression Check Results:
+{
+  "model_path": "/full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/models/best1.onnx",
+  "samples_dir": "/full-clean-workspace-20261116-c/install/garbage_identify_yolov11/share/garbage_identify_yolov11/models/samples",
+  "imports": {
+    "torch_absent": true,
+    "ultralytics_absent": true
+  },
+  "metadata_and_library": {
+    "class_count": 16,
+    "all_labels_classified": true
+  },
+  "synthetic_postprocessing": {
+    "status": "PASSED"
+  },
+  "actual_backend_inference": {
+    "samples_tested": 6,
+    "total_detections": 6,
+    "observations": {
+      "302_jpg.rf.6aaf584ff6254ac32eeff41950e2dd83.jpg": [
+        {
+          "label": "Cigarette_butts",
+          "confidence": 0.9802491068840027,
+          "box": [
+            295.91888427734375,
+            242.5437469482422,
+            467.24945068359375,
+            471.45184326171875
+          ]
+        }
+      ],
+      "303_jpg.rf.b8235f335babbeb86e815f87deaf00ff.jpg": [
+        {
+          "label": "Cigarette_butts",
+          "confidence": 0.9745415449142456,
+          "box": [
+            285.4554443359375,
+            247.66465759277344,
+            458.9541015625,
+            470.7906494140625
+          ]
+        }
+      ],
+      "304_jpg.rf.e3f6a62aec7c4bf2d18ee94a0b58d822.jpg": [
+        {
+          "label": "Cigarette_butts",
+          "confidence": 0.9826245903968811,
+          "box": [
+            252.20703125,
+            244.37554931640625,
+            424.4561767578125,
+            465.80340576171875
+          ]
+        }
+      ],
+      "305_jpg.rf.75b55301ffc7959ddc73505b2b29b0da.jpg": [
+        {
+          "label": "Cigarette_butts",
+          "confidence": 0.9824796915054321,
+          "box": [
+            217.51576232910156,
+            240.83038330078125,
+            391.219970703125,
+            460.8975830078125
+          ]
+        }
+      ],
+      "306_jpg.rf.a9af60befbca5f1cd62f14298271baaa.jpg": [
+        {
+          "label": "Cigarette_butts",
+          "confidence": 0.9728045463562012,
+          "box": [
+            194.53001403808594,
+            222.4256591796875,
+            365.0472412109375,
+            439.0189208984375
+          ]
+        }
+      ],
+      "307_jpg.rf.fcdc57af0fffafd3acf024e85ea6be97.jpg": [
+        {
+          "label": "Cigarette_butts",
+          "confidence": 0.9730644822120667,
+          "box": [
+            178.23818969726562,
+            201.7821044921875,
+            347.5848083496094,
+            423.50543212890625
+          ]
+        }
+      ]
+    }
+  },
+  "black_image_inference": {
+    "detections_count": 0
+  },
+  "dds_disabled_node": {
+    "enabled": false,
+    "emissions_count": 0
+  },
+  "dds_active_detector": {
+    "discovered": true,
+    "received_labels": [
+      "Cigarette_butts"
+    ],
+    "expected_labels": [
+      "Cigarette_butts"
+    ],
+    "frames_processed_in_burst": 1
+  },
+  "summary": "PASS"
+}
+[1/1] FINISHED (yolo) Returncode: 0
+SUCCESS: All integration checks passed with returncode 0.

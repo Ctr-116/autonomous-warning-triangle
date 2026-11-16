@@ -1,0 +1,33 @@
+# Defaults for the ROS2 Humble port of yahboomcar_linefollw.
+# Values derived from original cfg/LineDetectPID.cfg plus the YAML-backed
+# LineFollowHSV.text default (RED: 0, 85, 126, 9, 253, 255).
+LineDetect:
+  ros__parameters:
+    img_flip: false
+    VideoSwitch: false
+    gui: false
+    camera_device: ""
+    image_topic: "/usb_cam/image_raw"
+    cmd_topic: "cmd_vel"
+    vel_raw_topic: "vel_raw"
+    joy_topic: "/JoyState"
+    scan_topic: "/scan"
+    buzzer_topic: "/Buzzer"
+    rgb_topic: "/linefollw/rgb"
+    # HSV defaults from original cfg.  Change hsv_calibration_file to a
+    # user-writable path (e.g. ~/.ros/yahboomcar_linefollw/hsv.text) to persist
+    # runtime recalibration; do not write into the installed package dir.
+    hsv_calibration_file: ""
+    hsv_min: [0, 85, 126]
+    hsv_max: [9, 253, 255]
+    hsv_roi: [0, 0, 0, 0]
+    scale: 1000
+    Kp: 60
+    Ki: 0
+    Kd: 20
+    linear: 0.2
+    LaserAngle: 30
+    ResponseDist: 0.55
+    image_timeout: 0.5
+    max_linear: 0.2
+    max_angular: 0.6

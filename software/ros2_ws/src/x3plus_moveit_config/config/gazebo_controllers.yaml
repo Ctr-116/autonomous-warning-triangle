@@ -1,0 +1,6 @@
+# [LEGACY REFERENCE ONLY / 原版遗留参考配置]
+# 本文件为 ROS 1 原版 Gazebo 关节状态控制器配置，保留仅作历史比对。
+# ROS 2 Humble active 仿真使用 ros2_control_node 与 joint_state_broadcaster (详见 ros2_controllers.yaml)。
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 50

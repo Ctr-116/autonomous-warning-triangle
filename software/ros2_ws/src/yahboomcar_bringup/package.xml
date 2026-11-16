@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package format="3">
+  <name>yahboomcar_bringup</name>
+  <version>0.1.0</version>
+  <description>ROS 2 Humble bringup, calibration, patrol and velocity mux for X3plus using the sole-owner x3plus_base driver.</description>
+  <license>TODO</license>
+  <maintainer email="yahboom@todo.todo">yahboom</maintainer>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <exec_depend>x3plus_base</exec_depend>
+  <exec_depend>robot_localization</exec_depend>
+  <exec_depend>yahboomcar_description</exec_depend>
+  <exec_depend>yahboomcar_msgs</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,18 @@
+x3plus_base:
+  ros__parameters:
+    # Arm control is opt-in: no pose, torque or arm motion is issued unless this
+    # is true AND the safety guard has no fault AND motion feedback is fresh.
+    enable_arm: false
+    # Relative accessory topic names; resolve under the node namespace.
+    rgb_light_topic: RGBLight
+    buzzer_topic: Buzzer
+    target_angle_topic: TargetAngle
+    arm_angle_update_topic: ArmAngleUpdate
+    current_angle_topic: CurrentAngle
+    edition_topic: edition
+    magnetic_topic: imu/mag_raw
+    joint_states_topic: arm_joint_states
+    # Prefix applied only to JointState names (not to TF frame IDs).
+    joint_name_prefix: ''
+    # Keep false unless the robot model is not also publishing arm joints.
+    publish_arm_joint_states: false

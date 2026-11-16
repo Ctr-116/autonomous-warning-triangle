@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package format="3">
+  <name>yahboomcar_description</name>
+  <version>0.1.0</version>
+  <description>ROS 2 Humble ament_cmake robot description package for Yahboomcar (X3/X3plus)</description>
+  <license>TODO</license>
+  <maintainer email="yahboom@todo.todo">yahboom</maintainer>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

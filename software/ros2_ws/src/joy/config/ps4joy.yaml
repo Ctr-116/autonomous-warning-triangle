@@ -1,0 +1,59 @@
+# ROS 2 Humble parameter file for joy/joy_remap.
+#
+# This preserves the ROS 1 config/ps4joy.yaml expressions verbatim. All entries
+# are quoted because a ROS 2 parameter array must have one homogeneous type;
+# every mapping element (including the literal 0.0 entries) is an expression
+# string evaluated by joy.restricted_evaluator.
+#
+# The nested `mappings` map is flattened by the ROS 2 parameter loader into the
+# parameter names `mappings.axes` and `mappings.buttons`.
+joy_remap:
+  ros__parameters:
+    queue_size: 1
+    mappings:
+      axes:
+        - "axes[0]"
+        - "axes[1]"
+        - "axes[2]"
+        - "axes[5]"
+        - "axes[6] * 2.0"
+        - "axes[7] * 2.0"
+        - "axes[8] * -2.0"
+        - "0.0"
+        - "max(axes[10], 0.0) * -1.0"
+        - "min(axes[9], 0.0)"
+        - "min(axes[10], 0.0)"
+        - "max(axes[9], 0.0) * -1.0"
+        - "(axes[3] - 1.0) * 0.5"
+        - "(axes[4] - 1.0) * 0.5"
+        - "buttons[4] * -1.0"
+        - "buttons[5] * -1.0"
+        - "buttons[3] * -1.0"
+        - "buttons[2] * -1.0"
+        - "buttons[1] * -1.0"
+        - "buttons[0] * -1.0"
+        - "0.0"
+        - "0.0"
+        - "0.0"
+        - "0.0"
+        - "0.0"
+        - "0.0"
+        - "0.0"
+      buttons:
+        - "buttons[8]"
+        - "buttons[10]"
+        - "buttons[11]"
+        - "buttons[9]"
+        - "max(axes[10], 0.0)"
+        - "min(axes[9], 0.0) * -1.0"
+        - "min(axes[10], 0.0) * -1.0"
+        - "max(axes[9], 0.0)"
+        - "buttons[6]"
+        - "buttons[7]"
+        - "buttons[4]"
+        - "buttons[5]"
+        - "buttons[3]"
+        - "buttons[2]"
+        - "buttons[1]"
+        - "buttons[0]"
+        - "buttons[12]"

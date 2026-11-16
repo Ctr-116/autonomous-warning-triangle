@@ -1,0 +1,44 @@
+# Default parameters for yahboomcar_multi ROS2 port.
+# Original license unknown (TODO). These are the original RobotListener.cfg defaults.
+yahboomcar_multi:
+  listener:
+    ros__parameters:
+      robot_name: robot2
+      source_frame: point1
+      leader_frame: ''
+      map_frame: map
+      lin_Kp: 1.0
+      lin_Ki: 0.0
+      lin_Kd: 1.0
+      ang_Kp: 0.8
+      ang_Ki: 0.0
+      ang_Kd: 1.0
+      teams: 1
+      robot_model: 0
+      navigate: false
+      switch: true
+      dist: 0.7
+      linPIDparam: [1.0, 0.0, 1.0]
+      angPIDparam: [0.8, 0.0, 1.0]
+      laser_angle: 30.0
+      response_dist: 0.3
+      rate_hz: 10.0
+      stale_transform_sec: 0.5
+      watchdog_sec: 0.5
+      max_linear: 0.2
+      max_angular: 0.6
+  broad_queue:
+    ros__parameters:
+      robot_name: robot1
+      dist: 0.5
+      order: convoyl
+      point1_frame: point1
+      point2_frame: point2
+      rate_hz: 10.0
+  broad_round:
+    ros__parameters:
+      robot_name: robot1
+      radius: 0.7
+      point1_frame: point1
+      rate_hz: 10.0
+      step_deg: 5.0
